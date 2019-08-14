@@ -190,7 +190,7 @@ for index, arow in meddra.iterrows():
 #HLGT2SOC
 ```
 
-## ### Load all unfiltered target-ADRs (as above for example seed 49)
+### Load all unfiltered target-ADRs (as above for example seed 49)
 
 ```python
 version_model='v1'
