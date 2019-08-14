@@ -10,135 +10,38 @@ By evaluating Gini importance scores of model features, we identify 250 target-A
 
 Unexpectedly, our model suggests PDE3 is associated with 44 ADRs, including congenital renal disorders. These associations provide a comprehensive resource to support drug development and human biology studies.
 
-## Import libraries
-```python
-import pandas as pd
-import numpy as np
-import copy
-import os.path
-import re
-```
+## System requirements: 
 
-## Getting the right target information for a merged assay numbers
-```python
-path="/Users/horizon/Documents/HMS/Novartis2018Hackathon/PCS/"
-filename='mergedassaynumber-to-onewordname.csv'
-targets = pd.read_csv(path+filename)
+### All software dependencies and operating systems (including version numbers):
+OS: MacOS 10.13 or higher  (Linux OS and Windows 10 work as well after necessary configurations)
+Python version 3.7
+R version 3.5.0
+RStudio version 1.1.453
 
-for i in targets.index:
-    A=re.sub('merged_', '', targets['Number'][i])
-    targets.loc[i,'Number']=re.sub('_', '.', A)
-    if not str(targets['Type of Assay'][i])=='nan':
-#         print(targets['Type of Assay'][i])
-        targets.loc[i,'Name']=targets['Name'][i]+'.'+targets['Type of Assay'][i]
-                 
-targets=targets.drop('Type of Assay',axis=1)
-```
+### Versions the software has been tested on:
+Python v3.6 and 3.7
+R versions 3.4.1 and 3.5.0
+RStudio version 1.1.453
 
-```python
-version_model='v1'
-level='HLGT'
+### Any required non-standard hardware:
+computer with sufficient RAM: 8Gb or more
 
-for seed in [49]:#[112358,2662851,49,5332728]:
-    path='/Users/horizon/Documents/HMS/Novartis2018Hackathon/PCS/Seda_modelling/v1_HLGT_diffSeed_'+str(seed)+'/'
-    filename='Features_ADRs_predictions.csv'            
-    df = pd.read_csv(path+filename,index_col=0)#assay classes are indices
-    colnames=list(df.columns)
-    N_ADR_terms=len(colnames)
+## Installation Guide
 
-    cl={'vals':['0-3','3-30','>30']}
-    cl=pd.DataFrame(cl)
-    N_cat=3
-
-    output_dict=dict()
-    cl_dict={1:'0-3uM',2:'3-30uM',3:'>30uM'}
-
-    for j in range(1,N_ADR_terms+1):
-        cn = colnames[j-1]#NB: ADR list is 1 based, python 0-based 
-        print(j,cn)
-        path='/Users/horizon/Documents/HMS/Novartis2018Hackathon/PCS/Seda_modelling/v1_HLGT_diffSeed_'+str(seed)+ \
-            '/Importance_Gini/'
-        filename='imp_for_ADR-'+str(j)+'_signf.csv'
-        if os.path.isfile(path+filename):
-            gini = pd.read_csv(path+filename,)#index_col=0)
-            gini=gini.rename(columns={'Unnamed: 0': 'cl', 'x':'gini_score'})
-
-            assay_ID=dict()#get assays in gini in useable format
-            for a_cl in gini['cl']:
-                temp=re.sub('A', '', a_cl)
-                temp=re.sub('CL', '', temp)
-                temp=re.split('_',temp)
-                a_key=temp[0]
-                try:
-                    assay_ID[a_key].append(a_cl)
-                except KeyError:
-                    assay_ID[a_key]=[a_cl]
-
-
-            for a in assay_ID.keys():
-                tar=targets['Name'][targets['Number']==a].values[0]
-                if len(assay_ID[a]) > 1:#at least 2 classes were significant: now you can compare assay results
-                    imp_cl=[]
-                    for c in range(1,N_cat+1):#class index 1-based, python 0-based
-                        if 'A'+a+'_CL'+str(c) in assay_ID[a]:
-                            imp_cl.append(True)
-                        else:
-                            imp_cl.append(False)
-
-                    if (sum(df.loc[assay_ID[a],cn]) > 0):#if sign classes have non-zero prob (=model outputs)
-                        no_corr_test_prob=-1
-                        no_corr_test_bool=True
-                        #build csv file with same results
-                        print('Accepted: Assay:',a,': ',tar,' level',level,'term:',j,cn)
-                        try:
-                            output_dict['ADR'].append(cn.replace('.',' '))
-                            output_dict['target'].append(tar)
-                            output_dict['assay'].append(a)
-                            for c in range(1,N_cat+1):
-                                temp_cl='A'+a+'_CL'+str(c)
-                                if temp_cl in assay_ID[a]:
-                                    #test for no_correlation
-                                    if no_corr_test_prob==-1:
-                                        no_corr_test_prob=df.loc[temp_cl,cn]
-                                    elif no_corr_test_prob==df.loc[temp_cl,cn]:
-                                        pass
-                                    else:
-                                        no_corr_test_prob=df.loc[temp_cl,cn]
-                                        no_corr_test_bool=False
-                                    output_dict[cl_dict[c]].append(df.loc[temp_cl,cn])
-                                else:
-                                    output_dict[cl_dict[c]].append(np.nan)
-                            output_dict['no_corr'].append(no_corr_test_bool)
-                        except KeyError:
-                            output_dict['ADR']=[cn.replace('.',' ')]
-                            output_dict['target']=[tar]
-                            output_dict['assay']=[a]
-                            for c in range(1,N_cat+1):
-                                temp_cl='A'+a+'_CL'+str(c)
-                                if temp_cl in assay_ID[a]:
-                                    #test for no_correlation
-                                    if no_corr_test_prob==-1:
-                                        no_corr_test_prob=df.loc[temp_cl,cn]
-                                    elif no_corr_test_prob==df.loc[temp_cl,cn]:
-                                        pass
-                                    else:
-                                        no_corr_test_prob=df.loc[temp_cl,cn]
-                                        no_corr_test_bool=False
-                                    output_dict[cl_dict[c]]=[df.loc[temp_cl,cn]]
-                                else:
-                                    output_dict[cl_dict[c]]=[np.nan]
-                            output_dict['no_corr']=[no_corr_test_bool]
-                    else:
-                        print('Zeros only, Assay:',a,': ',tar,' level',level,'term:',j,cn) 
-                else:
-                    print('One class significant only, Assay:',a,': ',tar,' level',level,'term:',j,cn)
-        else:
-            print('Gini file for ADR ',j,cn,' does not exist.', version_model,level)
-  path='/Users/horizon/Documents/HMS/Novartis2018Hackathon/PCS/'
-  filename=path+version_model+'_'+level+'_ADR_target_assoc_seed49_demo.csv'
-  output_df=pd.DataFrame(output_dict)
-  output_df.to_csv(filename)
-```
+### Instructions:
+-download/install python 3.7 from python.org
+-in shell:
+pip install virtualenv
+cd ~/
+virtualenv -p /usr/local/bin/python3 py3 #creates virtual environment named py3 using installed python3.7 version
+source py3/bin/activate #activate virtual environment
+pip install jupyter
+pip install pandas
+pip install --upgrade numpy
+pip install --upgrade scipy
+pip install requests
+pip install statsmodels
+pip install jellyfish
 
 ## Reproducibility analysis between 5 replicate runs
 Identifying for which ADRs the model only predicts zeros: exclude those ADRs (below)
