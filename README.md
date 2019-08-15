@@ -76,13 +76,17 @@ Once all above are finished, run in shell to merge the results:
 python merge_fda.py
 ```
 Expected output:
+
 v1_compounds_FDA_demo.csv
 
 ### Determine ADR occurrences and associations for all compounds 
+
 Run  jupyter notebook:
+
 OpenFDAoutput2modelformat_demo.ipynb
 
 Expected output:
+
 v1_compounds_FDA_model_format_SOC_ocr_prob_demo.csv
 v1_compounds_FDA_model_format_SOC_ocr_bool_demo.csv
 v1_compounds_FDA_model_format_HLGT_ocr_prob_demo.csv
@@ -90,12 +94,16 @@ v1_compounds_FDA_model_format_HLGT_ocr_bool_demo.csv
 
 ### Run random Forest models:
 Run the R script, R_code_modeling.R in RStudio.
+
 Please make sure that SOC/ and HLGT/ folders are in the same folder with this R code (R_code_modeling.R)
 Follow the instructions in the R script (e.g. please specify/change the working directory/folder on your local computer in scripts where indicated).
+
 The 2 files provided, baseMatrix and v1_compounds_FDA_model_format_*_ocr_bool.csv, where * is either SOC or HLGT, are the inputs for the R script.
+
 With the latest version of utiml package, their accuracy formula was changed and so the summary metrics results were not consistent. If you use the latest utiml version as well, please use the custom code to use the standard accuracy formula (defined in our methods) starting on line 303.
 
 Expected output:
+
 Importance_Gini/
 Features_ADRs_predictions.csv
 summ_metrics.csv
@@ -108,6 +116,7 @@ Run ADR_target_demo.ipynb
 Expected output:
 v1_HLGT_ADR_target_assoc_seed49_demo.csv
 v1_HLGT_ADR_target_assoc_significant_demo.csv
+
 The latter file should exactly match Supplementary Information Table 7, our final output of significant target-ADR predictions.
 
 ### Expected run time for demo on a "normal" desktop computer
