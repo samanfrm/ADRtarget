@@ -29,9 +29,9 @@ computer with sufficient RAM: 8Gb or more
 ## Installation Guide
 
 ### Instructions:
-```console
--download/install python 3.7 from python.org
--in shell:
+- Download/install python 3.7 from python.org
+- In shell:
+```{r, engine='bash', count_lines}
 pip install virtualenv
 cd ~/
 virtualenv -p /usr/local/bin/python3 py3 #creates virtual environment named py3 using installed python3.7 version
@@ -44,3 +44,5 @@ pip install requests
 pip install statsmodels
 pip install jellyfish
 ```
+R/Rstudio:
+
