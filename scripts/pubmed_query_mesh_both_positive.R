@@ -13,6 +13,7 @@ nkey="485af51aa11dbfc71be592e6da677c416b09"
 positive=positive %>% mutate(meddra_name=MedDRA.term.name,meddra_id=MedDRA.ID,gene_symbol=Entrez.Gene.Symbol.for.target,target_mesh=MeSH.term.for.target)
 positive_ADR=positive %>% dplyr::select(c("meddra_name","meddra_id")) %>% distinct()
 positive_ADR=left_join(positive_ADR,ADR2mesh,by=c("meddra_id"="meddra_code")) %>% dplyr::select(c("meddra_name","meddra_id","mesh_term")) %>% distinct()
+positive_ADR=positive_ADR %>% na.omit()
 
 results_ADR=data.frame("HLGT"='',"mesh_term"='',"mesh_N"='',"mesh_pmids"='')
 
