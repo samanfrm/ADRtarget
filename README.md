@@ -4,11 +4,11 @@ Machine learning guided association of adverse drug reactions with in vitro off-
 ## Overview
 Adverse drug reactions (ADRs) are one of the leading causes of morbidity and mortality in health care. Understanding which drug targets are linked to ADRs can lead to the development of safer medicines. 
 
-Here, we analyze in vitro secondary pharmacology of common (off) targets for 2134 marketed drugs. To associate these drugs with human ADRs, we utilized FDA Adverse Event Reports and developed Random Forest models that predict ADR occurrences from in vitro pharmacological profiles. 
+Here, we analyze in vitro secondary pharmacology of common (off) targets for 2134 marketed drugs. To associate these drugs with human ADRs, we utilized FDA Adverse Event Reports and developed random forest models that predict ADR occurrences from in vitro pharmacological profiles. 
 
-By evaluating Gini importance scores of model features, we identify 250 target-ADR associations. Among these are established relations, such as the association of in vitro hERG binding with cardiac arrhythmias, which validate our machine learning approach. Evidence on bile acid metabolism supports our identification of associations between the Bile Salt Export Pump and renal, thyroid, lipid metabolism, skin, respiratory tract and central nervous system disorders. 
+By evaluating Gini importance scores of model features, we identify 221 target-ADR associations, which co-occur in PubMed abstracts to a greater extent than expected by chance. Among these are established relations, such as the association of in vitro hERG binding with cardiac arrhythmias, which further validate our machine learning approach. 
 
-Unexpectedly, our model suggests PDE3 is associated with 44 ADRs, including congenital renal disorders. These associations provide a comprehensive resource to support drug development and human biology studies.
+Evidence on bile acid metabolism supports our identification of associations between the Bile Salt Export Pump and renal, thyroid, lipid metabolism, respiratory tract and central nervous system disorders. Unexpectedly, our model suggests PDE3 is associated with 40 ADRs. These associations provide a comprehensive resource to support drug development and human biology studies.
 
 ## System requirements: 
 
@@ -29,6 +29,7 @@ computer with sufficient RAM: 8Gb or more
 ## Installation Guide
 
 ### Instructions:
+
 - Download/install python 3.7 from python.org
 - In shell:
 ```shell
@@ -55,29 +56,33 @@ options (utiml.empty.prediction = T)
 library (mltools)
 ```
 
+Install the ADRtarget repository
+```
+git clone https://github.com/samanfrm/ADRtarget
+```
+
 ## Typical install time: 
 less than 1h
 
-## Demo
-### Instructions to run on data
-Specify correct file paths on your local computer in scripts throughout in order to run code. 
 
-### OpenFDA queries:
-run in shells (in parallel):
+### OpenFDA Adverse Event Reports query:
+argument 1: start number of queried compounds from `data/compounds.csv`.
+argument 2: end number of queried compounds from `data/compounds.csv`.  
+arugment 3: to ensure fast run time speed: request a openFDA api key.  
+argument 4: path to this local git ADRtarget repo.  
+run in shell:
 ```shell
-python openFDAapi.py 0 300  
-python openFDAapi.py 300 1000  
-python openFDAapi.py 1000 1500  
-python openFDAapi.py 1500 2134
+python openFDAapi.py 0 2134 [openFDA api key] [local path]
 ```
-Note that the script retrieves maximally 500 AER reports for this demo. If you want to retrieve all, comment out line 156 and 157 in the openFDAapi.py script.   
-Once all above are finished, run in shell to merge the results:
+0 and 2134 indicate the begin and end number of compounds (see data/compounds.csv) that are used for querying FDA. The script can be run in smaller chunks of number of compounds, for instance 0 300, 300 600 etc.
+
+Once above are finished, run in shell to merge the results:
 ```shell
 python merge_fda.py
 ```
 Expected output:
 
-v1_compounds_FDA_demo.csv
+v1_compounds_FDA.csv
 
 ### Determine ADR occurrences and associations for all compounds 
 
