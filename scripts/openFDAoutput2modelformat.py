@@ -32,7 +32,7 @@ for i in range(len(UNIQ_number)):
    
     if len(TEMP)>1:
         if max(pulled.loc[TEMP,'N_reports'])>0:#there are reports
-            print(max(pulled.loc[TEMP,'N_reports']))
+#             print(max(pulled.loc[TEMP,'N_reports']))
             MAX_ID=pulled['N_reports'][TEMP].idxmax()#get ID of row with max number of reports, merge rest into that row
 #             print(MAX_ID)
             mrep_id=pulled['reports_id'][MAX_ID].split('|||')
@@ -136,6 +136,7 @@ def ocr_to_csv(res_dict,pulled,path,filename):
     return res_df
 
 # ### Write SOC level results to csv
+#SOC = System Organ Classes
 soc_acc = []
 for i in pulled['SOC_per_report'].tolist():
     if i is not np.nan:
@@ -143,11 +144,10 @@ for i in pulled['SOC_per_report'].tolist():
         soc_acc.extend(i.split(';'))
 soc_list = set(soc_acc)
 soc_list.remove('NaN')
-soc_list #System Organ Classes
 
 res_ocr_raw, res_ocr_discretized = calc_occurences(pulled,soc_list,'SOC_per_report')
 
-filename='v1_compounds_FDA_model_format_SOC_ocr_prob.csv'
+filename = 'v1_compounds_FDA_model_format_SOC_ocr_prob.csv'
 res_df = ocr_to_csv(res_ocr_raw, pulled, path, filename)
 
 filename = 'v1_compounds_FDA_model_format_SOC_ocr_bool.csv'
@@ -156,7 +156,6 @@ res_df = ocr_to_csv(res_ocr_discretized,pulled,path,filename)
 
 # ### Write HLGT level results to csv
 # HLGT = Higher level Group Terms
-
 hlgt_acc = []
 for i in pulled['HLGT_per_report'].tolist():
     if i is not np.nan:
@@ -164,7 +163,6 @@ for i in pulled['HLGT_per_report'].tolist():
         hlgt_acc.extend(i.split(';'))
 hlgt_list = set(hlgt_acc)
 hlgt_list.remove('NaN')
-hlgt_list
 
 res_ocr_raw,res_ocr_discretized = calc_occurences(pulled,hlgt_list,'HLGT_per_report')
 
