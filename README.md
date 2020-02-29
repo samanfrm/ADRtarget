@@ -66,23 +66,22 @@ less than 1h
 
 
 ### OpenFDA Adverse Event Reports query:
-argument 1: start number of queried compounds from `data/compounds.csv`.
-argument 2: end number of queried compounds from `data/compounds.csv`.  
-arugment 3: to ensure fast run time speed: request a openFDA api key.  
-argument 4: path to this local git ADRtarget repo.  
-run in shell:
+Argument 1: start number of queried compounds from `data/compounds.csv`.  
+Argument 2: end number of queried compounds from `data/compounds.csv`.  
+Argument 3: to ensure fast run time speed: request a openFDA api key.  
+Argument 4: path to this local git ADRtarget repo.  
+Run in shell:
 ```shell
 python openFDAapi.py 0 2134 [openFDA api key] [local path]
 ```
-0 and 2134 indicate the begin and end number of compounds (see data/compounds.csv) that are used for querying FDA. The script can be run in smaller chunks of number of compounds, for instance 0 300, 300 600 etc.
-
-Once above are finished, run in shell to merge the results:
+0 and 2134 indicate the begin and end number of compounds (see data/compounds.csv) that are used for querying FDA. The script can be run in smaller chunks of number of compounds, for instance 0 300, 300 1000, 1000 1500 and 1500 2134.
+Only if run in smaller chunks: merge the results:
 ```shell
 python merge_fda.py
 ```
-Expected output:
 
-v1_compounds_FDA.csv
+Expected output:
+`v1_compounds_FDA.csv`
 
 ### Determine ADR occurrences and associations for all compounds 
 
