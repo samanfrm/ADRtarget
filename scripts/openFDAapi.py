@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Robert Ietswaart / Saman Farahmand
-# Nature Comm Manuscript Code: NCOMMS-19-11181 ############# Apr 25, 2019 - MIT license
-
+# MIT license
 
 import requests
 import pandas as pd
 import jellyfish
 import string
 import sys
+import os
 
 def fda_process(url,gname,HLGT_dict,SOC_dict,all_reports):
             resp = requests.get(url=url)
@@ -98,19 +98,21 @@ def map_adr_to_meddra(anentry, meddradict):
     except KeyError:
         return 'NaN'
 
+    
 
-ind_start=int(sys.argv[1])
-ind_end=int(sys.argv[2])
+ind_start = int(sys.argv[1])
+ind_end = int(sys.argv[2])
+key = str(sys.argv[3])
+repo_path = str(sys.argv[4])
+path = os.path.join(repo_path,'data')
 
-path='/Users/horizon/Documents/HMS/Novartis2018Hackathon/PCS/'
-filename='compounds.csv'### two column file: first with unique compound ids and second with generic gene names used for the openFDA queries
-generics=pd.read_csv(path+filename,header=0,names=['number','generic'])
+
+filename = 'compounds.csv'### two column file: first with unique compound ids and second with generic gene names used for the openFDA queries
+generics = pd.read_csv(os.path.join(path,filename),header=0,names=['number','generic'])
 
 ##Create dictionary for HLGT and SOC
-path='/Users/horizon/Documents/HMS/Novartis2018Hackathon/PCS/'
-filename='meddr1a_full_12092006.xlsx'
-meddra = pd.read_excel(path+filename)
-
+filename = 'meddr1a_full_12092006.xlsx'
+meddra = pd.read_excel(os.path.join(path,filename))
 
 HLGT_dict = {}
 for index, arow in meddra.iterrows():
@@ -129,14 +131,11 @@ for index, arow in meddra.iterrows():
         SOC_dict[str(pt)] = str(arow['SOC_TXT']).lower()
 
 
+limit = 100
+qualification = 1
+drug_characterization = 1
 
-
-limit=100
-qualification=1
-drug_characterization=1
-key='8Rpit06V62OY96tVpUB8FRA39p9WHNYePdUYYUOn'
-
-compound_ADRs=pd.DataFrame(columns=['number','name','#reports','reports_id','PTs_per_report','HGLT_per_report','SOC_per_report'])
+compound_ADRs = pd.DataFrame(columns=['number','name','#reports','reports_id','PTs_per_report','HGLT_per_report','SOC_per_report'])
 
 
 for j in range(ind_start,ind_end):
@@ -156,8 +155,6 @@ for j in range(ind_start,ind_end):
             compound_ADRs=compound_ADRs.append({'number':comp_id,'name':gname,'#reports':'error','reports_id':data['error']['message'],'PTs_per_report':'','HGLT_per_report':'','SOC_per_report':''},ignore_index=True)
         else:
             total=data['meta']['results']['total']
-            if(total>500):#comment out for full openFDA query
-                total=500#comment out
             count=0
             if(total>100):
                 count=total//100
