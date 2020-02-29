@@ -77,11 +77,11 @@ python openFDAapi.py 0 2134 [openFDA api key] [local path]
 0 and 2134 indicate the begin and end number of compounds (see data/compounds.csv) that are used for querying FDA. The script can be run in smaller chunks of number of compounds, for instance 0 300, 300 1000, 1000 1500 and 1500 2134.
 Only if run in smaller chunks: merge the results:
 ```shell
-python merge_fda.py
+python merge_fda.py [local path]
 ```
 
 Expected output:
-`v1_compounds_FDA.csv`
+`data/v1_compounds_FDA.csv`
 
 ### Determine ADR occurrences and associations for all compounds 
 
@@ -124,7 +124,7 @@ v1_HLGT_ADR_target_assoc_significant_demo.csv
 The latter file should exactly match Supplementary Information Table 7, our final output of significant target-ADR predictions.
 
 ### Expected run time for demo on a "normal" desktop computer
-OpenFDA query: with our API-key (provided in scripts) for OpenFDA: up to 2 hours. Without API-key the query speed is capped and takes longer.  
+OpenFDA query: with API-key (see details above) for OpenFDA: up to 2 hours. Without API-key the query speed is capped and takes longer.
 Random Forest training and cross validation: between 1 hour to 24 hours (depending on SOC and HLGT with 1 core, i.e. no parallel computing)
 Target-ADR associations: less than 1h
 
