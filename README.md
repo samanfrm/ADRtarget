@@ -84,17 +84,17 @@ Expected output:
 `data/v1_compounds_FDA.csv`
 
 ### Determine ADR occurrences and associations for all compounds 
-
-Run  jupyter notebook:
-
-OpenFDAoutput2modelformat_demo.ipynb
-
+Run in shell
+```shell
+python openFDAoutput2modelformat.py [local path]
+```
 Expected output:
+`data/v1_compounds_FDA_model_format_SOC_ocr_prob.csv`  
+`data/v1_compounds_FDA_model_format_SOC_ocr_bool.csv`  
+`data/v1_compounds_FDA_model_format_HLGT_ocr_prob.csv`  
+`data/v1_compounds_FDA_model_format_HLGT_ocr_bool.csv`  
 
-v1_compounds_FDA_model_format_SOC_ocr_prob_demo.csv  
-v1_compounds_FDA_model_format_SOC_ocr_bool_demo.csv  
-v1_compounds_FDA_model_format_HLGT_ocr_prob_demo.csv  
-v1_compounds_FDA_model_format_HLGT_ocr_bool_demo.csv  
+For a demo version that describes the processing steps, see `OpenFDAoutput2modelformat_demo.ipynb` 
 
 ### Run random Forest models:
 Run the R script, R_code_modeling.R in RStudio.
