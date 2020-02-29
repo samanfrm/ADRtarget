@@ -1,8 +1,8 @@
-###########################################################
-### Seda Arat #############################################
-### Nature Comm Manuscript Code: NCOMMS-19-11181 ##########
-### Apr 26, 2019 ##########################################
-###########################################################
+#################################################
+### Seda Arat ###################################
+### Manuscript/Modeling Code ####################
+### Feb 29, 2020 ################################
+#################################################
 
 # Please make sure that SOC/ and HLGT/ folders are in the same folder with this R code (R_code_modeling.R)
 
@@ -59,7 +59,6 @@ get.bm.and.adr (path4bm = "./HLGT/DiffSeed_49/baseMatrix.Rdata",
                 path4output = "./HLGT/DiffSeed_49/")
 
 #################################################
-
 
 ##### Generating random forest models #####
 
@@ -295,7 +294,6 @@ get.rf.model (path4res = "/Users/arats/Documents/PCS_sa/HLGT/BSEP_limits_30-300/
 get.rf.model (path4res = "/Users/arats/Documents/PCS_sa/HLGT/DiffSeed_49/") #  please set your working directory for HLGT/DiffSeed_49 here
 
 #################################################
-
 
 ##### Re-calculating the summary metrics for random forest models #####
 # in case there is dicrepancey in results due to different versions of utiml package
