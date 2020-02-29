@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+# Robert Ietswaart / Saman Farahmand
+# MIT license
 
 import pandas as pd
 
