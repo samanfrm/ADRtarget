@@ -68,8 +68,8 @@ less than 1h
 ### OpenFDA Adverse Event Reports query:
 Argument 1: start number of queried compounds from `data/compounds.csv`.  
 Argument 2: end number of queried compounds from `data/compounds.csv`.  
-Argument 3: to ensure fast run time speed: request a openFDA api key.  
-Argument 4: path to this local git ADRtarget repo.  
+Argument 3: open FDA api key (to ensure fast run time speed): can be requested at https://open.fda.gov/apis/authentication/ .    
+Argument 4: path to this local git ADRtarget repository.  
 Run in shell:
 ```shell
 python openFDAapi.py 0 2134 [openFDA api key] [local path]
@@ -91,10 +91,10 @@ OpenFDAoutput2modelformat_demo.ipynb
 
 Expected output:
 
-v1_compounds_FDA_model_format_SOC_ocr_prob_demo.csv
-v1_compounds_FDA_model_format_SOC_ocr_bool_demo.csv
-v1_compounds_FDA_model_format_HLGT_ocr_prob_demo.csv
-v1_compounds_FDA_model_format_HLGT_ocr_bool_demo.csv
+v1_compounds_FDA_model_format_SOC_ocr_prob_demo.csv  
+v1_compounds_FDA_model_format_SOC_ocr_bool_demo.csv  
+v1_compounds_FDA_model_format_HLGT_ocr_prob_demo.csv  
+v1_compounds_FDA_model_format_HLGT_ocr_bool_demo.csv  
 
 ### Run random Forest models:
 Run the R script, R_code_modeling.R in RStudio.
