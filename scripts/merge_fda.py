@@ -11,5 +11,5 @@ v1_4=pd.read_csv('Compound_FDA_V1_from1500_to_2133.csv',sep='\t')
 
 v1_concat=[v1_1,v1_2,v1_3,v1_4]
 v1_concat=pd.concat(v1_concat,ignore_index=True)
-v1_concat.to_csv('v1_compounds_FDA_demo.csv',sep='\t')
+v1_concat.to_csv('v1_compounds_FDA.csv',sep='\t')
 
