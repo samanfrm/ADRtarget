@@ -174,9 +174,12 @@ for j in range(ind_start,ind_end):
             else:
                 compound_ADRs=compound_ADRs.append({'number':comp_id,'name':gname,'#reports':'0','reports_id':'','PTs_per_report':'','HGLT_per_report':'','SOC_per_report':''},ignore_index=True)
 
-
-
-compound_ADRs.to_csv('Compound_FDA_V1_from'+str(ind_start)+'_to_'+str(ind_end-1)+'.csv',sep='\t')
+if ind_start == 0 and ind_end == 2134:
+    filename = 'v1_compounds_FDA.csv'
+else:
+    filename = 'Compound_FDA_V1_from'+str(ind_start)+'_to_'+str(ind_end-1)+'.csv'
+    
+compound_ADRs.to_csv(os.path.join(path,filename),sep='\t')
 
 
 
