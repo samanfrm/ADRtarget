@@ -113,7 +113,10 @@ For a demo version that describes the processing steps,
 see `OpenFDAoutput2modelformat_demo.ipynb` 
 
 ### Run random Forest models:
-Run the R script, `R_code_modeling.R` in RStudio.
+Run in R (or RStudio):
+```shell
+R_code_modeling.R
+```
 
 Please make sure that SOC/ and HLGT/ folders are in the same folder with this
 R code (R_code_modeling.R)
@@ -130,27 +133,30 @@ version as well, please use the custom code to use the standard accuracy formula
 
 Expected output:
 
-Importance_Gini/
-Features_ADRs_predictions.csv
-summ_metrics.csv
-summ_metrics_V2.csv (if the code starting at line 296 is run)
-summ_metrics_ADRs.csv (for all models except in SOC)
+`Importance_Gini/`  
+`Features_ADRs_predictions.csv`. 
+`summ_metrics.csv`  
+`summ_metrics_V2.csv` (if the code starting at line 296 is run)  
+`summ_metrics_ADRs.csv` (for all models except in SOC)
 
 ### Target-ADR associations
-Run ADR_target_demo.ipynb
+Run 
+```shell
+ADR_target_demo.ipynb
+```
 
 Expected output:
-v1_HLGT_ADR_target_assoc_seed49_demo.csv
-v1_HLGT_ADR_target_assoc_significant_demo.csv
+`v1_HLGT_ADR_target_assoc_seed49_demo.csv`  
+`v1_HLGT_ADR_target_assoc_significant_demo.csv`  
 
-The latter file should exactly match Supplementary Information Table 8, our final 
-output of significant target-ADR predictions.
 
 ### Systematic Pubmed validation queries
 Obtain an NBCI api key
-Set api key and local paths in the scripts below and run in R or Rstudio:
-`pubmed_query_mesh_both_positive.R`
-`pubmed_query_mesh_both_all.R`
+Set api key and local paths in the scripts below and run in R (or Rstudio):
+```shell
+pubmed_query_mesh_both_all.R    
+pubmed_query_mesh_both_positive.R
+```
 
 ### Run times
 On a "normal" computer, OpenFDA query: with API-key (see details above) for OpenFDA:
