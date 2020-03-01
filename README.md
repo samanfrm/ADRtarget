@@ -153,18 +153,17 @@ Expected output:
 `summ_metrics_ADRs.csv` (for all models except in SOC)
 
 ### Target-ADR associations
-Run 
+The ADR target association code is provided:
 ```shell
-ADR_target_demo.ipynb
+ADR_target.ipynb
 ```
-
-Expected output:
-`v1_HLGT_ADR_target_assoc_seed49_demo.csv`  
-`v1_HLGT_ADR_target_assoc_significant_demo.csv`  
-
+Our code discloses the procedure we have taken and can be used on user-provided data.
+Please note that because of the legal restrictions of Novartis, we cannot provide the 
+file with the mapping between the anonymous assay IDs and identifying gene names.  
 
 ### Systematic Pubmed api query for validation of associations
-Obtain an NBCI api key
+Obtain an NBCI api key (follow instructions on NCBI website:
+https://ncbiinsights.ncbi.nlm.nih.gov/2017/11/02/new-api-keys-for-the-e-utilities/).  
 Set api key and local paths in the scripts below and run in R (or Rstudio):
 ```shell
 pubmed_query_mesh_both_all.R    
@@ -175,7 +174,6 @@ Stastistics on the results are described in:
 Pubmed_search_validation_statistics_rev.ipynb  
 Pubmed_search_validation_statistics_negpairs_from_pos_rev.ipynb
 ```
-
 
 ### Run times
 On a "normal" computer, OpenFDA query: with API-key (see details above) for OpenFDA:
@@ -192,7 +190,8 @@ pubmed queries: ~24h.
 A list of unique identifiers and generic compound names in csv/tsv format (as a replacement 
 for `data/compounds.csv`) is required to run the openFDA query.  
 For the Random forest model, discretize and one hot encoded the pharmacology data as 
-described in the manuscript methods and the R_code_modeling.R script.
+described in the manuscript methods and the R_code_modeling.R script.  
+For the target-ADR associations: provide the mapping file between assay ID and gene names.
  
 ### Citation
 Robert Ietswaart<sup>\*,#</sup>, Seda Arat<sup>\*,#</sup>, Amanda X. Chen<sup>\*</sup>, 
