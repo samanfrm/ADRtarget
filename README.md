@@ -160,7 +160,7 @@ For the Random forest model, discretize and one hot encoded the pharmacology dat
 described in the manuscript methods and the R_code_modeling.R script.
  
 ### Citation
-Robert Ietswaart<sup>&#42,#</sup>, Seda Arat<sup>&#42,#</sup>, Amanda X. Chen<sup>&#42</sup>, 
+Robert Ietswaart<sup>*,#</sup>, Seda Arat<sup>*,#</sup>, Amanda X. Chen<sup>*</sup>, 
 Saman Farahmand<sup>*</sup>, Bumjun Kim, William DuMouchel, 
 Duncan Armstrong, Alexander Fekete, Jeffrey J. Sutherland<sup>#</sup>, Laszlo Urban<sup>#</sup>
 *Machine learning guided association of adverse drug reactions with in vitro target-based 
