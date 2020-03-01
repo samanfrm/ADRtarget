@@ -1,4 +1,3 @@
-
 library(rentrez)
 library(org.Hs.eg.db)
 library(dplyr)
@@ -8,7 +7,7 @@ require(biomaRt)
 nkey="XXXXXXXX" #replace with ncbi api key
 ADR2mesh=read.csv(file = "~/Desktop/pubmed_novartis/ADR_mesh_list_all.txt",header = T,sep = '\t')#replace with local paths
 ADR2mesh=ADR2mesh %>% distinct()
-ADR_dic=read.csv(file="~/Desktop/pubmed_novartis/ meddr1a_full_12092006.csv",header = T,sep=',')#replace with local paths
+ADR_dic=read.csv(file="~/ADRtarget/data/meddr1a_full_12092006.csv",header = T,sep=',')#replace with local paths
 ADR2mesh=left_join(ADR2mesh,ADR_dic,by=c("meddra_code"="HLGT_Code")) %>% 
   dplyr::select(c('meddra_code',"mesh_term",'HLGT_TXT')) %>% distinct()
 
