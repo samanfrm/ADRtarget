@@ -159,6 +159,10 @@ for `data/compounds.csv`) is required to run the openFDA query.
 For the Random forest model, discretize and one hot encoded the pharmacology data as 
 described in the manuscript methods and the R_code_modeling.R script.
  
-
+### Citation
+Robert Ietswaart<spu>*,#<sup>, Seda Arat\*, Amanda X. Chen\*, Saman Farahmand\*, Bumjun Kim, William DuMouchel, 
+Duncan Armstrong, Alexander Fekete, Jeffrey J. Sutherland, Laszlo Urban
+*Machine learning guided association of adverse drug reactions with in vitro target-based 
+pharmacology* (2019), [BioRxiv; 750950](https://www.biorxiv.org/content/10.1101/750950v2).
 
 
