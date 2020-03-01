@@ -113,7 +113,7 @@ For a demo version that describes the processing steps,
 see `OpenFDAoutput2modelformat_demo.ipynb` 
 
 ### Run random Forest models:
-Run the R script, R_code_modeling.R in RStudio.
+Run the R script, `R_code_modeling.R` in RStudio.
 
 Please make sure that SOC/ and HLGT/ folders are in the same folder with this
 R code (R_code_modeling.R)
@@ -146,12 +146,22 @@ v1_HLGT_ADR_target_assoc_significant_demo.csv
 The latter file should exactly match Supplementary Information Table 8, our final 
 output of significant target-ADR predictions.
 
+### Systematic Pubmed validation queries
+Obtain an NBCI api key
+Set api key and local paths in the scripts below and run in R or Rstudio:
+`pubmed_query_mesh_both_positive.R`
+`pubmed_query_mesh_both_all.R`
+
 ### Run times
 On a "normal" computer, OpenFDA query: with API-key (see details above) for OpenFDA:
 up to 2 hours. Without API-key the query speed is capped and takes longer.
+
 Random Forest training and cross validation: between 1 hour to 24 hours (depending 
-on SOC and HLGT with 1 core, i.e. no parallel computing)
-Target-ADR associations: less than 1h
+on SOC and HLGT with 1 core, i.e. no parallel computing).
+
+Target-ADR associations: less than 1h.
+
+pubmed queries: ~24h.
 
 ### Instructions for user provided data
 A list of unique identifiers and generic compound names in csv/tsv format (as a replacement 
