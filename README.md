@@ -150,13 +150,18 @@ Expected output:
 `v1_HLGT_ADR_target_assoc_significant_demo.csv`  
 
 
-### Systematic Pubmed validation queries
+### Systematic Pubmed api query for validation of associations
 Obtain an NBCI api key
 Set api key and local paths in the scripts below and run in R (or Rstudio):
 ```shell
 pubmed_query_mesh_both_all.R    
 pubmed_query_mesh_both_positive.R
 ```
+Stastistics on the results are described in:
+```shell
+Pubmed_search_validation_statistics_rev.ipynb
+```
+
 
 ### Run times
 On a "normal" computer, OpenFDA query: with API-key (see details above) for OpenFDA:
