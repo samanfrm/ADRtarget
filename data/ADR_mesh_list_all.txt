@@ -1,0 +1,1728 @@
+meddra_code	mesh_term
+10000073	"Hernia, Diaphragmatic"
+10000073	"Hernia, Femoral"
+10000073	Incisional Hernia
+10000073	"Hernia, Inguinal"
+10000211	"Abortion, Spontaneous"
+10000485	"Acidosis, Respiratory"
+10000485	"Alkalosis, Respiratory"
+10001353	Adrenal Gland Diseases
+10001708	Angioedema
+10001708	Urticaria
+10002426	Angioedema
+10002693	Iridocorneal Endothelial Syndrome
+10002693	Exfoliation Syndrome
+10002693	Cataract
+10002693	MYH9-Related Disorders
+10002693	Pinguecula
+10002693	Conjunctival Diseases
+10002693	Corneal Opacity
+10002693	Corneal Perforation
+10002693	Corneal Injuries
+10002693	Hepatolenticular Degeneration
+10002693	Keratoconus
+10002693	Keratomalacia
+10002693	Xerophthalmia
+10003216	Aortic Valve Stenosis
+10003216	Aortic Coarctation
+10003216	Leriche Syndrome
+10003216	Amaurosis Fugax
+10003216	Anterior Spinal Artery Syndrome
+10003216	Vertebrobasilar Insufficiency
+10003216	"Hypoxia, Brain"
+10003216	Brain Stem Infarctions
+10003216	Carotid Stenosis
+10003216	Cerebral Infarction
+10003216	Brain Ischemia
+10003216	Lateral Medullary Syndrome
+10003216	"Ischemic Attack, Transient"
+10003216	Spinal Cord Ischemia
+10003216	"Stroke, Lacunar"
+10003216	"Dementia, Vascular"
+10003216	Cerebrovascular Disorders
+10003216	Intracranial Arteriosclerosis
+10003216	Carotid Artery Diseases
+10003216	Median Arcuate Ligament Syndrome
+10003216	"Colitis, Ischemic"
+10004018	Bacterial Infections
+10004606	Bile Duct Diseases
+10004994	Urinary Bladder Neoplasms
+10005330	"Blood Coagulation Disorders, Inherited"
+10005330	Hemoglobinopathies
+10005959	"Bone Diseases, Metabolic"
+10006232	Breast Diseases
+10006436	Bronchial Fistula
+10006436	Bronchiectasis
+10006436	Bronchiolitis
+10006436	Yellow Nail Syndrome
+10006436	Bronchomalacia
+10006436	Bronchial Diseases
+10006436	Ciliary Motility Disorders
+10006436	Asthma
+10006436	"Asthma, Exercise-Induced"
+10006436	"Bronchitis, Chronic"
+10006436	Bronchial Spasm
+10006436	"Pulmonary Disease, Chronic Obstructive"
+10006436	Cystic Fibrosis
+10006436	Bronchiolitis Obliterans
+10006436	Status Asthmaticus
+10006436	Respiratory Sounds
+10006436	"Lung Diseases, Obstructive"
+10006436	Bronchial Hyperreactivity
+10006436	"Asthma, Occupational"
+10006436	Airway Remodeling
+10007510	Heart Septal Defects
+10007510	Persistent Fetal Circulation Syndrome
+10007521	"Arrhythmias, Cardiac"
+10007951	Brain Abscess
+10007951	Epidural Abscess
+10007951	Arachnoiditis
+10007951	Gliosis
+10007951	Neurosarcoidosis
+10007951	Encephalitis
+10007951	"Encephalitis, Varicella Zoster"
+10007951	Neurotoxicity Syndromes
+10007951	Encephalomyelitis
+10007951	Kuru
+10007951	Subacute Sclerosing Panencephalitis
+10007951	"Paraneoplastic Syndromes, Nervous System"
+10007951	Hashimoto's encephalitis
+10007951	Limbic Encephalitis
+10007951	"Toxoplasmosis, Cerebral"
+10007951	Central Nervous System Protozoal Infections
+10007951	"Malaria, Cerebral"
+10007951	Amebiasis
+10007951	Lyme Disease
+10007951	Mucormycosis
+10007951	Neurosyphilis
+10007951	"Empyema, Subdural"
+10007951	"Fatigue Syndrome, Chronic"
+10007951	Neurocysticercosis
+10007951	Central Nervous System Infections
+10007951	Central Nervous System Viral Diseases
+10007951	"Tuberculosis, Central Nervous System"
+10007951	Central Nervous System Fungal Infections
+10007963	Brain Stem Infarctions
+10007963	Carotid Artery Thrombosis
+10007963	Intracranial Embolism
+10007963	Cerebral Hemorrhage
+10007963	Cerebral Infarction
+10007963	Brain Ischemia
+10007963	Intracranial Thrombosis
+10007963	Stroke
+10007963	Intracranial Hemorrhages
+10007963	Lateral Medullary Syndrome
+10007963	Subarachnoid Hemorrhage
+10007963	Spinal Cord Vascular Diseases
+10007963	"Hematoma, Epidural, Spinal"
+10007963	"Hematoma, Subdural, Spinal"
+10007963	"Stroke, Lacunar"
+10007963	Vertebrobasilar Insufficiency
+10007963	"Hypoxia, Brain"
+10007963	Carotid Stenosis
+10007963	Cerebrovascular Disorders
+10007963	Moyamoya Disease
+10007963	Giant Cell Arteritis
+10007963	Sneddon Syndrome
+10007963	Intracranial Arteriovenous Malformations
+10007963	Carotid Artery Diseases
+10007963	Intracranial Arteriosclerosis
+10007963	Cerebral Small Vessel Diseases
+10007963	Cerebral Amyloid Angiopathy
+10008401	Tic Disorders
+10009841	Attention Deficit and Disruptive Behavior Disorders
+10009841	Learning Disorders
+10009841	Intellectual Disability
+10010118	Communication Disorders
+10010273	"Pregnancy, Multiple"
+10010273	"Pregnancy, Unplanned"
+10010273	"Pregnancy, High-Risk"
+10010761	Connective Tissue Diseases
+10011063	Ichthyosis
+10011954	Orthostatic Intolerance
+10011954	"Shock, Cardiogenic"
+10011954	Shock
+10011954	Dizziness
+10011954	"Shock, Septic"
+10011954	Heat Stroke
+10011954	Syncope
+10011954	Waterhouse-Friderichsen Syndrome
+10011954	"Shock, Hemorrhagic"
+10011954	Anaphylaxis
+10011954	Capillary Leak Syndrome
+10011954	Hypotension
+10011954	"Hypotension, Orthostatic"
+10011954	Systemic Inflammatory Response Syndrome
+10011954	Multiple System Atrophy
+10011954	"Reflex, Trigeminocardiac"
+10011954	Transfusion Reaction
+10012375	Depressive Disorder
+10012653	Diabetes Complications
+10013296	"Bone Diseases, Metabolic"
+10013296	Calcium Metabolism Disorders
+10013296	Phosphorus Metabolism Disorders
+10013317	Lipid Metabolism Disorders
+10013326	Metrorrhagia
+10013326	Dysmenorrhea
+10013326	Menstruation Disturbances
+10013326	Premenstrual Syndrome
+10013326	Premenstrual Dysphoric Disorder
+10013326	Amenorrhea
+10013326	Oligomenorrhea
+10013326	Menorrhagia
+10013355	Penile Neoplasms
+10013356	Premature Ejaculation
+10013356	Priapism
+10013356	Erectile Dysfunction
+10013356	"Puberty, Delayed"
+10013356	Dyspareunia
+10013356	Infertility
+10013356	"Infertility, Female"
+10013356	"Infertility, Male"
+10013356	Libido
+10013356	"Sexual Dysfunctions, Psychological"
+10013356	"Fibrous Dysplasia, Polyostotic"
+10013356	Hypogonadism
+10013356	"Puberty, Precocious"
+10013356	Adrenogenital Syndrome
+10013356	Hyperandrogenism
+10013356	HAIR-AN syndrome
+10013356	Ciliary Motility Disorders
+10013356	Aspermia
+10013356	Azoospermia
+10013356	Hemospermia
+10013356	Oligospermia
+10013356	Teratozoospermia
+10013356	Young Syndrome
+10013356	Asthenozoospermia
+10013364	Uterine Cervical Neoplasms
+10013511	Delusions
+10013535	Diverticulum
+10014523	Embolism and Thrombosis
+10014701	Amenorrhea
+10014701	Metrorrhagia
+10014701	Hirsutism
+10014701	Menstruation Disturbances
+10014701	Oligomenorrhea
+10014701	Ovarian Hyperstimulation Syndrome
+10014701	Polycystic Ovary Syndrome
+10014701	"Menopause, Premature"
+10014701	Virilism
+10014701	"Blepharophimosis, Ptosis, and Epicanthus Inversus"
+10014701	Anorchia
+10014701	Cryptorchidism
+10014701	Eunuchism
+10014701	Gynecomastia
+10014701	Klinefelter Syndrome
+10014701	Androgen-Insensitivity Syndrome
+10014701	Sertoli Cell-Only Syndrome
+10014701	Disorders of Sex Development
+10014701	"46, XX Disorders of Sex Development"
+10014701	"Disorder of Sex Development, 46,XY"
+10014701	Turner Syndrome
+10014701	Hypogonadism
+10014701	Hyperandrogenism
+10014701	Estrogens
+10014701	Alopecia
+10014701	Myotonic Dystrophy
+10014701	Denys-Drash Syndrome
+10014701	Frasier Syndrome
+10014701	Persistent Mullerian duct syndrome
+10014701	"Puberty, Delayed"
+10014701	"Fibrous Dysplasia, Polyostotic"
+10014701	"Puberty, Precocious"
+10014982	Connective Tissue Diseases
+10014982	Erythema
+10015732	Otitis Externa
+10015732	Otomycosis
+10015732	Herpes Zoster Oticus
+10015732	"Ear Deformities, Acquired"
+10015917	Lacrimal Apparatus Diseases
+10016849	Breech Presentation
+10016849	Labor Presentation
+10016849	Fetal Nutrition Disorders
+10016849	Fetal Macrosomia
+10016849	Fetal Growth Retardation
+10016849	Finnish lethal neonatal metabolic syndrome
+10016849	"Twins, Conjoined"
+10016849	Fetal Distress
+10016849	Fetomaternal Transfusion
+10016849	Hydrops Fetalis
+10016849	Congenital Abnormalities
+10016849	Fetal Diseases
+10016849	"Amputation, Congenital"
+10016849	Fetal Alcohol Spectrum Disorders
+10016849	Warfarin syndrome
+10016849	Isotretinoin embryopathy like syndrome
+10016950	Celiac Disease
+10016950	Malabsorption Syndromes
+10016950	Food Intolerance
+10016950	Intestinal Polyposis
+10016950	Galactosemias
+10016950	Lactose Intolerance
+10016950	Fructose Intolerance
+10017322	"Fractures, Bone"
+10017528	Mycoses
+10017628	Gallbladder Diseases
+10017934	"Polyposis, Gastric"
+10017934	Intestinal Polyps
+10017934	Esophageal Cyst
+10017934	Gingival Diseases
+10017934	"Granuloma, Pyogenic"
+10017934	Cementoma
+10017934	Ameloblastoma
+10017934	Adenolymphoma
+10017934	"Leukokeratosis, Hereditary Mucosal"
+10017934	"Adenoma, Pleomorphic"
+10018008	"Anus, Imperforate"
+10018008	Anorectal Malformations
+10018008	Atresia of small intestine
+10018008	Familial duodenal atresia
+10018008	Duodenal Obstruction
+10018008	Meconium Ileus
+10018008	Superior Mesenteric Artery Syndrome
+10018008	Afferent Loop Syndrome
+10018008	Pyloric Stenosis
+10018008	Stomach Volvulus
+10018008	Ileus
+10018008	Intestinal Obstruction
+10018008	Intussusception
+10018008	"Intestinal Atresia, Multiple"
+10018008	Intestinal Volvulus
+10018008	Intestinal Atresia
+10018008	Microcolon
+10018008	Esophageal Atresia
+10018008	Esophageal Stenosis
+10018008	Plummer-Vinson Syndrome
+10018018	"Anus, Imperforate"
+10018018	Pyloric Stenosis
+10018018	Hirschsprung Disease
+10018018	Atresia of small intestine
+10018018	Familial duodenal atresia
+10018018	Peutz-Jeghers Syndrome
+10018018	Adenomatous Polyposis Coli
+10018018	Intestinal Atresia
+10018018	Muir-Torre Syndrome
+10018018	Volvulus Of Midgut
+10018018	Microvillus inclusion disease
+10018018	Microcolon
+10018018	"Hernia, Umbilical"
+10018018	Gastroschisis
+10018018	"Intestinal Atresia, Multiple"
+10018018	Prune Belly Syndrome
+10018018	Megacystis microcolon intestinal hypoperistalsis syndrome
+10018018	Esophageal Atresia
+10018018	Esophageal Cyst
+10018018	Mouth Abnormalities
+10018018	Cleft Palate
+10018018	Cystic Fibrosis
+10018018	Hereditary pancreatitis
+10018018	Shwachman syndrome
+10018018	Annular pancreas
+10018018	Johanson Blizzard syndrome
+10018018	Congenital macroglossia
+10018018	Tongue Diseases
+10018018	Ankyloglossia
+10018018	Anodontia
+10018027	Peptic Ulcer Perforation
+10018031	Esophageal and Gastric Varices
+10018307	Hydrophthalmos
+10018424	Diabetes Mellitus
+10018424	"Diabetes, Gestational"
+10018424	"Diabetes Mellitus, Type 1"
+10018424	"Lipodystrophy, Congenital Generalized"
+10018424	Latent Autoimmune Diabetes in Adults
+10018424	"Diabetes Mellitus, Type 2"
+10018424	Wolfram Syndrome
+10018424	Glucose Intolerance
+10018424	Hyperglycemia
+10018424	Insulin Resistance
+10018424	HAIR-AN syndrome
+10018424	Hypoglycemia
+10018424	Hyperinsulinism
+10018424	Nesidioblastosis
+10018849	Hematologic Diseases
+10018911	"Anemia, Hemolytic, Autoimmune"
+10018911	Evans Syndrome
+10018911	Transfusion Reaction
+10018911	"Erythroblastosis, Fetal"
+10018911	Hemolytic-Uremic Syndrome
+10018911	"Anemia, Hemolytic"
+10018911	Atypical Hemolytic Uremic Syndrome
+10018911	"Hemoglobinuria, Paroxysmal"
+10018911	Hypersplenism
+10018911	"Anemia, Hemolytic, Congenital"
+10018911	Hemolysis
+10018911	Hemoglobinuria
+10018911	Hyperbilirubinemia
+10018911	Jaundice
+10018911	"Anemia, hereditary spherocytic hemolytic"
+10018911	"Jaundice, Neonatal"
+10018911	"Elliptocytosis, Hereditary"
+10018911	Glucosephosphate Dehydrogenase Deficiency
+10018911	"Spherocytosis, Hereditary"
+10018911	Glutathione synthetase deficiency
+10018911	Neuroacanthocytosis
+10019280	Heart Failure
+10019654	Cholestasis
+10019654	Hyperbilirubinemia
+10019654	"Hyperbilirubinemia, Neonatal"
+10019654	Jaundice
+10019654	"Anemia, hereditary spherocytic hemolytic"
+10019654	"Jaundice, Obstructive"
+10019654	"Jaundice, Neonatal"
+10019654	Kernicterus
+10019654	Intrahepatic Cholestasis of Pregnancy
+10019654	Postcholecystectomy Syndrome
+10019654	Finnish lethal neonatal metabolic syndrome
+10019654	Crigler-Najjar Syndrome
+10019654	Liver Diseases
+10019654	Hyperammonemia
+10019654	Hypoalbuminemia
+10019654	Hypoproteinemia
+10019654	HELLP Syndrome
+10019654	"Liver Failure, Acute"
+10019654	Dyskinesias
+10019654	Hepatic Encephalopathy
+10019654	Liver Failure
+10019654	Hepatorenal Syndrome
+10019654	End Stage Liver Disease
+10019654	Acute-On-Chronic Liver Failure
+10019654	"Liver Cirrhosis, Biliary"
+10019654	"Liver Cirrhosis, Alcoholic"
+10019654	Liver Cirrhosis
+10019654	Glycogen Storage Disease Type IV
+10019654	"Hepatic Fibrosis, Congenital"
+10019654	"Cirrhosis, Cryptogenic"
+10019654	"Angiomatosis, Bacillary"
+10019654	Clonorchiasis
+10019654	Fascioliasis
+10019654	"Echinococcosis, Hepatic"
+10019654	Liver Abscess
+10019654	Opisthorchiasis
+10019654	"Tuberculosis, Hepatic"
+10019654	"Liver Abscess, Amebic"
+10019811	"Adenoma, Bile Duct"
+10019811	"Adenoma, Liver Cell"
+10019811	Focal Nodular Hyperplasia
+10019811	Biliary Tract Neoplasms
+10019811	Liver Neoplasms
+10019811	Gallbladder Neoplasms
+10019811	Bile Duct Neoplasms
+10019811	Cholangiocarcinoma
+10019811	Hepatoblastoma
+10019811	"Carcinoma, Hepatocellular"
+10021460	Immunologic Deficiency Syndromes
+10021563	"Disruptive, Impulse Control, and Conduct Disorders"
+10021666	Hydrocephalus
+10021666	"Hydrocephalus, Normal Pressure"
+10021666	Dandy-Walker Syndrome
+10021666	Intracranial Hypertension
+10021666	Papilledema
+10021666	Brain Edema
+10021666	Pseudotumor Cerebri
+10021877	Conjunctivitis
+10021877	"Conjunctivitis, Allergic"
+10021877	"Conjunctivitis, Inclusion"
+10021877	Ophthalmia Neonatorum
+10021877	"Conjunctivitis, Viral"
+10021877	"Rhinitis, Allergic, Seasonal"
+10021877	"Conjunctivitis, Bacterial"
+10021877	"Conjunctivitis, Acute Hemorrhagic"
+10021877	"Plasminogen Deficiency, Type I"
+10021877	Corneal Edema
+10021877	Keratitis
+10021877	Corneal Ulcer
+10021877	Acanthamoeba Keratitis
+10021877	Uveoparotid Fever
+10021877	Iridocyclitis
+10021877	Iritis
+10021877	"Ophthalmia, Sympathetic"
+10021877	Uveitis
+10021877	Cogan Syndrome
+10021879	Otitis
+10021879	Respiratory Tract Infections
+10021879	Urinary Tract Infections
+10022396	Vestibulocochlear Nerve Diseases
+10024967	Pulmonary Edema
+10025231	Lymphatic Diseases
+10025231	Lymphedema
+10025477	Malabsorption Syndromes
+10025518	"Tuberculosis, Male Genital"
+10025518	Prostatitis
+10025518	Epididymitis
+10025518	Orchitis
+10026906	Premature Birth
+10026906	"Obstetric Labor, Premature"
+10026906	"Fetal Membranes, Premature Rupture"
+10026906	"Pregnancy, Prolonged"
+10026906	Dystocia
+10026906	Cephalopelvic Disproportion
+10026906	Obstetric Labor Complications
+10026908	Abruptio Placentae
+10026908	Eclampsia
+10026908	Pre-Eclampsia
+10026908	HELLP Syndrome
+10026908	"Hypertension, Pregnancy-Induced"
+10026908	Acute fatty liver of pregnancy
+10026908	Uterine Cervical Incompetence
+10026908	"Pregnancy, Ectopic"
+10026908	Pemphigoid Gestationis
+10026908	Hyperemesis Gravidarum
+10026908	Morning Sickness
+10026908	Uterine Rupture
+10026908	Pregnancy Complications
+10026908	"Pregnancy, Heterotopic"
+10026908	Pruritic urticarial papules plaques of pregnancy
+10026908	Preterm Premature Rupture of the Membranes
+10026908	Antiphospholipid Syndrome
+10026908	"Diabetes, Gestational"
+10026908	Intrahepatic Cholestasis of Pregnancy
+10027584	Tympanic Membrane Perforation
+10027584	Myringosclerosis
+10027584	Mastoiditis
+10027584	Otitis Media
+10027584	Petrositis
+10027584	Otosclerosis
+10027584	Otitis Media with Effusion
+10027584	Glomus Tympanicum Tumor
+10027665	Amyloidosis
+10027665	Vasculitis
+10027665	Graft Rejection
+10027667	Cholesteatoma
+10027667	Ear Diseases
+10027667	Otitis
+10027667	Earache
+10027667	Hyperacusis
+10027667	Ear Neoplasms
+10027946	Anger
+10027946	Crying
+10027946	Euphoria
+10027946	Irritable Mood
+10027946	Premenstrual Syndrome
+10027946	Premenstrual Dysphoric Disorder
+10027946	Affective Symptoms
+10027946	Mood Disorders
+10027946	Apathy
+10027946	Lethargy
+10027946	Seasonal Affective Disorder
+10027946	Boredom
+10028037	Chorea
+10028037	Dystonia
+10028302	Muscular Diseases
+10028377	Ainhum
+10028377	Klippel-Trenaunay-Weber Syndrome
+10028377	Hammer Toe Syndrome
+10028377	Foot Deformities
+10028377	Hand Deformities
+10028377	Blount disease
+10028377	Sturge-Weber Syndrome
+10028377	Kyphosis
+10028377	Lordosis
+10028377	Scoliosis
+10028377	Spondylolysis
+10028377	Spondylolisthesis
+10028377	Intervertebral Disc Displacement
+10028377	Sciatica
+10028377	Intervertebral Disc Degeneration
+10028377	Intervertebral disc disease
+10028377	Wolf-Hirschhorn Syndrome
+10028377	Prognathism
+10028377	Retrognathia
+10028377	Facial Asymmetry
+10028396	Ehlers-Danlos Syndrome
+10028396	Pseudoxanthoma Elasticum
+10028396	Neonatal Systemic lupus erythematosus
+10028396	Arterial Tortuosity Syndrome
+10028396	Loeys-Dietz Syndrome
+10028396	Branchioma
+10028396	Cleft Lip
+10028396	Hypertelorism
+10028396	Macrostomia
+10028396	Micrognathism
+10028396	Microstomia
+10028396	Pierre Robin Syndrome
+10028396	Rubinstein-Taybi Syndrome
+10028396	Mandibulofacial Dysostosis
+10028396	Cyclopia
+10028396	Otocephaly
+10028396	DiGeorge Syndrome
+10028396	Nijmegen Breakage Syndrome
+10028396	Cherubism
+10028396	"Maxillonasal dysplasia, Binder type"
+10028396	Cleidocranial Dysplasia
+10028396	Hypertelorism with esophageal abnormality and hypospadias
+10028396	Madelung Deformity
+10028396	Hypochondroplasia
+10028396	"Limb Deformities, Congenital"
+10028396	Megalodactyly
+10028396	Marfan Syndrome
+10028396	Hallux Varus
+10028396	Poland Syndrome
+10028396	Polydactyly
+10028396	Radioulnar Synostosis
+10028396	Syndactyly
+10028396	Talipes
+10028396	"Myopathy, Central Core"
+10028396	"Foot Deformities, Congenital"
+10028396	"Hand Deformities, Congenital"
+10028396	Arachnodactyly
+10028396	Amniotic Band Syndrome
+10028396	Cryopyrin-Associated Periodic Syndromes
+10028440	"Mycobacterium Infections, Nontuberculous"
+10028440	Leprosy
+10028440	Tuberculosis
+10028593	Cardiomyopathies
+10028920	"Ichthyosis, Lamellar"
+10028920	Perinatal Death
+10028920	Failure to Thrive
+10028920	Muscle Hypotonia
+10028920	"Infant, Newborn, Diseases"
+10028920	Retinopathy of Prematurity
+10028920	Sudden Infant Death
+10028920	Muscle Hypertonia
+10028920	Neonatal Systemic lupus erythematosus
+10028920	Netherton Syndrome
+10028920	"Infant, Postmature"
+10028920	"Infant, Small for Gestational Age"
+10028920	Persistent Fetal Circulation Syndrome
+10028971	Bronchopulmonary Dysplasia
+10028971	Transient Tachypnea of the Newborn
+10028971	Meconium Aspiration Syndrome
+10028971	Asphyxia Neonatorum
+10028971	"Respiratory Distress Syndrome, Newborn"
+10029149	Kidney Diseases
+10029299	Neural Tube Defects
+10029299	Hepatolenticular Degeneration
+10029299	Meningocele
+10029299	Meningomyelocele
+10029299	Spinal Dysraphism
+10029299	Spina Bifida Occulta
+10029299	Syringomyelia
+10029299	von Hippel-Lindau Disease
+10029299	Sturge-Weber Syndrome
+10029299	Central Nervous System Cysts
+10029299	Charcot-Marie-Tooth Disease
+10029299	Congenital central hypoventilation syndrome
+10029299	Spina Bifida Cystica
+10029299	Cockayne Syndrome
+10029299	"Nystagmus, Congenital"
+10029299	"Paralyses, Familial Periodic"
+10029299	"Spastic Paraplegia, Hereditary"
+10029299	Congenital facial diplegia
+10029299	Neurofibromatoses
+10029299	Prader-Willi Syndrome
+10029299	"Dysautonomia, Familial"
+10029299	"Muscular Atrophy, Spinal"
+10029299	Tourette Syndrome
+10029299	Sjogren-Larsson Syndrome
+10029299	Lafora Disease
+10029299	Unverricht-Lundborg Syndrome
+10029299	Aicardi Syndrome
+10029299	Bardet-Biedl Syndrome
+10029299	Hyperekplexia
+10029299	Migraine with Aura
+10029299	"Epilepsy, Benign Neonatal"
+10029299	Huntington Disease
+10029299	Motor Neuron Disease
+10029299	"Epilepsies, Myoclonic"
+10029299	"Horner Syndrome, Congenital"
+10029299	Dystonia musculorum deformans type 1
+10029299	Amyotrophic lateral sclerosis 1
+10029299	Alternating hemiplegia of childhood
+10029299	Perry Syndrome
+10029299	Congenital anosmia
+10029299	"Dystonia, Dopa-responsive"
+10029299	Neuroacanthocytosis
+10029299	Hereditary Sensory and Autonomic Neuropathies
+10029299	Tomaculous neuropathy
+10029299	Hereditary Sensory and Motor Neuropathy
+10029299	"Polyglucosan Body Disease, Adult Form"
+10029299	Arnold-Chiari Malformation
+10029299	Cerebellar Hypoplasia
+10029299	Friedreich Ataxia
+10029299	Spinocerebellar Degenerations
+10029299	Spinocerebellar Ataxias
+10029299	"Myoclonic Epilepsies, Progressive"
+10029299	Joubert syndrome 1
+10029299	Anencephaly
+10029299	Cerebral Palsy
+10029299	Hydrocephalus
+10029299	Porencephaly
+10029299	Dandy-Walker Syndrome
+10029299	Lissencephaly
+10029305	"Reflex, Abnormal"
+10029317	Neuromuscular Diseases
+10030061	Pupil Disorders
+10030064	Asthenopia
+10030064	Photophobia
+10033283	Ovarian Diseases
+10033283	Ovarian Hyperstimulation Syndrome
+10033283	Superovulation
+10033283	Fallopian Tube Diseases
+10033283	Ovarian Germ Cell Cancer
+10033283	Fallopian Tube Neoplasms
+10033283	Meigs Syndrome
+10033283	Ovarian Neoplasms
+10033283	Ovarian Cysts
+10033949	Parathyroid Diseases
+10034468	Cardiac Tamponade
+10034468	Pericardial Effusion
+10034468	Pneumopericardium
+10034468	"Pericarditis, Tuberculous"
+10034468	Pericarditis
+10034468	"Pericarditis, Constrictive"
+10034468	Postpericardiotomy Syndrome
+10034606	Peripheral Nervous System Diseases
+10034652	Ascites
+10034652	Meigs Syndrome
+10034652	Pseudomyxoma Peritonei
+10034652	Pneumoperitoneum
+10034652	Peritoneal Diseases
+10034652	Visceral Prolapse
+10034652	Retropneumoperitoneum
+10034652	Mesenteric Cyst
+10034652	Peritoneal Fibrosis
+10034652	Retroperitoneal Fibrosis
+10034652	Hemoperitoneum
+10034726	Aggression
+10034726	Hostility
+10034726	Apathy
+10034726	Negativism
+10034726	Paranoid Disorders
+10034726	Egocentrism
+10034726	Brunner Syndrome
+10034726	Personality Disorders
+10034726	Dependent Personality Disorder
+10034726	Compulsive Personality Disorder
+10034726	Antisocial Personality Disorder
+10034726	Borderline Personality Disorder
+10034726	Histrionic Personality Disorder
+10034726	Paranoid Personality Disorder
+10034726	Schizoid Personality Disorder
+10034726	Schizotypal Personality Disorder
+10035023	Pigmentation Disorders
+10035129	Deciduoma
+10037008	"Amino Acid Metabolism, Inborn Errors"
+10037008	Hyperhomocysteinemia
+10037008	Hyperammonemia
+10037008	Hypoalbuminemia
+10037008	Hypoproteinemia
+10037072	Protozoan Infections
+10037173	Breath Holding
+10037173	Regression (Psychology)
+10037173	Problem Behavior
+10037173	Fingersucking
+10037173	Hyperventilation
+10037173	Anxiety
+10037173	Persian Gulf Syndrome
+10037173	Post-Concussion Syndrome
+10037173	Psychological Trauma
+10037173	Procrastination
+10037176	Cushing Syndrome
+10037176	"Porphyria, Acute Intermittent"
+10037176	Thyroid Crisis
+10037176	Water Intoxication
+10037176	"Lupus Vasculitis, Central Nervous System"
+10037176	Brain Injuries
+10037176	Mental Disorders
+10037176	"Embolism, Fat"
+10037176	Failure to Thrive
+10037176	Social Communication Disorder
+10037176	Enuresis
+10037176	Alcoholism
+10037176	Substance-Related Disorders
+10037176	Neonatal Abstinence Syndrome
+10037176	Tobacco Use Disorder
+10037176	Substance Withdrawal Syndrome
+10037176	Binge Drinking
+10037176	Gambling
+10037454	"Hypertension, Pulmonary"
+10038158	Obesity Hypoventilation Syndrome
+10038158	Polycythemia
+10038158	Heinz Bodies
+10038158	Erythroblasts
+10038158	Reticulocytosis
+10038360	Bladder Exstrophy
+10038360	Megaduodenum
+10038360	Bartter Syndrome
+10038360	Urogenital Abnormalities
+10038360	Gitelman Syndrome
+10038360	Hereditary leiomyomatosis and renal cell cancer
+10038360	Dent Disease
+10038360	Denys-Drash Syndrome
+10038360	"Nephritis, Hereditary"
+10038360	Fanconi Syndrome
+10038360	Oculocerebrorenal Syndrome
+10038360	Liddle Syndrome
+10038360	"Nephrosis, congenital"
+10038360	"Hematuria, Benign Familial"
+10038360	Renal Adysplasia
+10038360	"Diabetes Insipidus, Nephrogenic"
+10038360	"Nephroma, Mesoblastic"
+10038430	Kidney Neoplasms
+10038612	Disorders of Sex Development
+10038612	"46, XX Disorders of Sex Development"
+10038612	"Disorder of Sex Development, 46,XY"
+10038612	Virilism
+10038612	Androgen-Insensitivity Syndrome
+10038612	Denys-Drash Syndrome
+10038612	Frasier Syndrome
+10038612	Persistent Mullerian duct syndrome
+10038612	Fournier Gangrene
+10038612	"Genital Diseases, Female"
+10038612	"Genital Diseases, Male"
+10038612	Popliteal Pterygium Syndrome
+10038612	Teratoma
+10038612	Endodermal Sinus Tumor
+10038612	Buschke-Lowenstein Tumor
+10038612	"Genital Neoplasms, Female"
+10038612	Urogenital Neoplasms
+10038612	"Neoplasms, Germ Cell and Embryonal"
+10038612	"Genital Neoplasms, Male"
+10038686	"Hernias, Diaphragmatic, Congenital"
+10038686	Congenital tracheomalacia
+10038686	Laryngocele
+10038686	Tracheoesophageal Fistula
+10038686	Laryngomalacia
+10038686	Laryngo onycho cutaneous syndrome
+10038686	Laryngeal cleft
+10038686	Congenital lobar emphysema
+10038686	Cystic Fibrosis
+10038686	Lung agenesis
+10038686	Bronchopulmonary Sequestration
+10038686	Bronchogenic Cyst
+10038686	Choanal Atresia
+10038686	Respiratory System Abnormalities
+10038686	Ciliary Motility Disorders
+10039404	Xerostomia
+10039404	Sialorrhea
+10039404	Sjogren's Syndrome
+10039404	Salivary Gland Calculi
+10039404	"Sweating, Gustatory"
+10039404	Salivary Gland Diseases
+10039404	Ranula
+10039404	Mikulicz' Disease
+10039404	Uveoparotid Fever
+10039404	Mumps
+10039404	Parotitis
+10039404	Sialadenitis
+10040790	Lipodystrophy
+10040790	Panniculitis
+10040798	Acne Vulgaris
+10040798	Alopecia
+10040798	Hypertrichosis
+10040798	Rosacea
+10040798	Sebaceous Gland Diseases
+10040899	"Nevus, Epithelioid and Spindle Cell"
+10040899	"Nevus, Pigmented"
+10040899	"Granuloma, Pyogenic"
+10040899	"Keratosis, Seborrheic"
+10040899	Sweat Gland Neoplasms
+10040899	"Osseous Heteroplasia, Progressive"
+10040899	Steatocystoma Multiplex
+10040899	"Histiocytoma, Benign Fibrous"
+10040899	Condylomata Acuminata
+10040899	Acanthoma
+10040899	Dysplastic Nevus Syndrome
+10040899	Birt-Hogg-Dube Syndrome
+10040899	Hereditary leiomyomatosis and renal cell cancer
+10040899	Familial Multiple Lipomatosis
+10040991	Sleep Wake Disorders
+10040998	Sleep Apnea Syndromes
+10041543	Anterior Spinal Artery Syndrome
+10041543	Brown-Sequard Syndrome
+10041543	Cauda Equina Syndrome
+10041543	"Urinary Bladder, Overactive"
+10041543	Spinal Cord Diseases
+10041543	"Urinary Bladder, Neurogenic"
+10041543	Radiculopathy
+10041543	Spinal Cord Compression
+10041543	Syringomyelia
+10041543	Spinal Cord Ischemia
+10041543	Neural Tube Defects
+10041543	Pneumorrhachis
+10041543	Spinal Cord Injuries
+10041543	Central Cord Syndrome
+10041543	Sciatica
+10042258	Brain Concussion
+10042258	Subdural Effusion
+10042258	Encephalomalacia
+10042258	Brain Contusion
+10042258	Diffuse Axonal Injury
+10042258	Kluver-Bucy Syndrome
+10042258	Septo-Optic Dysplasia
+10042258	Brain Injuries
+10042258	Craniocerebral Trauma
+10042258	"Plaque, Amyloid"
+10042258	Hypothalamic hamartomas
+10042261	Retinopathy of Prematurity
+10042261	Vitreous Detachment
+10042261	Optic Atrophy
+10042261	Optic Disk Drusen
+10042261	Papilledema
+10042261	Pseudopapilledema
+10042261	Optic Nerve Diseases
+10042261	Hypertelorism
+10042261	Hypertelorism with esophageal abnormality and hypospadias
+10042261	Retinal Degeneration
+10042261	Retinal Detachment
+10042261	Retinal Dystrophies
+10042261	Retinal Perforations
+10042261	Retinitis Pigmentosa
+10042261	Tay-Sachs Disease
+10042261	Osteoporosis-pseudoglioma syndrome
+10042261	Bardet-Biedl Syndrome
+10042261	Retinoschisis
+10042261	Retinal Drusen
+10042261	Macular Degeneration
+10042460	Suicidal Ideation
+10042460	"Suicide, Attempted"
+10042460	"Suicide, Assisted"
+10043739	Thyroid Diseases
+10043946	Taste Disorders
+10043946	Tongue Diseases
+10044018	Dental Pulp Diseases
+10044018	Gingival Hemorrhage
+10046304	Vocal Cord Paralysis
+10046304	Vocal Cord Dysfunction
+10046304	Laryngeal Diseases
+10046304	Laryngo onycho cutaneous syndrome
+10046304	Laryngitis
+10046304	"Granuloma, Laryngeal"
+10046304	Angioedema
+10046304	Laryngeal Edema
+10046304	Laryngostenosis
+10046304	Laryngismus
+10046304	Respiratory Sounds
+10046304	Laryngomalacia
+10046304	Olfaction Disorders
+10046304	Epistaxis
+10046304	Nasal Polyps
+10046304	Nasal Septal Perforation
+10046304	Nose Diseases
+10046708	Urolithiasis
+10046828	Uterine Neoplasms
+10046973	Heart Valve Diseases
+10047075	Gastrointestinal Hemorrhage
+10047116	Arteritis
+10047518	Vision Disorders
+10047635	Vitamin K Deficiency Bleeding
+10047635	Keratomalacia
+10047635	Night Blindness
+10047635	Vitamin A Deficiency
+10047635	Vitamin D Deficiency
+10047635	Vitamin E Deficiency
+10047635	Vitamin K Deficiency
+10047635	Xerophthalmia
+10047635	Hypervitaminosis A
+10047635	"Anemia, Macrocytic"
+10047635	"Anemia, Megaloblastic"
+10047635	Avitaminosis
+10047635	"Sprue, Tropical"
+10047635	Biotin deficiency
+10047635	Folic Acid Deficiency
+10047635	Thiamine Deficiency
+10047635	Vitamin B 12 Deficiency
+10047635	Riboflavin Deficiency
+10047635	Vitamin B 6 Deficiency
+10047635	Ascorbic Acid Deficiency
+10047635	Wernicke Encephalopathy
+10047635	Korsakoff Syndrome
+10047635	Vitamin B Deficiency
+10047635	Subacute Combined Degeneration
+10047789	Vaginal Neoplasms
+10047789	Vulvar Neoplasms
+10047789	"Hymen, Imperforate"
+10047789	Uterine Hemorrhage
+10047789	Vulvar Diseases
+10047789	Vulvar Lichen Sclerosus
+10047789	Vaginal Diseases
+10047789	Vaginal Fistula
+10047789	Vaginal Discharge
+10047789	Hematocolpos
+10057165	Varicose Veins
+10057167	Intellectual Disability
+10064477	Blood Coagulation Disorders
+10041297	Fasciotomy
+10041297	Myotomy
+10041297	Tendon Transfer
+10041297	Tenotomy
+10041297	Tenodesis
+10041297	Lipectomy
+10041297	Mesotherapy
+10013361	Bursitis
+10013361	Synovial Cyst
+10013361	Synovitis
+10013361	Ganglion Cysts
+10018012	"Signs and Symptoms, Digestive"
+10041294	Giant Cell Tumor of Tendon Sheath
+10041294	Glomus Tumor
+10041294	Leiomyoma
+10041294	Lipoma
+10041294	Lymphangioma
+10041294	Rhabdomyoma
+10041294	Synovial Cyst
+10041294	Angiolipoma
+10041294	Fibroma
+10041294	Mediastinal Cyst
+10041294	Angiomyolipoma
+10041294	"Nuchal bleb, familial"
+10041294	"Lymphangioma, Cystic"
+10041294	"Fibromatosis, Aggressive"
+10041294	Myoma
+10041294	"Granuloma, Plasma Cell"
+10041294	Lipoblastoma
+10041294	Myxoma
+10041294	Myelolipoma
+10017998	Herniorrhaphy
+10038737	Lung Transplantation
+10038737	Pneumonectomy
+10038737	Pulmonary Surgical Procedures
+10038737	Thoracoplasty
+10038737	Thoracotomy
+10038737	Sternotomy
+10038737	Thoracic Surgical Procedures
+10038737	Pleurodesis
+10038737	Pneumonolysis
+10038737	Tracheostomy
+10038737	"Intubation, Intratracheal"
+10038737	Continuous Positive Airway Pressure
+10038737	Intermittent Positive-Pressure Breathing
+10038737	Ventilator Weaning
+10038737	Hyperbaric Oxygenation
+10022119	Radiation Injuries
+10040795	Skin Transplantation
+10023213	Joint Diseases
+10022114	Peripheral Nerve Injuries
+10022114	Cranial Nerve Injuries
+10007512	Heart Murmurs
+10007512	Cardiac Output
+10007512	"Cardiac Output, Low"
+10007512	"Cardiac Output, High"
+10007512	Echocardiography
+10007512	Exercise Test
+10007512	Pulmonary Wedge Pressure
+10007512	Stroke Volume
+10007512	"Echocardiography, Stress"
+10007512	Atrial Pressure
+10007512	Tilt-Table Test
+10007512	Cardiac Catheterization
+10007539	Dyspnea
+10019231	Headache
+10027655	Ear Neoplasms
+10027655	Hemangiosarcoma
+10027655	Hemangiopericytoma
+10027655	"Hemangiopericytoma, Malignant"
+10027655	Vascular Neoplasms
+10027655	Stewart Treves syndrome
+10027655	"Hydatidiform Mole, Invasive"
+10027655	Choriocarcinoma
+10027655	Teratoma
+10027655	Endodermal Sinus Tumor
+10027655	"Neoplasms, Germ Cell and Embryonal"
+10027655	Gestational Trophoblastic Disease
+10027655	Adenocarcinoma
+10027655	"Carcinoma, Basosquamous"
+10027655	Neoplasms
+10027655	"Neoplasms, Second Primary"
+10027655	"Carcinoma, Small Cell"
+10027655	"Carcinoma, Squamous Cell"
+10027655	"Carcinoma, Adenoid Cystic"
+10027655	"Carcinoma, Signet Ring Cell"
+10027655	"Carcinoma, Mucoepidermoid"
+10027655	Squamous Cell Carcinoma of Head and Neck
+10027655	Carcinoma in Situ
+10027655	Head and Neck Neoplasms
+10027655	"Carcinoma, Adenosquamous"
+10027655	Rhabdoid Tumor
+10027655	Adenocarcinoid tumor
+10027655	Turcot syndrome
+10030046	Eye Injuries
+10028387	Arthrocentesis
+10028387	Arthrography
+10028387	Arthroscopy
+10006291	Breast Neoplasms
+10006291	Breast Carcinoma In Situ
+10006291	Inflammatory Breast Neoplasms
+10006291	"Breast Neoplasms, Male"
+10006291	Angiosarcoma of the breast
+10006291	"Carcinoma, Ductal, Breast"
+10006291	Triple Negative Breast Neoplasms
+10006291	Phyllodes Tumor
+10035227	"Neoplasms, Plasma Cell"
+10019813	"Adenoma, Bile Duct"
+10019813	"Adenoma, Liver Cell"
+10019813	Focal Nodular Hyperplasia
+10019813	Choledochal Cyst
+10025319	Hodgkin Disease
+10011305	Accessory Nerve Diseases
+10011305	Vestibulocochlear Nerve Diseases
+10011305	Ocular Motility Disorders
+10011305	Facial Nerve Diseases
+10011305	Glossopharyngeal Nerve Diseases
+10011305	Hypoglossal Nerve Diseases
+10011305	Olfactory Nerve Diseases
+10011305	Trigeminal Nerve Diseases
+10011305	Vagus Nerve Diseases
+10027476	Neoplasm Metastasis
+10029295	Hearing Tests
+10029295	"Audiometry, Evoked Response"
+10029295	Acoustic Impedance Tests
+10029295	Vestibular Function Tests
+10029295	Echoencephalography
+10029295	Myelography
+10014136	Bankruptcy
+10014136	Poverty
+10014136	Retirement
+10014136	Unemployment
+10014136	Homeless Persons
+10008804	Chromosome Disorders
+10008804	Sex Chromosome Aberrations
+10043413	Genetic Therapy
+10043413	Immunization
+10043413	Phototherapy
+10043413	Patient Positioning
+10037546	"Purine-Pyrimidine Metabolism, Inborn Errors"
+10043237	Cartilage Diseases
+10002112	Fissure in Ano
+10002112	Rectal Diseases
+10002112	Rectal Prolapse
+10002112	Currarino triad
+10002112	Levator syndrome
+10002112	Pruritus Ani
+10038716	Apnea
+10038716	Breath Holding
+10038716	"Dyspnea, Paroxysmal"
+10038716	Cheyne-Stokes Respiration
+10038716	Dyspnea
+10038716	Hyperventilation
+10038716	Hypoventilation
+10038716	Mouth Breathing
+10038716	Obesity Hypoventilation Syndrome
+10038716	Respiratory Insufficiency
+10038716	Sleep Apnea Syndromes
+10038716	Tachypnea
+10038716	Congenital central hypoventilation syndrome
+10038716	Transfusion Reaction
+10038716	Perry Syndrome
+10038716	"Embolism, Fat"
+10038716	Hypoxia
+10038716	Asphyxia
+10038716	"Hypoxia, Brain"
+10038716	Cyanosis
+10038716	Hypercapnia
+10038716	Hypocapnia
+10038716	"Acidosis, Respiratory"
+10038716	"Alkalosis, Respiratory"
+10038716	Hyperoxia
+10038716	"Hypoxia-Ischemia, Brain"
+10038716	Cough
+10038716	Hemoptysis
+10038716	Heart Arrest
+10038716	Respiratory Paralysis
+10038716	Lung Diseases
+10038716	Respiration Disorders
+10006288	Breast Cyst
+10006288	Fibrocystic Breast Disease
+10038364	Urinary Bladder Neoplasms
+10038364	Kidney Neoplasms
+10040900	Skin Neoplasms
+10017959	Mallory-Weiss Syndrome
+10017959	Gastrointestinal Hemorrhage
+10017959	Hematemesis
+10017959	Melena
+10035534	Blood Platelet Disorders
+10003018	Feeding and Eating Disorders
+10047060	Choroid Hemorrhage
+10047060	Vitreous Hemorrhage
+10047060	Choroidal sclerosis
+10047060	Choroidal Neovascularization
+10047060	Retinal Artery Occlusion
+10047060	Retinal Hemorrhage
+10047060	Retinal Vein Occlusion
+10047060	Retinal Neovascularization
+10047060	Eales disease
+10047060	Susac Syndrome
+10047060	Diabetic Retinopathy
+10047060	Retinal Telangiectasis
+10047060	Retinal Diseases
+10047060	Hypertensive Retinopathy
+10047060	Alstrom Syndrome
+10047060	Acute zonal occult outer retinopathy
+10012303	Demyelinating Diseases
+10047061	Hyphema
+10047061	Corneal Neovascularization
+10047061	Eye Hemorrhage
+10047061	Giant Cell Arteritis
+10047061	"Optic Neuropathy, Ischemic"
+10013995	Congenital Microtia
+10013995	Deafness
+10013995	Pendred syndrome
+10013995	Branchio-Oto-Renal Syndrome
+10031013	Oral Hemorrhage
+10007867	Fibrosis
+10007867	Necrosis
+10007867	Cell Death
+10007867	Necrobiotic Disorders
+10007867	Fat Necrosis
+10007867	Atrophy
+10007867	Calcinosis
+10007867	Hyperplasia
+10007867	Hypertrophy
+10007867	Metaplasia
+10007867	Cysts
+10007867	Seroma
+10007867	Choristoma
+10007867	Ulcer
+10039911	Seizures
+10011082	Coronary Artery Disease
+10019818	Cholecystectomy
+10019818	Cholecystostomy
+10019818	Choledochostomy
+10019818	Biliary Tract Surgical Procedures
+10019818	Liver Transplantation
+10019818	Hepatectomy
+10001316	Injection Site Reaction
+10035597	Pleural Diseases
+10038666	Laryngeal Neoplasms
+10038666	Mediastinal Neoplasms
+10029301	Blindness
+10029301	"Blindness, Cortical"
+10029301	Diplopia
+10029301	Hemianopsia
+10029301	Strabismus
+10029301	Kearns-Sayre Syndrome
+10029301	Vision Disorders
+10029301	Acute zonal occult outer retinopathy
+10029301	Scotoma
+10029301	Blepharospasm
+10029301	Spasm
+10029301	Blepharoptosis
+10029301	Ophthalmoplegia
+10029301	Papilledema
+10029301	Photophobia
+10029301	"Ophthalmoplegia, Chronic Progressive External"
+10029301	Pseudopapilledema
+10029301	Marcus Gunn phenomenon
+10029301	Ocular Motility Disorders
+10029211	Glioma
+10029211	Meningioma
+10041641	Splenic Diseases
+10014705	Adrenalectomy
+10014705	Hormone Replacement Therapy
+10014705	Estrogen Replacement Therapy
+10014705	Parathyroidectomy
+10014705	Hypophysectomy
+10014705	Thyroidectomy
+10047954	Leukocyte Disorders
+10002363	Aneurysm
+10002363	Arteriovenous Fistula
+10002363	"Aneurysm, Ruptured"
+10002363	"Aneurysm, Infected"
+10002363	"Aneurysm, Dissecting"
+10002363	Loeys-Dietz Syndrome
+10002363	Heart Aneurysm
+10002363	Coronary Aneurysm
+10002363	Aortic Aneurysm
+10002363	Aortic Rupture
+10002363	Intracranial Aneurysm
+10002363	Wyburn Mason's syndrome
+10002363	Vertebral Artery Dissection
+10013465	Dissociative Disorders
+10047066	Vascular Neoplasms
+10025309	"Blood Transfusion, Autologous"
+10025309	"Exchange Transfusion, Whole Blood"
+10025309	Plasmapheresis
+10025309	Platelet Transfusion
+10025309	Leukapheresis
+10025309	Cytapheresis
+10025309	Plateletpheresis
+10025309	Hematopoietic Stem Cell Mobilization
+10025309	Blood Component Removal
+10025309	Photopheresis
+10025309	Blood Transfusion
+10025309	Splenectomy
+10025309	Thymectomy
+10025309	Lymph Node Excision
+10025309	Manual Lymphatic Drainage
+10025309	Extracorporeal Membrane Oxygenation
+10025309	Hemofiltration
+10025309	Bone Marrow Transplantation
+10025309	Stem Cell Transplantation
+10025309	Extracorporeal Circulation
+10025309	Hemoperfusion
+10024136	Crime Victims
+10019243	Hearing Disorders
+10024450	Tobacco Use
+10024450	Alcohol Drinking
+10047043	"Skin Diseases, Vascular"
+10005908	Body Temperature Changes
+10018865	Histiocytosis
+10017991	Esophageal Neoplasms
+10017991	Salivary Gland Neoplasms
+10027656	Cholesteatoma
+10027656	Glomus Tympanicum Tumor
+10027656	Hemangioma
+10027656	Lymphocele
+10027656	Kasabach-Merritt Syndrome
+10027656	"Osteolysis, Essential"
+10027656	Carney Complex
+10027656	Adenoma
+10027656	Angiofibroma
+10027656	Cysts
+10027656	Dermoid Cyst
+10027656	Fibroma
+10027656	Papilloma
+10027656	Teratoma
+10027656	Neurocutaneous Syndromes
+10027656	"Adenoma, Oxyphilic"
+10027656	"Paraganglioma, Extra-Adrenal"
+10027656	"Hamartoma Syndrome, Multiple"
+10027656	Neoplasms
+10027656	Hamartoma
+10027656	Polyps
+10027656	Tuberous Sclerosis
+10025320	"Lymphoma, B-Cell"
+10038362	Kidney Function Tests
+10015920	Eye Abnormalities
+10022893	Biopsy
+10022893	Autopsy
+10022893	Immunohistochemistry
+10022893	"Tomography, X-Ray Computed"
+10022893	Endoscopy
+10022893	Magnetic Resonance Imaging
+10022893	Positron-Emission Tomography
+10022893	"Tomography, Emission-Computed, Single-Photon"
+10022893	Thermography
+10022893	Ultrasonography
+10022893	"Tomography, Optical Coherence"
+10022893	Radionuclide Imaging
+10022893	Whole Body Imaging
+10022893	Plethysmography
+10022893	Polymerase Chain Reaction
+10019815	Gallbladder Neoplasms
+10019815	Liver Neoplasms
+10019815	Hepatoblastoma
+10028393	Fistula
+10028393	Soft Tissue Injuries
+10028393	Dupuytren Contracture
+10028393	Fasciitis
+10028393	Fournier Gangrene
+10028393	Lyme Disease
+10028393	"Fasciitis, Necrotizing"
+10028393	"Fibromatosis, Plantar"
+10028393	"Fasciitis, Plantar"
+10028393	Acquired Hyperostosis Syndrome
+10028393	Soft Tissue Infections
+10028393	Schnitzler Syndrome
+10028393	Chronic recurrent multifocal osteomyelitis
+10028393	Majeed syndrome
+10028393	Deficiency of interleukin-1 receptor antagonist
+10028393	Back Pain
+10028393	Flank Pain
+10028393	Musculoskeletal Pain
+10028393	Neck Pain
+10028393	Piriformis Muscle Syndrome
+10028393	Post-Traumatic Headache
+10028393	Post-Lyme Disease Syndrome
+10028393	Acromegaly
+10009720	Sympathectomy
+10009720	Vagotomy
+10009720	Transcranial Magnetic Stimulation
+10009720	Nerve Block
+10009720	Craniotomy
+10009720	Psychosurgery
+10009720	Pallidotomy
+10009720	Deep Brain Stimulation
+10009720	Electrocorticography
+10009720	Neuroendoscopy
+10009720	Decompressive Craniectomy
+10005944	Bone Transplantation
+10005944	Osteotomy
+10005944	Cementoplasty
+10005944	Orthopedic Procedures
+10005944	"Osteogenesis, Distraction"
+10005944	"Injections, Intra-Articular"
+10005944	"Arthroplasty, Replacement, Knee"
+10005944	Synovectomy
+10005944	Arthroplasty
+10005944	Arthroscopy
+10005944	Arthrodesis
+10003184	"Endarterectomy, Carotid"
+10003184	Coronary Artery Bypass
+10003184	Endarterectomy
+10003184	Atherectomy
+10003184	Percutaneous Coronary Intervention
+10003184	Counterpulsation
+10003184	Cerebral Revascularization
+10003184	Angioplasty
+10003184	Thrombectomy
+10003184	Vascular Surgical Procedures
+10003184	"Embolization, Therapeutic"
+10003184	"Heart Bypass, Right"
+10003184	Arterial Switch Operation
+10003184	Vascular Grafting
+10036411	Puerperal Infection
+10057166	Hypertension
+10027432	Blood Gas Analysis
+10027432	Hyperlactatemia
+10027432	Oximetry
+10027432	Glucose Tolerance Test
+10027432	Lactose Tolerance Test
+10038594	Ovarian Germ Cell Cancer
+10038594	Vaginal Neoplasms
+10026753	Bipolar Disorder
+10012562	Motor Skills Disorders
+10017977	Ileus
+10038668	Thoracentesis
+10038668	Bronchoalveolar Lavage
+10038668	Bronchography
+10038668	Bronchoscopy
+10038668	Laryngoscopy
+10038668	Mediastinoscopy
+10038668	Thoracoscopy
+10038668	Ventilation-Perfusion Scan
+10022958	Iron Overload
+10038597	Penile Neoplasms
+10038597	Prostatic Neoplasms
+10038597	Testicular Neoplasms
+10015674	Cystic Fibrosis
+10015674	Pancreatic Cyst
+10015674	Pancreatic Pseudocyst
+10015674	Pancreatic Diseases
+10015674	Sphincter of Oddi Dysfunction
+10015674	Shwachman syndrome
+10015674	Annular pancreas
+10015674	Johanson Blizzard syndrome
+10015674	Pancreatitis
+10015674	"Pancreatitis, Chronic"
+10015674	"Pancreatitis, Acute Necrotizing"
+10015674	Hereditary pancreatitis
+10015674	"Pancreatitis, Alcoholic"
+10062915	Drug Interactions
+10039628	Psychotic Disorders
+10039628	"Schizophrenia, Paranoid"
+10040480	"Sexual Dysfunctions, Psychological"
+10036958	Prostatic Diseases
+10036958	Prostatism
+10036958	Prostatic Hyperplasia
+10036958	Prostatic Neoplasms
+10024324	Leukemia
+10038595	Ovarian Cysts
+10038595	Ovarian Fibromata
+10038595	Hemangioma
+10038595	Leiomyoma
+10012221	Confusion
+10012221	Delirium
+10029903	"Abortion, Induced"
+10029903	Fetal Therapies
+10002861	"Stress Disorders, Traumatic"
+10011822	Abnormal Karyotype
+10011822	Chromosome Banding
+10011822	Karyotyping
+10011822	Cytogenetic Analysis
+10011822	"In Situ Hybridization, Fluorescence"
+10038592	Semen Analysis
+10038592	Vaginal Smears
+10038592	Chorionic Villi Sampling
+10005942	"Fractures, Compression"
+10005942	"Fractures, Bone"
+10005942	"Fractures, Ununited"
+10005942	Joint Dislocations
+10005942	"Fractures, Multiple"
+10005942	"Fractures, Open"
+10005942	Osteoporotic Fractures
+10005942	"Fractures, Spontaneous"
+10005942	"Fractures, Stress"
+10005942	Pseudarthrosis
+10005942	"Fractures, Comminuted"
+10005942	"Fractures, Avulsion"
+10005942	"Skull Fracture, Depressed"
+10005942	Jaw Fractures
+10005942	"Skull Fracture, Basilar"
+10005942	Skull Fractures
+10005942	Spinal Fractures
+10005942	Flail Chest
+10005942	Rib Fractures
+10005942	Bursitis
+10005942	"Epiphyses, Slipped"
+10005942	Hemarthrosis
+10005942	Rotator Cuff Injuries
+10005942	Femoracetabular Impingement
+10005942	Ankle Fractures
+10005942	Femoral Neck Fractures
+10005942	Femoral Fractures
+10019190	Apicoectomy
+10019190	Dental Impression Technique
+10019190	Dental Care
+10019190	Gingivectomy
+10019190	Alveoloplasty
+10019190	Tooth Extraction
+10019190	Dental Implantation
+10019190	Vestibuloplasty
+10019190	Crown Lengthening
+10019190	Occlusal Adjustment
+10019190	Rhytidoplasty
+10019190	Orthognathic Surgical Procedures
+10019190	Cochlear Implantation
+10019190	Laryngoplasty
+10019190	Laryngectomy
+10025321	"Lymphoma, T-Cell"
+10002252	"Arthritis, Reactive"
+10002252	"Hepatitis, Chronic"
+10002252	"Encephalitis, Varicella Zoster"
+10002252	Guillain-Barre Syndrome
+10002252	Mucocutaneous Lymph Node Syndrome
+10002252	Keratosis
+10002252	Postpoliomyelitis Syndrome
+10002252	"Neuralgia, Postherpetic"
+10002252	Reye Syndrome
+10002252	Rheumatic Fever
+10002252	Exanthema Subitum
+10002252	Stevens-Johnson Syndrome
+10002252	Subacute Sclerosing Panencephalitis
+10002252	Chorea
+10002252	"Thyroiditis, Subacute"
+10002252	Rheumatic Heart Disease
+10002252	Pediatric Autoimmune Neuropsychiatric Disorders Associated with Streptococcal infections
+10002252	Malacoplakia
+10002252	Foodborne Diseases
+10002252	Cross Infection
+10002252	Sexually Transmitted Diseases
+10002252	"Infectious Disease Transmission, Vertical"
+10002252	Community-Acquired Infections
+10002252	Tick Paralysis
+10006295	Mastectomy
+10053172	Fatal Outcome
+10018073	Inflammation
+10002086	"Anemia, Iron-Deficiency"
+10002086	"Anemia, Pernicious"
+10002086	Anemia
+10002086	"Anemia, Macrocytic"
+10002086	"Anemia, Megaloblastic"
+10002086	"Anemia, Neonatal"
+10002086	Babesiosis
+10002086	"Anemia, Hypochromic"
+10002086	Malaria
+10002086	Iron-Refractory Iron Deficiency Anemia
+10002086	"Anemia, Sideroblastic"
+10002086	"Sprue, Tropical"
+10002086	"Anemia, Myelophthisic"
+10002086	"Red-Cell Aplasia, Pure"
+10002086	"Anemia, Aplastic"
+10002086	Pancytopenia
+10002086	Dubowitz syndrome
+10002086	Dyskeratosis Congenita
+10002086	Aase Smith syndrome 2
+10002086	Shwachman syndrome
+10002086	"Anemia, Dyserythropoietic, Congenital"
+10014412	Diabetes Insipidus
+10014412	"Diabetes Insipidus, Nephrogenic"
+10014412	Inappropriate ADH Syndrome
+10014412	Tumor Lysis Syndrome
+10014412	Bartter Syndrome
+10014412	Gitelman Syndrome
+10014412	Apparent mineralocorticoid excess
+10014412	Polydipsia
+10014412	"Polydipsia, Psychogenic"
+10014412	Hyperkalemia
+10014412	Hypokalemia
+10014412	Hyperaldosteronism
+10014412	Hypernatremia
+10014412	Hyponatremia
+10014412	Liddle Syndrome
+10014412	Dehydration
+10014412	Hypovolemia
+10014412	"Shock, Hemorrhagic"
+10014412	Edema
+10014412	Water Intoxication
+10017987	Pancreatic Cyst
+10017987	Peutz-Jeghers Syndrome
+10017987	Intestinal Polyps
+10017987	Mesenteric Cyst
+10017987	Gingival Diseases
+10017987	Cementoma
+10017987	Odontogenic Cysts
+10017987	Ameloblastoma
+10017987	Adenolymphoma
+10017987	"Leukokeratosis, Hereditary Mucosal"
+10017987	"Adenoma, Pleomorphic"
+10017987	"Polyposis, Gastric"
+10017987	Esophageal Cyst
+10018851	Blood Cell Count
+10018851	Blood Grouping and Crossmatching
+10018851	Coombs Test
+10018851	Partial Thromboplastin Time
+10018851	Bleeding Time
+10018851	Capillary Permeability
+10018851	Clot Retraction
+10000546	Acromegaly
+10000546	Addison Disease
+10000546	Adrenal Insufficiency
+10000546	Congenital Hypothyroidism
+10000546	Cushing Syndrome
+10000546	Goiter
+10000546	Adrenocortical Hyperfunction
+10000546	Hyperbilirubinemia
+10000546	"Hyperbilirubinemia, Neonatal"
+10000546	Hyperthyroidism
+10000546	Hypoaldosteronism
+10000546	Hypothyroidism
+10000546	Hyperamylasemia
+10000546	Refeeding Syndrome
+10000546	Thyroid Crisis
+10000546	Enzyme Induction
+10000546	Hyperoxaluria
+10000546	Metabolic Syndrome
+10000546	Mitochondrial cytopathy
+10000546	Cell Death
+10000546	Phagocytosis
+10000546	Apoptosis
+10014067	Feeding and Eating Disorders
+10017943	Digestive System Fistula
+10047843	Hypercalcemia
+10047843	Blood Volume
+10047438	Coxsackievirus Infections
+10047438	Cytomegalovirus Infections
+10047438	Echovirus Infections
+10047438	Epstein-Barr Virus Infections
+10047438	Herpesviridae Infections
+10047438	Molluscum Contagiosum
+10047438	Prion Diseases
+10047438	Rabies
+10047438	Retroviridae Infections
+10047438	Flavivirus Infections
+10047438	Polyomavirus Infections
+10027529	Blood Bactericidal Activity
+10027529	Blood Culture
+10021112	Hyperpituitarism
+10021112	Pituitary Neoplasms
+10021112	Pituitary Diseases
+10014713	Adrenal Gland Neoplasms
+10014713	Carcinoid Tumor
+10014713	Multiple Endocrine Neoplasia
+10019809	Liver Function Tests
+10007593	Cardiac Resynchronization Therapy
+10007593	Transcatheter Aortic Valve Replacement
+10007593	Norwood Procedures
+10007593	Arterial Switch Operation
+10007593	Fontan Procedure
+10007593	Electric Countershock
+10007593	Heart Transplantation
+10007593	Pericardiectomy
+10007593	Cardiac Rehabilitation
+10007593	"Heart Arrest, Induced"
+10007593	Heart-Lung Transplantation
+10007593	Heart Massage
+10007593	Catheter Ablation
+10007593	Cardiac Surgical Procedures
+10007593	Cardiopulmonary Bypass
+10027664	Fetal Alcohol Spectrum Disorders
+10027664	Warfarin syndrome
+10027664	Isotretinoin embryopathy like syndrome
+10027664	Congenital Abnormalities
+10027664	"Twins, Conjoined"
+10027664	"Amyloidosis, Familial"
+10027664	"Angioedemas, Hereditary"
+10027664	"Amyloid Neuropathies, Familial"
+10027664	Menkes Kinky Hair Syndrome
+10027664	"Abnormalities, Multiple"
+10027664	Progeria
+10027664	Teratogenesis
+10027664	Spina Bifida Occulta
+10027664	Neurocutaneous Syndromes
+10027664	Keratitis-Ichthyosis-Deafness Syndrome
+10027664	"Nuchal bleb, familial"
+10027664	McKusick Kaufman syndrome
+10027664	Hamartoma
+10027664	"Genetic Diseases, Inborn"
+10027664	Young Syndrome
+10027664	CHARGE Syndrome
+10027664	VACTERL association
+10027664	Heterotaxy Syndrome
+10027664	Blau syndrome
+10027664	Barakat syndrome
+10027664	Carney Complex
+10027664	Pallister Killian syndrome
+10027664	Tuberous Sclerosis
+10014623	Brain Diseases
+10017969	Colitis
+10017969	"Colitis, Ischemic"
+10017969	"Colitis, Ulcerative"
+10017969	Crohn Disease
+10017969	Inflammatory Bowel Diseases
+10017969	"Colitis, Microscopic"
+10017969	Gastritis
+10017969	"Gastritis, Hypertrophic"
+10017969	Duodenitis
+10017969	Enteritis
+10017969	Enterocolitis
+10017969	Eosinophilic enteropathy
+10017969	Pouchitis
+10017969	"Panniculitis, Peritoneal"
+10017969	Mastocytic enterocolitis
+10017969	Autoimmune enteropathy
+10017969	Proctitis
+10017969	Esophagitis
+10017969	Eosinophilic Esophagitis
+10046590	Albuminuria
+10046590	Alkaptonuria
+10046590	Bacteriuria
+10046590	Cystinuria
+10046590	Fructosuria
+10046590	Glycosuria
+10046590	Hematuria
+10046590	Hemoglobinuria
+10046590	Homocystinuria
+10046590	Hypercalciuria
+10046590	Hyperoxaluria
+10046590	Ketosis
+10046590	Myoglobinuria
+10046590	"Hemoglobinuria, Paroxysmal"
+10046590	Phenylketonurias
+10046590	Proteinuria
+10046590	Pyuria
+10046590	Dysuria
+10046590	Enuresis
+10046590	Urination Disorders
+10046590	"Urinary Incontinence, Urge"
+10046590	Urinary Incontinence
+10046590	Urinary Retention
+10046590	"Urinary Incontinence, Stress"
+10046590	Lower Urinary Tract Symptoms
+10046590	Flank Pain
+10046590	Nocturia
+10046590	Pelvic Pain
+10046590	Polyuria
+10046590	Prostatism
+10046590	Renal Colic
+10038365	Cystostomy
+10038365	Cystectomy
+10038365	Renal Dialysis
+10038365	Nephrectomy
+10038365	Peritoneal Dialysis
+10038365	Kidney Transplantation
+10038365	Nephrotomy
+10038365	Nephroureterectomy
+10038365	Renal Replacement Therapy
+10038365	Urinary Catheterization
+10038608	"Polythelia, Familial"
+10038608	"Hymen, Imperforate"
+10038608	"46, XX Disorders of Sex Development"
+10038608	Uterine Anomalies
+10038608	Mullerian aplasia
+10038608	Hereditary leiomyomatosis and renal cell cancer
+10038608	Anorchia
+10038608	Cryptorchidism
+10038608	Epispadias
+10038608	Testicular Hydrocele
+10038608	Hypospadias
+10038608	"Disorder of Sex Development, 46,XY"
+10038608	"Puberty, Precocious"
+10038608	Sertoli Cell-Only Syndrome
+10038608	Penoscrotal transposition
+10038608	Frasier Syndrome
+10038608	Persistent Mullerian duct syndrome
+10038608	Disorders of Sex Development
+10038608	Androgen-Insensitivity Syndrome

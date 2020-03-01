@@ -1,0 +1,40 @@
+input_term	cui	MeSH term	MeSH Unique ID	MeSH heading
+ABCB11	C093491	"ABCB11 protein, human"	D000074020	"ATP Binding Cassette Transporter, Subfamily B, Member 11"
+ACHE	C548244	"ACHE protein, human"	D000110	Acetylcholinesterase
+ADORA1	C0084298	purinoceptor RDC7	D043682	"Receptor, Adenosine A1"
+ADORA2A	C000627179	"ADORA2A protein, human"	D043705	"Receptor, Adenosine A2A"
+ADORA3	C000628190	"ADORA3 protein, human"	D043684	"Receptor, Adenosine A3"
+ADRA1A	C547713	"ADRA1A protein, human"	D018340	"Receptors, Adrenergic, alpha-1"
+ADRA2A	C547768	"ADRA2A protein, human"	D018341	"Receptors, Adrenergic, alpha-2"
+ADRB2	C553443	"ADRB2 protein, human"	D018343	"Receptors, Adrenergic, beta-2"
+AGTR1	C544065	"AGTR1 protein, human"	D044140	"Receptor, Angiotensin, Type 1"
+AR	C410798	"AR protein, human"	D011944	"Receptors, Androgen"
+CHRM1	C086088	"CHRM1 protein, human"	D043643	"Receptor, Muscarinic M1"
+CNR1	C571130	"CNR1 protein, human"	D043884	"Receptor, Cannabinoid, CB1"
+DRD1	C583260	"DRD1 protein, human"	D017447	"Receptors, Dopamine D1"
+EDNRA	C0217843	"Receptor, Endothelin A"	D044022	"Receptor, Endothelin A"
+EDNRB	C000588596	"EDNRB protein, human"	D044023	"Receptor, Endothelin B"
+ESR1	C506487	"estrogen receptor alpha, human"	D011960	"Receptors, Estrogen"
+GABRA1	C546240	"GABRA1 protein, human"	D011963	"Receptors, GABA-A"
+GRIN1	C485668	"GRIN1 protein, human"	D016194	"Receptors, N-Methyl-D-Aspartate"
+HRH1	C0034814	"Receptors, Histamine H1"	D011969	"Receptors, Histamine H1"
+HTR2A	C0289174	"Receptorm Serotonin,5-HT2A"	D044402	"Receptor, Serotonin, 5-HT2A"
+HTR2B	C000628501	"HTR2B protein, human"	D044403	"Receptor, Serotonin, 5-HT2B"
+HTR3A	C509409	"HTR3A protein, human"	D044406	"Receptors, Serotonin, 5-HT3"
+KCNH2	C000606913	"KCNH2 protein, human"	D000072237	ERG1 Potassium Channel
+KDR	C000588866	"KDR protein, human"	D040301	Vascular Endothelial Growth Factor Receptor-2
+MAOA	C579458	"monoamine oxidase A, human"	D008995	Monoamine Oxidase
+NR3C1	C497713	"NR3C1 protein, human"	D011965	"Receptors, Glucocorticoid"
+NTSR1	C114036	neurotensin type 1 receptor	D018028	"Receptors, Neurotensin"
+OPRD1	C529706	"OPRD1 protein, human"	D017465	"Receptors, Opioid, delta"
+OPRM1	C485764	"OPRM1 protein, human"	D017450	"Receptors, Opioid, mu"
+PDE3A	C517287	"PDE3A protein, human"	D054684	"Cyclic Nucleotide Phosphodiesterases, Type 3"
+PDE4D	C517376	"PDE4D protein, human"	D054703	"Cyclic Nucleotide Phosphodiesterases, Type 4"
+PGR	C0034833	"Receptors, Progesterone"	D011980	"Receptors, Progesterone"
+PTGS2	C496540	"PTGS2 protein, human"	D000071876	Cyclooxygenase 2
+SCN5A	C568320	"SCN5A protein, human"	D062554	NAV1.5 Voltage-Gated Sodium Channel
+SLC29A1	C438649	"SLC29A1 protein, human"	D033721	Equilibrative Nucleoside Transporter 1
+SLC6A2	C493227	"SLC6A2 protein, human"	D050484	Norepinephrine Plasma Membrane Transport Proteins
+SLC6A3	C493214	"SLC6A3 protein, human"	D050483	Dopamine Plasma Membrane Transport Proteins
+SLC6A4	C493230	"SLC6A4 protein, human"	D050486	Serotonin Plasma Membrane Transport Proteins
+TBXA2R	C0206052	Thromboxane A2 Receptor	D044244	"Receptors, Thromboxane A2, Prostaglandin H2"

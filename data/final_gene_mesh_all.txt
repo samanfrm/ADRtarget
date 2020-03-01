@@ -1,0 +1,107 @@
+gene_symbol	mesh_term
+ABCB11	"ATP Binding Cassette Transporter, Subfamily B, Member 11"
+ACHE	Acetylcholinesterase
+ADORA1	"Receptor, Adenosine A1"
+ADORA2A	"Receptor, Adenosine A2A"
+ADORA3	"Receptor, Adenosine A3"
+ADRA1A	"Receptors, Adrenergic, alpha-1"
+ADRA2A	"Receptors, Adrenergic, alpha-2"
+ADRA2B	"Receptors, Adrenergic, alpha-2"
+ADRA2C	"Receptors, Adrenergic, alpha-2"
+ADRB1	"Receptors, Adrenergic, beta-1"
+ADRB2	"Receptors, Adrenergic, beta-2"
+ADRB3	"Receptors, Adrenergic, beta-3"
+AGTR1	"Receptor, Angiotensin, Type 1"
+AR	"Receptors, Androgen"
+ATM	Ataxia Telangiectasia Mutated Proteins
+ATR	Ataxia Telangiectasia Mutated Proteins
+AVPR1A	"Receptors, Vasopressin"
+AVPR2	"Receptors, Vasopressin"
+BDKRB1	"Receptor, Bradykinin B1"
+BDKRB2	"Receptor, Bradykinin B2"
+CACNA1B	"Calcium Channels, N-Type"
+CACNA1C	"Calcium Channels, L-Type"
+CCKAR	"Receptor, Cholecystokinin A"
+CCKBR	"Receptor, Cholecystokinin B"
+CHRM1	"Receptor, Muscarinic M1"
+CHRM2	"Receptor, Muscarinic M2"
+CHRM3	"Receptor, Muscarinic M3"
+CHRM4	"Receptor, Muscarinic M4"
+CHRM5	"Receptor, Muscarinic M5"
+CHRNA4	"Receptors, Nicotinic"
+CNR1	"Receptor, Cannabinoid, CB1"
+CRHR1	"Receptors, Corticotropin-Releasing Hormone"
+CRHR2	"Receptors, Corticotropin-Releasing Hormone"
+DPP4	Dipeptidyl Peptidase 4
+DRD1	"Receptors, Dopamine D1"
+DRD2	"Receptors, Dopamine D2"
+DRD3	"Receptors, Dopamine D3"
+DRD4	"Receptors, Dopamine D4"
+DRD5	"Receptors, Dopamine D5"
+EDNRA	"Receptor, Endothelin A"
+EDNRB	"Receptor, Endothelin B"
+EGFR	ErbB Receptors
+ERBB2	"Receptor, ErbB-2"
+ESR1	Estrogen Receptor alpha
+ESR2	Estrogen Receptor beta
+F2	Thrombin
+GABBR1	"Receptors, GABA-B"
+GABRA1	"Receptors, GABA-A"
+GCGR	"Receptors, Glucagon"
+GHSR	"Receptors, Ghrelin"
+GIPR	"Receptors, Gastrointestinal Hormone"
+GRIN1	"Receptors, N-Methyl-D-Aspartate"
+HCAR2	"Receptors, Nicotinic"
+HRH1	"Receptors, Histamine H1"
+HRH2	"Receptors, Histamine H2"
+HRH3	"Receptors, Histamine H3"
+HTR1A	"Receptor, Serotonin, 5-HT1A"
+HTR1B	"Receptor, Serotonin, 5-HT1B"
+HTR2A	"Receptor, Serotonin, 5-HT2A"
+HTR2B	"Receptor, Serotonin, 5-HT2B"
+HTR2C	"Receptor, Serotonin, 5-HT2C"
+HTR3A	"Receptors, Serotonin, 5-HT3"
+KCNH2	ERG1 Potassium Channel
+KCNJ11	KATP Channels
+KCNQ1	KCNQ1 Potassium Channel
+KDR	Vascular Endothelial Growth Factor Receptor-2
+MAOA	Monoamine Oxidase
+MAOB	Monoamine Oxidase
+MC3R	"Receptor, Melanocortin, Type 3"
+MC4R	"Receptor, Melanocortin, Type 4"
+MLNR	"Receptors, Gastrointestinal Hormone"
+NPY1R	"Receptors, Neuropeptide Y"
+NPY2R	"Receptors, Neuropeptide Y"
+NR1H2	Liver X Receptors
+NR1H3	Liver X Receptors
+NR1I2	Pregnane X Receptor
+NR3C1	"Receptors, Glucocorticoid"
+NTSR1	"Receptors, Neurotensin"
+OPRD1	"Receptors, Opioid, delta"
+OPRK1	"Receptors, Opioid, kappa"
+OPRM1	"Receptors, Opioid, mu"
+PDE3A	"Cyclic Nucleotide Phosphodiesterases, Type 3"
+PDE4D	"Cyclic Nucleotide Phosphodiesterases, Type 4"
+PDE6B	"Cyclic Nucleotide Phosphodiesterases, Type 6"
+PGR	"Receptors, Progesterone"
+PPARA	PPAR alpha
+PPARD	PPAR delta
+PPARG	PPAR gamma
+PTGER1	"Receptors, Prostaglandin E, EP1 Subtype"
+PTGER2	"Receptors, Prostaglandin E, EP2 Subtype"
+PTGER3	"Receptors, Prostaglandin E, EP3 Subtype"
+PTGER4	"Receptors, Prostaglandin E, EP4 Subtype"
+PTGS1	Cyclooxygenase 1
+PTGS2	Cyclooxygenase 2
+SCN2A	NAV1.2 Voltage-Gated Sodium Channel
+SCN5A	NAV1.5 Voltage-Gated Sodium Channel
+SLC18A2	Vesicular Monoamine Transport Proteins
+SLC29A1	Equilibrative Nucleoside Transporter 1
+SLC6A2	Norepinephrine Plasma Membrane Transport Proteins
+SLC6A3	Dopamine Plasma Membrane Transport Proteins
+SLC6A4	Serotonin Plasma Membrane Transport Proteins
+TACR1	"Receptors, Neurokinin-1"
+TACR2	"Receptors, Neurokinin-2"
+TBXA2R	"Receptors, Thromboxane A2, Prostaglandin H2"
+THRA	Thyroid Hormone Receptors alpha
+THRB	Thyroid Hormone Receptors beta

@@ -1,0 +1,946 @@
+meddra_code	umls_concept_id	concept_name	child_query_id	child_query_level	mesh_unique_id	mesh_term
+10000073	C0851381	Abdominal hernias and other abdominal wall conditions	10012714	1	D006548	"Hernia, Diaphragmatic"
+10000073	C0851381	Abdominal hernias and other abdominal wall conditions	10016435	1	D006550	"Hernia, Femoral"
+10000073	C0851381	Abdominal hernias and other abdominal wall conditions	10021620	1	D000069290	Incisional Hernia
+10000073	C0851381	Abdominal hernias and other abdominal wall conditions	10022017	1	D006552	"Hernia, Inguinal"
+10000211	C0851373	Abortions and stillbirth	10000235	1	D000022	"Abortion, Spontaneous"
+10000485	C0740265	Acid-base disorders	10038660	1	D000142	"Acidosis, Respiratory"
+10000485	C0740265	Acid-base disorders	10038663	1	D000472	"Alkalosis, Respiratory"
+10001353	C0001621	Adrenal Gland Diseases	10001353	0	D000307	Adrenal Gland Diseases
+10001708	C0851444	Allergic condition	10002425	1	D000799	Angioedema
+10001708	C0851444	Allergic condition	10046736	1	D014581	Urticaria
+10002426	C0002994	Angioedema	10002426	0	D000799	Angioedema
+10002693	C0947749	"Anterior eye structural change, deposit and degeneration"	10053678	2	D057129	Iridocorneal Endothelial Syndrome
+10002693	C0947749	"Anterior eye structural change, deposit and degeneration"	10074027	2	D017889	Exfoliation Syndrome
+10002693	C0947749	"Anterior eye structural change, deposit and degeneration"	10007739	2	D002386	Cataract
+10002693	C0947749	"Anterior eye structural change, deposit and degeneration"	10079437	2	C535507	MYH9-Related Disorders
+10002693	C0947749	"Anterior eye structural change, deposit and degeneration"	10035060	2	D059407	Pinguecula
+10002693	C0947749	"Anterior eye structural change, deposit and degeneration"	10061446	2	D003229	Conjunctival Diseases
+10002693	C0947749	"Anterior eye structural change, deposit and degeneration"	10011035	2	D003318	Corneal Opacity
+10002693	C0947749	"Anterior eye structural change, deposit and degeneration"	10011039	2	D057112	Corneal Perforation
+10002693	C0947749	"Anterior eye structural change, deposit and degeneration"	10011044	2	D065306	Corneal Injuries
+10002693	C0947749	"Anterior eye structural change, deposit and degeneration"	10019819	2	D006527	Hepatolenticular Degeneration
+10002693	C0947749	"Anterior eye structural change, deposit and degeneration"	10023353	2	D007640	Keratoconus
+10002693	C0947749	"Anterior eye structural change, deposit and degeneration"	10023361	2	C536156	Keratomalacia
+10002693	C0947749	"Anterior eye structural change, deposit and degeneration"	10048221	2	D014985	Xerophthalmia
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10002906	2	D001024	Aortic Valve Stenosis
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10009807	2	D001017	Aortic Coarctation
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10024242	2	D007925	Leriche Syndrome
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10001903	2	D020757	Amaurosis Fugax
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10002703	2	D020759	Anterior Spinal Artery Syndrome
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10004163	2	D014715	Vertebrobasilar Insufficiency
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10006127	2	D002534	"Hypoxia, Brain"
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10006147	2	D020526	Brain Stem Infarctions
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10007687	2	D016893	Carotid Stenosis
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10008118	2	D002544	Cerebral Infarction
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10008120	2	D002545	Brain Ischemia
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10024033	2	D014854	Lateral Medullary Syndrome
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10044390	2	D002546	"Ischemic Attack, Transient"
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10050209	2	D020760	Spinal Cord Ischemia
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10051078	2	D059409	"Stroke, Lacunar"
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10057678	2	D015140	"Dementia, Vascular"
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10058842	2	D002561	Cerebrovascular Disorders
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10065559	2	D002537	Intracranial Arteriosclerosis
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10067116	2	D002340	Carotid Artery Diseases
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10009838	2	D000074742	Median Arcuate Ligament Syndrome
+10003216	C0851459	"Arteriosclerosis, stenosis, vascular insufficiency and necrosis"	10009895	2	D017091	"Colitis, Ischemic"
+10004018	C0004623	Bacterial Infections	10004018	0	D001424	Bacterial Infections
+10004606	C0005395	Bile Duct Diseases	10004606	0	D001649	Bile Duct Diseases
+10004994	C0851427	Bladder and bladder neck disorders (excl calculi)	10005058	1	D001749	Urinary Bladder Neoplasms
+10005330	C0851522	Blood and lymphatic system disorders congenital	10009735	1	D025861	"Blood Coagulation Disorders, Inherited"
+10005330	C0851522	Blood and lymphatic system disorders congenital	10018903	1	D006453	Hemoglobinopathies
+10005959	C0851413	Bone disorders (excl congenital and fractures)	10027425	1	D001851	"Bone Diseases, Metabolic"
+10006232	C0006145	Breast Diseases	10006232	0	D001941	Breast Diseases
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10006437	2	D001983	Bronchial Fistula
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10006445	2	D001987	Bronchiectasis
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10006448	2	D001988	Bronchiolitis
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10048244	2	D056684	Yellow Nail Syndrome
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10053421	2	D055091	Bronchomalacia
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10064913	2	D001982	Bronchial Diseases
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10069713	2	D002925	Ciliary Motility Disorders
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10003553	2	D001249	Asthma
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10003557	2	D001250	"Asthma, Exercise-Induced"
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10006458	2	D029481	"Bronchitis, Chronic"
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10006482	2	D001986	Bronchial Spasm
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10009033	2	D029424	"Pulmonary Disease, Chronic Obstructive"
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10011762	2	D003550	Cystic Fibrosis
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10029888	2	D001989	Bronchiolitis Obliterans
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10041961	2	D013224	Status Asthmaticus
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10047924	2	D012135	Respiratory Sounds
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10061877	2	D008173	"Lung Diseases, Obstructive"
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10066091	2	D016535	Bronchial Hyperreactivity
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10070836	2	D059366	"Asthma, Occupational"
+10006436	C0851526	Bronchial disorders (excl neoplasms)	10075289	2	D056151	Airway Remodeling
+10007510	C0851437	Cardiac and vascular disorders congenital	10007607	1	D006343	Heart Septal Defects
+10007510	C0851437	Cardiac and vascular disorders congenital	10034709	1	D010547	Persistent Fetal Circulation Syndrome
+10007521	C0003811	Cardiac Arrhythmia	10007521	0	D001145	"Arrhythmias, Cardiac"
+10007951	C0851412	Central nervous system infections and inflammations	10006105	2	D001922	Brain Abscess
+10007951	C0851412	Central nervous system infections and inflammations	10061846	2	D020802	Epidural Abscess
+10007951	C0851412	Central nervous system infections and inflammations	10003074	2	D001100	Arachnoiditis
+10007951	C0851412	Central nervous system infections and inflammations	10018341	2	D005911	Gliosis
+10007951	C0851412	Central nervous system infections and inflammations	10078011	2	C535814	Neurosarcoidosis
+10007951	C0851412	Central nervous system infections and inflammations	10014581	2	D004660	Encephalitis
+10007951	C0851412	Central nervous system infections and inflammations	10014603	2	D020804	"Encephalitis, Varicella Zoster"
+10007951	C0851412	Central nervous system infections and inflammations	10014607	2	D020258	Neurotoxicity Syndromes
+10007951	C0851412	Central nervous system infections and inflammations	10014619	2	D004679	Encephalomyelitis
+10007951	C0851412	Central nervous system infections and inflammations	10023497	2	D007729	Kuru
+10007951	C0851412	Central nervous system infections and inflammations	10042297	2	D013344	Subacute Sclerosing Panencephalitis
+10007951	C0851412	Central nervous system infections and inflammations	10069587	2	D020361	"Paraneoplastic Syndromes, Nervous System"
+10007951	C0851412	Central nervous system infections and inflammations	10072378	2	C535841	Hashimoto's encephalitis
+10007951	C0851412	Central nervous system infections and inflammations	10078012	2	D020363	Limbic Encephalitis
+10007951	C0851412	Central nervous system infections and inflammations	10057854	2	D016781	"Toxoplasmosis, Cerebral"
+10007951	C0851412	Central nervous system infections and inflammations	10063032	2	D020808	Central Nervous System Protozoal Infections
+10007951	C0851412	Central nervous system infections and inflammations	10063094	2	D016779	"Malaria, Cerebral"
+10007951	C0851412	Central nervous system infections and inflammations	10069523	2	D000562	Amebiasis
+10007951	C0851412	Central nervous system infections and inflammations	10025169	2	D008193	Lyme Disease
+10007951	C0851412	Central nervous system infections and inflammations	10028098	2	D009091	Mucormycosis
+10007951	C0851412	Central nervous system infections and inflammations	10029339	2	D009494	Neurosyphilis
+10007951	C0851412	Central nervous system infections and inflammations	10042360	2	D013354	"Empyema, Subdural"
+10007951	C0851412	Central nervous system infections and inflammations	10057244	2	D015673	"Fatigue Syndrome, Chronic"
+10007951	C0851412	Central nervous system infections and inflammations	10058443	2	D020019	Neurocysticercosis
+10007951	C0851412	Central nervous system infections and inflammations	10061036	2	D002494	Central Nervous System Infections
+10007951	C0851412	Central nervous system infections and inflammations	10061037	2	D020805	Central Nervous System Viral Diseases
+10007951	C0851412	Central nervous system infections and inflammations	10061391	2	D020306	"Tuberculosis, Central Nervous System"
+10007951	C0851412	Central nervous system infections and inflammations	10072805	2	D020314	Central Nervous System Fungal Infections
+10007963	C0851452	Central nervous system vascular disorders	10006147	2	D020526	Brain Stem Infarctions
+10007963	C0851452	Central nervous system vascular disorders	10007688	2	D002341	Carotid Artery Thrombosis
+10007963	C0851452	Central nervous system vascular disorders	10008088	2	D020766	Intracranial Embolism
+10007963	C0851452	Central nervous system vascular disorders	10008111	2	D002543	Cerebral Hemorrhage
+10007963	C0851452	Central nervous system vascular disorders	10008118	2	D002544	Cerebral Infarction
+10007963	C0851452	Central nervous system vascular disorders	10008120	2	D002545	Brain Ischemia
+10007963	C0851452	Central nervous system vascular disorders	10008132	2	D020767	Intracranial Thrombosis
+10007963	C0851452	Central nervous system vascular disorders	10008190	2	D020521	Stroke
+10007963	C0851452	Central nervous system vascular disorders	10018985	2	D020300	Intracranial Hemorrhages
+10007963	C0851452	Central nervous system vascular disorders	10024033	2	D014854	Lateral Medullary Syndrome
+10007963	C0851452	Central nervous system vascular disorders	10042316	2	D013345	Subarachnoid Hemorrhage
+10007963	C0851452	Central nervous system vascular disorders	10048992	2	D020758	Spinal Cord Vascular Diseases
+10007963	C0851452	Central nervous system vascular disorders	10049236	2	D046748	"Hematoma, Epidural, Spinal"
+10007963	C0851452	Central nervous system vascular disorders	10050164	2	D046649	"Hematoma, Subdural, Spinal"
+10007963	C0851452	Central nervous system vascular disorders	10051078	2	D059409	"Stroke, Lacunar"
+10007963	C0851452	Central nervous system vascular disorders	10004163	2	D014715	Vertebrobasilar Insufficiency
+10007963	C0851452	Central nervous system vascular disorders	10006127	2	D002534	"Hypoxia, Brain"
+10007963	C0851452	Central nervous system vascular disorders	10007687	2	D016893	Carotid Stenosis
+10007963	C0851452	Central nervous system vascular disorders	10008196	2	D002561	Cerebrovascular Disorders
+10007963	C0851452	Central nervous system vascular disorders	10028047	2	D009072	Moyamoya Disease
+10007963	C0851452	Central nervous system vascular disorders	10043207	2	D013700	Giant Cell Arteritis
+10007963	C0851452	Central nervous system vascular disorders	10053841	2	D018860	Sneddon Syndrome
+10007963	C0851452	Central nervous system vascular disorders	10056371	2	D002538	Intracranial Arteriovenous Malformations
+10007963	C0851452	Central nervous system vascular disorders	10061744	2	D002340	Carotid Artery Diseases
+10007963	C0851452	Central nervous system vascular disorders	10065559	2	D002537	Intracranial Arteriosclerosis
+10007963	C0851452	Central nervous system vascular disorders	10067466	2	D059345	Cerebral Small Vessel Diseases
+10007963	C0851452	Central nervous system vascular disorders	10068044	2	D016657	Cerebral Amyloid Angiopathy
+10008401	C0851408	Changes in physical activity	10043835	1	D013981	Tic Disorders
+10009841	C0851843	Cognitive and attention disorders and disturbances	10003730	1	D019958	Attention Deficit and Disruptive Behavior Disorders
+10009841	C0851843	Cognitive and attention disorders and disturbances	10024094	1	D007859	Learning Disorders
+10009841	C0851843	Cognitive and attention disorders and disturbances	10077548	1	D008607	Intellectual Disability
+10010118	C0009460	Communication impairment	10010118	0	D003147	Communication Disorders
+10010273	C0851374	"Pregnancy, labour, delivery and postpartum conditions"	10035633	1	D011272	"Pregnancy, Multiple"
+10010273	C0851374	"Pregnancy, labour, delivery and postpartum conditions"	10036581	1	D049168	"Pregnancy, Unplanned"
+10010273	C0851374	"Pregnancy, labour, delivery and postpartum conditions"	10059673	1	D018566	"Pregnancy, High-Risk"
+10010761	C0851494	Connective tissue disorders (excl congenital)	10074472	1	D003240	Connective Tissue Diseases
+10011063	C0851421	Cornification and dystrophic skin disorders	10021197	1	D007057	Ichthyosis
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10063927	2	D054971	Orthostatic Intolerance
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10007625	2	D012770	"Shock, Cardiogenic"
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10009192	2	D012769	Shock
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10013573	2	D004244	Dizziness
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10014824	2	D012772	"Shock, Septic"
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10019345	2	D018883	Heat Stroke
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10036653	2	D013575	Syncope
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10047847	2	D014884	Waterhouse-Friderichsen Syndrome
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10049771	2	D012771	"Shock, Hemorrhagic"
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10002198	2	D000707	Anaphylaxis
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10007196	2	D019559	Capillary Leak Syndrome
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10021097	2	D007022	Hypotension
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10031127	2	D007024	"Hypotension, Orthostatic"
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10051379	2	D018746	Systemic Inflammatory Response Syndrome
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10064060	2	D019578	Multiple System Atrophy
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10069828	2	D059230	"Reflex, Trigeminocardiac"
+10011954	C0851460	Decreased and nonspecific blood pressure disorders and shock	10072264	2	D065227	Transfusion Reaction
+10012375	C0851582	Depressed mood disorders and disturbances	10012401	1	D003866	Depressive Disorder
+10012653	C0342257	Complications of Diabetes Mellitus	10012653	0	D048909	Diabetes Complications
+10013296	C0851436	"Bone, calcium, magnesium and phosphorus metabolism disorders"	10005992	1	D001851	"Bone Diseases, Metabolic"
+10013296	C0851436	"Bone, calcium, magnesium and phosphorus metabolism disorders"	10006975	1	D002128	Calcium Metabolism Disorders
+10013296	C0851436	"Bone, calcium, magnesium and phosphorus metabolism disorders"	10034941	1	D010760	Phosphorus Metabolism Disorders
+10013317	C0154251	Lipid Metabolism Disorders	10013317	0	D052439	Lipid Metabolism Disorders
+10013326	C0851493	Menstrual cycle and uterine bleeding disorders	10013908	2	D008796	Metrorrhagia
+10013326	C0851493	Menstrual cycle and uterine bleeding disorders	10013935	2	D004412	Dysmenorrhea
+10013326	C0851493	Menstrual cycle and uterine bleeding disorders	10027327	2	D008599	Menstruation Disturbances
+10013326	C0851493	Menstrual cycle and uterine bleeding disorders	10036618	2	D011293	Premenstrual Syndrome
+10013326	C0851493	Menstrual cycle and uterine bleeding disorders	10051537	2	D065446	Premenstrual Dysphoric Disorder
+10013326	C0851493	Menstrual cycle and uterine bleeding disorders	10001928	2	D000568	Amenorrhea
+10013326	C0851493	Menstrual cycle and uterine bleeding disorders	10030295	2	D009839	Oligomenorrhea
+10013326	C0851493	Menstrual cycle and uterine bleeding disorders	10027313	2	D008595	Menorrhagia
+10013355	C0851498	Penile and scrotal disorders (excl infections and inflammations)	10034308	1	D010412	Penile Neoplasms
+10013356	C0851491	Sexual function and fertility disorders	10036596	2	D061686	Premature Ejaculation
+10013356	C0851491	Sexual function and fertility disorders	10036661	2	D011317	Priapism
+10013356	C0851491	Sexual function and fertility disorders	10061461	2	D007172	Erectile Dysfunction
+10013356	C0851491	Sexual function and fertility disorders	10012205	2	D011628	"Puberty, Delayed"
+10013356	C0851491	Sexual function and fertility disorders	10013941	2	D004414	Dyspareunia
+10013356	C0851491	Sexual function and fertility disorders	10021926	2	D007246	Infertility
+10013356	C0851491	Sexual function and fertility disorders	10021928	2	D007247	"Infertility, Female"
+10013356	C0851491	Sexual function and fertility disorders	10021929	2	D007248	"Infertility, Male"
+10013356	C0851491	Sexual function and fertility disorders	10024419	2	D007989	Libido
+10013356	C0851491	Sexual function and fertility disorders	10031085	2	D020018	"Sexual Dysfunctions, Psychological"
+10013356	C0851491	Sexual function and fertility disorders	10052032	2	D005359	"Fibrous Dysplasia, Polyostotic"
+10013356	C0851491	Sexual function and fertility disorders	10052649	2	D007006	Hypogonadism
+10013356	C0851491	Sexual function and fertility disorders	10058084	2	D011629	"Puberty, Precocious"
+10013356	C0851491	Sexual function and fertility disorders	10061630	2	D047808	Adrenogenital Syndrome
+10013356	C0851491	Sexual function and fertility disorders	10065597	2	D017588	Hyperandrogenism
+10013356	C0851491	Sexual function and fertility disorders	10067378	2	C537629	HAIR-AN syndrome
+10013356	C0851491	Sexual function and fertility disorders	10069713	2	D002925	Ciliary Motility Disorders
+10013356	C0851491	Sexual function and fertility disorders	10003495	2	D053714	Aspermia
+10013356	C0851491	Sexual function and fertility disorders	10003883	2	D053713	Azoospermia
+10013356	C0851491	Sexual function and fertility disorders	10018866	2	D051516	Hemospermia
+10013356	C0851491	Sexual function and fertility disorders	10030300	2	D009845	Oligospermia
+10013356	C0851491	Sexual function and fertility disorders	10050208	2	D000072660	Teratozoospermia
+10013356	C0851491	Sexual function and fertility disorders	10063689	2	C536718	Young Syndrome
+10013356	C0851491	Sexual function and fertility disorders	10067162	2	D053627	Asthenozoospermia
+10013364	C0851499	Cervix disorders (excl infections and inflammations)	10029109	1	D002583	Uterine Cervical Neoplasms
+10013511	C0851476	Disturbances in thinking and perception	10012259	1	D003702	Delusions
+10013535	C1510475	Diverticulosis	10013535	0	D004240	Diverticulum
+10014523	C0085307	Embolism and Thrombosis	10014523	0	D016769	Embolism and Thrombosis
+10014701	C0851430	Endocrine disorders of gonadal function	10001928	2	D000568	Amenorrhea
+10014701	C0851430	Endocrine disorders of gonadal function	10013908	2	D008796	Metrorrhagia
+10014701	C0851430	Endocrine disorders of gonadal function	10020112	2	D006628	Hirsutism
+10014701	C0851430	Endocrine disorders of gonadal function	10021033	2	D008599	Menstruation Disturbances
+10014701	C0851430	Endocrine disorders of gonadal function	10030295	2	D009839	Oligomenorrhea
+10014701	C0851430	Endocrine disorders of gonadal function	10033266	2	D016471	Ovarian Hyperstimulation Syndrome
+10014701	C0851430	Endocrine disorders of gonadal function	10036049	2	D011085	Polycystic Ovary Syndrome
+10014701	C0851430	Endocrine disorders of gonadal function	10036601	2	D008594	"Menopause, Premature"
+10014701	C0851430	Endocrine disorders of gonadal function	10047486	2	D014770	Virilism
+10014701	C0851430	Endocrine disorders of gonadal function	10081258	2	C562419	"Blepharophimosis, Ptosis, and Epicanthus Inversus"
+10014701	C0851430	Endocrine disorders of gonadal function	10002641	2	C537770	Anorchia
+10014701	C0851430	Endocrine disorders of gonadal function	10011498	2	D003456	Cryptorchidism
+10014701	C0851430	Endocrine disorders of gonadal function	10015532	2	D005058	Eunuchism
+10014701	C0851430	Endocrine disorders of gonadal function	10018800	2	D006177	Gynecomastia
+10014701	C0851430	Endocrine disorders of gonadal function	10023463	2	D007713	Klinefelter Syndrome
+10014701	C0851430	Endocrine disorders of gonadal function	10056292	2	D013734	Androgen-Insensitivity Syndrome
+10014701	C0851430	Endocrine disorders of gonadal function	10066833	2	D054331	Sertoli Cell-Only Syndrome
+10014701	C0851430	Endocrine disorders of gonadal function	10019906	2	D012734	Disorders of Sex Development
+10014701	C0851430	Endocrine disorders of gonadal function	10037123	2	D058489	"46, XX Disorders of Sex Development"
+10014701	C0851430	Endocrine disorders of gonadal function	10037124	2	D058490	"Disorder of Sex Development, 46,XY"
+10014701	C0851430	Endocrine disorders of gonadal function	10045181	2	D014424	Turner Syndrome
+10014701	C0851430	Endocrine disorders of gonadal function	10052649	2	D007006	Hypogonadism
+10014701	C0851430	Endocrine disorders of gonadal function	10065597	2	D017588	Hyperandrogenism
+10014701	C0851430	Endocrine disorders of gonadal function	10067572	2	D004967	Estrogens
+10014701	C0851430	Endocrine disorders of gonadal function	10068168	2	D000505	Alopecia
+10014701	C0851430	Endocrine disorders of gonadal function	10068871	2	D009223	Myotonic Dystrophy
+10014701	C0851430	Endocrine disorders of gonadal function	10070179	2	D030321	Denys-Drash Syndrome
+10014701	C0851430	Endocrine disorders of gonadal function	10080313	2	D052159	Frasier Syndrome
+10014701	C0851430	Endocrine disorders of gonadal function	10081352	2	C536665	Persistent Mullerian duct syndrome
+10014701	C0851430	Endocrine disorders of gonadal function	10012205	2	D011628	"Puberty, Delayed"
+10014701	C0851430	Endocrine disorders of gonadal function	10052032	2	D005359	"Fibrous Dysplasia, Polyostotic"
+10014701	C0851430	Endocrine disorders of gonadal function	10058084	2	D011629	"Puberty, Precocious"
+10014982	C0851422	Epidermal and dermal conditions	10010760	1	D003240	Connective Tissue Diseases
+10014982	C0851422	Epidermal and dermal conditions	10015151	1	D004890	Erythema
+10015732	C0851423	External ear disorders (excl congenital)	10033072	2	D010032	Otitis Externa
+10015732	C0851423	External ear disorders (excl congenital)	10052557	2	D059249	Otomycosis
+10015732	C0851423	External ear disorders (excl congenital)	10063491	2	D016697	Herpes Zoster Oticus
+10015732	C0851423	External ear disorders (excl congenital)	10014002	2	D004426	"Ear Deformities, Acquired"
+10015917	C0851397	Onemocn_n’ oka NEC in MDRCZE21_1_18_12_06	10072989	1	D007766	Lacrimal Apparatus Diseases
+10016849	C0851390	Foetal complications	10006356	2	D001946	Breech Presentation
+10016849	C0851390	Foetal complications	10058013	2	D007746	Labor Presentation
+10016849	C0851390	Foetal complications	10016862	2	D048070	Fetal Nutrition Disorders
+10016849	C0851390	Foetal complications	10053700	2	D005320	Fetal Macrosomia
+10016849	C0851390	Foetal complications	10070531	2	D005317	Fetal Growth Retardation
+10016849	C0851390	Foetal complications	10081684	2	C537934	Finnish lethal neonatal metabolic syndrome
+10016849	C0851390	Foetal complications	10010688	2	D014428	"Twins, Conjoined"
+10016849	C0851390	Foetal complications	10016855	2	D005316	Fetal Distress
+10016849	C0851390	Foetal complications	10016871	2	D005331	Fetomaternal Transfusion
+10016849	C0851390	Foetal complications	10020529	2	D015160	Hydrops Fetalis
+10016849	C0851390	Foetal complications	10060919	2	D000013	Congenital Abnormalities
+10016849	C0851390	Foetal complications	10061157	2	D005315	Fetal Diseases
+10016849	C0851390	Foetal complications	10079701	2	C565682	"Amputation, Congenital"
+10016849	C0851390	Foetal complications	10016845	2	D063647	Fetal Alcohol Spectrum Disorders
+10016849	C0851390	Foetal complications	10051445	2	C536683	Warfarin syndrome
+10016849	C0851390	Foetal complications	10073720	2	C535542	Isotretinoin embryopathy like syndrome
+10016950	C0851483	Food intolerance syndromes	10009839	2	D002446	Celiac Disease
+10016950	C0851483	Food intolerance syndromes	10025476	2	D008286	Malabsorption Syndromes
+10016950	C0851483	Food intolerance syndromes	10061958	2	D000073923	Food Intolerance
+10016950	C0851483	Food intolerance syndromes	10062907	2	D044483	Intestinal Polyposis
+10016950	C0851483	Food intolerance syndromes	10017605	2	D005693	Galactosemias
+10016950	C0851483	Food intolerance syndromes	10023681	2	D007787	Lactose Intolerance
+10016950	C0851483	Food intolerance syndromes	10072104	2	D005633	Fructose Intolerance
+10017322	C0016658	Fracture	10017322	0	D050723	"Fractures, Bone"
+10017528	C0026946	Mycoses	10017528	0	D009181	Mycoses
+10017628	C0016977	Gall Bladder Diseases	10017628	0	D005705	Gallbladder Diseases
+10017934	C0497538	Benign digestive system neoplasms	10017817	2	C562464	"Polyposis, Gastric"
+10017934	C0497538	Benign digestive system neoplasms	10048616	2	D007417	Intestinal Polyps
+10017934	C0497538	Benign digestive system neoplasms	10079063	2	D004934	Esophageal Cyst
+10017934	C0497538	Benign digestive system neoplasms	10018288	2	D005882	Gingival Diseases
+10017934	C0497538	Benign digestive system neoplasms	10037649	2	D017789	"Granuloma, Pyogenic"
+10017934	C0497538	Benign digestive system neoplasms	10062564	2	D002485	Cementoma
+10017934	C0497538	Benign digestive system neoplasms	10066796	2	D000564	Ameloblastoma
+10017934	C0497538	Benign digestive system neoplasms	10070460	2	D000235	Adenolymphoma
+10017934	C0497538	Benign digestive system neoplasms	10072666	2	D053529	"Leukokeratosis, Hereditary Mucosal"
+10017934	C0497538	Benign digestive system neoplasms	10073372	2	D008949	"Adenoma, Pleomorphic"
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10002120	2	D001006	"Anus, Imperforate"
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10002581	2	D000071056	Anorectal Malformations
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10010626	2	C538260	Atresia of small intestine
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10013812	2	C535720	Familial duodenal atresia
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10013830	2	D004380	Duodenal Obstruction
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10027058	2	D000074270	Meconium Ileus
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10054156	2	D013478	Superior Mesenteric Artery Syndrome
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10056245	2	D000343	Afferent Loop Syndrome
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10037621	2	D011707	Pyloric Stenosis
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10052541	2	D013277	Stomach Volvulus
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10021328	2	D045823	Ileus
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10022687	2	D007415	Intestinal Obstruction
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10022863	2	D007443	Intussusception
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10028210	2	C562441	"Intestinal Atresia, Multiple"
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10047697	2	D045822	Intestinal Volvulus
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10062022	2	D007409	Intestinal Atresia
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10073456	2	C562563	Microcolon
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10021530	2	D004933	Esophageal Atresia
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10030194	2	D004940	Esophageal Stenosis
+10018008	C0851467	Gastrointestinal stenosis and obstruction	10040664	2	D011004	Plummer-Vinson Syndrome
+10018018	C0851385	Gastrointestinal tract disorders congenital	10002120	2	D001006	"Anus, Imperforate"
+10018018	C0851385	Gastrointestinal tract disorders congenital	10037621	2	D011707	Pyloric Stenosis
+10018018	C0851385	Gastrointestinal tract disorders congenital	10010539	2	D006627	Hirschsprung Disease
+10018018	C0851385	Gastrointestinal tract disorders congenital	10010626	2	C538260	Atresia of small intestine
+10018018	C0851385	Gastrointestinal tract disorders congenital	10013812	2	C535720	Familial duodenal atresia
+10018018	C0851385	Gastrointestinal tract disorders congenital	10034764	2	D010580	Peutz-Jeghers Syndrome
+10018018	C0851385	Gastrointestinal tract disorders congenital	10056981	2	D011125	Adenomatous Polyposis Coli
+10018018	C0851385	Gastrointestinal tract disorders congenital	10062022	2	D007409	Intestinal Atresia
+10018018	C0851385	Gastrointestinal tract disorders congenital	10063042	2	D055653	Muir-Torre Syndrome
+10018018	C0851385	Gastrointestinal tract disorders congenital	10064024	2	C562456	Volvulus Of Midgut
+10018018	C0851385	Gastrointestinal tract disorders congenital	10068494	2	C537470	Microvillus inclusion disease
+10018018	C0851385	Gastrointestinal tract disorders congenital	10073456	2	C562563	Microcolon
+10018018	C0851385	Gastrointestinal tract disorders congenital	10010658	2	D006554	"Hernia, Umbilical"
+10018018	C0851385	Gastrointestinal tract disorders congenital	10018046	2	D020139	Gastroschisis
+10018018	C0851385	Gastrointestinal tract disorders congenital	10028210	2	C562441	"Intestinal Atresia, Multiple"
+10018018	C0851385	Gastrointestinal tract disorders congenital	10051025	2	D011535	Prune Belly Syndrome
+10018018	C0851385	Gastrointestinal tract disorders congenital	10064596	2	C536138	Megacystis microcolon intestinal hypoperistalsis syndrome
+10018018	C0851385	Gastrointestinal tract disorders congenital	10021530	2	D004933	Esophageal Atresia
+10018018	C0851385	Gastrointestinal tract disorders congenital	10079063	2	D004934	Esophageal Cyst
+10018018	C0851385	Gastrointestinal tract disorders congenital	10061070	2	D009056	Mouth Abnormalities
+10018018	C0851385	Gastrointestinal tract disorders congenital	10009269	2	D002972	Cleft Palate
+10018018	C0851385	Gastrointestinal tract disorders congenital	10011766	2	D003550	Cystic Fibrosis
+10018018	C0851385	Gastrointestinal tract disorders congenital	10056976	2	C537262	Hereditary pancreatitis
+10018018	C0851385	Gastrointestinal tract disorders congenital	10067940	2	C537330	Shwachman syndrome
+10018018	C0851385	Gastrointestinal tract disorders congenital	10071757	2	C536376	Annular pancreas
+10018018	C0851385	Gastrointestinal tract disorders congenital	10074947	2	C535880	Johanson Blizzard syndrome
+10018018	C0851385	Gastrointestinal tract disorders congenital	10025391	2	C531735	Congenital macroglossia
+10018018	C0851385	Gastrointestinal tract disorders congenital	10027542	2	D014060	Tongue Diseases
+10018018	C0851385	Gastrointestinal tract disorders congenital	10049244	2	D000072676	Ankyloglossia
+10018018	C0851385	Gastrointestinal tract disorders congenital	10002583	2	D000848	Anodontia
+10018027	C0858346	Gastrointestinal ulcer perforation	10034371	1	D010439	Peptic Ulcer Perforation
+10018031	C0851471	Gastrointestinal vascular conditions	10030209	1	D004932	Esophageal and Gastric Varices
+10018307	C0851409	Glaucoma and ocular hypertension	10018325	1	D006871	Hydrophthalmos
+10018424	C0851431	Glucose metabolism disorders (incl diabetes mellitus)	10012601	2	D003920	Diabetes Mellitus
+10018424	C0851431	Glucose metabolism disorders (incl diabetes mellitus)	10018209	2	D016640	"Diabetes, Gestational"
+10018424	C0851431	Glucose metabolism disorders (incl diabetes mellitus)	10023392	2	D003922	"Diabetes Mellitus, Type 1"
+10018424	C0851431	Glucose metabolism disorders (incl diabetes mellitus)	10053547	2	D052497	"Lipodystrophy, Congenital Generalized"
+10018424	C0851431	Glucose metabolism disorders (incl diabetes mellitus)	10066389	2	D000071698	Latent Autoimmune Diabetes in Adults
+10018424	C0851431	Glucose metabolism disorders (incl diabetes mellitus)	10067585	2	D003924	"Diabetes Mellitus, Type 2"
+10018424	C0851431	Glucose metabolism disorders (incl diabetes mellitus)	10078338	2	D014929	Wolfram Syndrome
+10018424	C0851431	Glucose metabolism disorders (incl diabetes mellitus)	10018429	2	D018149	Glucose Intolerance
+10018424	C0851431	Glucose metabolism disorders (incl diabetes mellitus)	10020635	2	D006943	Hyperglycemia
+10018424	C0851431	Glucose metabolism disorders (incl diabetes mellitus)	10022489	2	D007333	Insulin Resistance
+10018424	C0851431	Glucose metabolism disorders (incl diabetes mellitus)	10067378	2	C537629	HAIR-AN syndrome
+10018424	C0851431	Glucose metabolism disorders (incl diabetes mellitus)	10020993	2	D007003	Hypoglycemia
+10018424	C0851431	Glucose metabolism disorders (incl diabetes mellitus)	10060378	2	D006946	Hyperinsulinism
+10018424	C0851431	Glucose metabolism disorders (incl diabetes mellitus)	10080024	2	D046768	Nesidioblastosis
+10018849	C0947743	Haematological disorders NEC	10018847	1	D006402	Hematologic Diseases
+10018911	C0851414	Haemolyses and related conditions	10009868	2	D000744	"Anemia, Hemolytic, Autoimmune"
+10018911	C0851414	Haemolyses and related conditions	10053873	2	C536380	Evans Syndrome
+10018911	C0851414	Haemolyses and related conditions	10066181	2	D065227	Transfusion Reaction
+10018911	C0851414	Haemolyses and related conditions	10015251	2	D004899	"Erythroblastosis, Fetal"
+10018911	C0851414	Haemolyses and related conditions	10018932	2	D006463	Hemolytic-Uremic Syndrome
+10018911	C0851414	Haemolyses and related conditions	10027527	2	D000743	"Anemia, Hemolytic"
+10018911	C0851414	Haemolyses and related conditions	10079840	2	D065766	Atypical Hemolytic Uremic Syndrome
+10018911	C0851414	Haemolyses and related conditions	10034042	2	D006457	"Hemoglobinuria, Paroxysmal"
+10018911	C0851414	Haemolyses and related conditions	10049009	2	D006971	Hypersplenism
+10018911	C0851414	Haemolyses and related conditions	10060893	2	D000745	"Anemia, Hemolytic, Congenital"
+10018911	C0851414	Haemolyses and related conditions	10015871	2	D006461	Hemolysis
+10018911	C0851414	Haemolyses and related conditions	10018906	2	D006456	Hemoglobinuria
+10018911	C0851414	Haemolyses and related conditions	10020578	2	D006932	Hyperbilirubinemia
+10018911	C0851414	Haemolyses and related conditions	10023126	2	D007565	Jaundice
+10018911	C0851414	Haemolyses and related conditions	10023128	2	C536356	"Anemia, hereditary spherocytic hemolytic"
+10018911	C0851414	Haemolyses and related conditions	10023138	2	D007567	"Jaundice, Neonatal"
+10018911	C0851414	Haemolyses and related conditions	10014490	2	D004612	"Elliptocytosis, Hereditary"
+10018911	C0851414	Haemolyses and related conditions	10018444	2	D005955	Glucosephosphate Dehydrogenase Deficiency
+10018911	C0851414	Haemolyses and related conditions	10019904	2	D013103	"Spherocytosis, Hereditary"
+10018911	C0851414	Haemolyses and related conditions	10079364	2	C536835	Glutathione synthetase deficiency
+10018911	C0851414	Haemolyses and related conditions	10081505	2	D054546	Neuroacanthocytosis
+10019280	C0018801	Heart failure	10019280	0	D006333	Heart Failure
+10019654	C0947747	Hepatic and hepatobiliary disorders	10008635	2	D002779	Cholestasis
+10019654	C0947747	Hepatic and hepatobiliary disorders	10020578	2	D006932	Hyperbilirubinemia
+10019654	C0947747	Hepatic and hepatobiliary disorders	10020580	2	D051556	"Hyperbilirubinemia, Neonatal"
+10019654	C0947747	Hepatic and hepatobiliary disorders	10023126	2	D007565	Jaundice
+10019654	C0947747	Hepatic and hepatobiliary disorders	10023128	2	C536356	"Anemia, hereditary spherocytic hemolytic"
+10019654	C0947747	Hepatic and hepatobiliary disorders	10023129	2	D041781	"Jaundice, Obstructive"
+10019654	C0947747	Hepatic and hepatobiliary disorders	10023138	2	D007567	"Jaundice, Neonatal"
+10019654	C0947747	Hepatic and hepatobiliary disorders	10023376	2	D007647	Kernicterus
+10019654	C0947747	Hepatic and hepatobiliary disorders	10049055	2	C535932	Intrahepatic Cholestasis of Pregnancy
+10019654	C0947747	Hepatic and hepatobiliary disorders	10057229	2	D017562	Postcholecystectomy Syndrome
+10019654	C0947747	Hepatic and hepatobiliary disorders	10081684	2	C537934	Finnish lethal neonatal metabolic syndrome
+10019654	C0947747	Hepatic and hepatobiliary disorders	10011386	2	D003414	Crigler-Najjar Syndrome
+10019654	C0947747	Hepatic and hepatobiliary disorders	10019670	2	D008107	Liver Diseases
+10019654	C0947747	Hepatic and hepatobiliary disorders	10020575	2	D022124	Hyperammonemia
+10019654	C0947747	Hepatic and hepatobiliary disorders	10020942	2	D034141	Hypoalbuminemia
+10019654	C0947747	Hepatic and hepatobiliary disorders	10021083	2	D007019	Hypoproteinemia
+10019654	C0947747	Hepatic and hepatobiliary disorders	10049058	2	D017359	HELLP Syndrome
+10019654	C0947747	Hepatic and hepatobiliary disorders	10000804	2	D017114	"Liver Failure, Acute"
+10019654	C0947747	Hepatic and hepatobiliary disorders	10003547	2	D020820	Dyskinesias
+10019654	C0947747	Hepatic and hepatobiliary disorders	10010075	2	D006501	Hepatic Encephalopathy
+10019654	C0947747	Hepatic and hepatobiliary disorders	10019663	2	D017093	Liver Failure
+10019654	C0947747	Hepatic and hepatobiliary disorders	10019845	2	D006530	Hepatorenal Syndrome
+10019654	C0947747	Hepatic and hepatobiliary disorders	10057573	2	D058625	End Stage Liver Disease
+10019654	C0947747	Hepatic and hepatobiliary disorders	10077305	2	D065290	Acute-On-Chronic Liver Failure
+10019654	C0947747	Hepatic and hepatobiliary disorders	10004659	2	D008105	"Liver Cirrhosis, Biliary"
+10019654	C0947747	Hepatic and hepatobiliary disorders	10009208	2	D008104	"Liver Cirrhosis, Alcoholic"
+10019654	C0947747	Hepatic and hepatobiliary disorders	10019641	2	D008103	Liver Cirrhosis
+10019654	C0947747	Hepatic and hepatobiliary disorders	10053249	2	D006011	Glycogen Storage Disease Type IV
+10019654	C0947747	Hepatic and hepatobiliary disorders	10056533	2	C562378	"Hepatic Fibrosis, Congenital"
+10019654	C0947747	Hepatic and hepatobiliary disorders	10063075	2	C562577	"Cirrhosis, Cryptogenic"
+10019654	C0947747	Hepatic and hepatobiliary disorders	10003971	2	D016917	"Angiomatosis, Bacillary"
+10019654	C0947747	Hepatic and hepatobiliary disorders	10009344	2	D003003	Clonorchiasis
+10019654	C0947747	Hepatic and hepatobiliary disorders	10016234	2	D005211	Fascioliasis
+10019654	C0947747	Hepatic and hepatobiliary disorders	10019659	2	D004444	"Echinococcosis, Hepatic"
+10019654	C0947747	Hepatic and hepatobiliary disorders	10024652	2	D008100	Liver Abscess
+10019654	C0947747	Hepatic and hepatobiliary disorders	10030897	2	D009889	Opisthorchiasis
+10019654	C0947747	Hepatic and hepatobiliary disorders	10058120	2	D014386	"Tuberculosis, Hepatic"
+10019654	C0947747	Hepatic and hepatobiliary disorders	10063741	2	D008101	"Liver Abscess, Amebic"
+10019811	C0854196	Hepatobiliary neoplasm	10008592	2	D002759	"Adenoma, Bile Duct"
+10019811	C0854196	Hepatobiliary neoplasm	10019629	2	D018248	"Adenoma, Liver Cell"
+10019811	C0854196	Hepatobiliary neoplasm	10052285	2	D020518	Focal Nodular Hyperplasia
+10019811	C0854196	Hepatobiliary neoplasm	10004668	2	D001661	Biliary Tract Neoplasms
+10019811	C0854196	Hepatobiliary neoplasm	10019695	2	D008113	Liver Neoplasms
+10019811	C0854196	Hepatobiliary neoplasm	10073072	2	D005706	Gallbladder Neoplasms
+10019811	C0854196	Hepatobiliary neoplasm	10004593	2	D001650	Bile Duct Neoplasms
+10019811	C0854196	Hepatobiliary neoplasm	10008593	2	D018281	Cholangiocarcinoma
+10019811	C0854196	Hepatobiliary neoplasm	10062001	2	D018197	Hepatoblastoma
+10019811	C0854196	Hepatobiliary neoplasm	10073071	2	D006528	"Carcinoma, Hepatocellular"
+10021460	C0021051	Immunologic Deficiency Syndromes	10021460	0	D007153	Immunologic Deficiency Syndromes
+10021563	C0868740	Impulse control disorder NEC (disorder) in SNOMEDCT_US_2016_03_01	10021562	1	D007174	"Disruptive, Impulse Control, and Conduct Disorders"
+10021666	C0876965	Increased intracranial pressure and hydrocephalus	10010506	2	D006849	Hydrocephalus
+10021666	C0876965	Increased intracranial pressure and hydrocephalus	10029773	2	D006850	"Hydrocephalus, Normal Pressure"
+10021666	C0876965	Increased intracranial pressure and hydrocephalus	10048411	2	D003616	Dandy-Walker Syndrome
+10021666	C0876965	Increased intracranial pressure and hydrocephalus	10022773	2	D019586	Intracranial Hypertension
+10021666	C0876965	Increased intracranial pressure and hydrocephalus	10033712	2	D010211	Papilledema
+10021666	C0876965	Increased intracranial pressure and hydrocephalus	10048962	2	D001929	Brain Edema
+10021666	C0876965	Increased intracranial pressure and hydrocephalus	10078904	2	D011559	Pseudotumor Cerebri
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10010741	2	D003231	Conjunctivitis
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10010744	2	D003233	"Conjunctivitis, Allergic"
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10010745	2	D003235	"Conjunctivitis, Inclusion"
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10010749	2	D009878	Ophthalmia Neonatorum
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10010755	2	D003236	"Conjunctivitis, Viral"
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10048908	2	D006255	"Rhinitis, Allergic, Seasonal"
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10061784	2	D003234	"Conjunctivitis, Bacterial"
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10067817	2	D003232	"Conjunctivitis, Acute Hemorrhagic"
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10071570	2	C566897	"Plasminogen Deficiency, Type I"
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10011033	2	D015715	Corneal Edema
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10023332	2	D007634	Keratitis
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10064996	2	D003320	Corneal Ulcer
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10069408	2	D015823	Acanthamoeba Keratitis
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10019370	2	D014608	Uveoparotid Fever
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10022941	2	D015863	Iridocyclitis
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10022955	2	D007500	Iritis
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10042742	2	D009879	"Ophthalmia, Sympathetic"
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10046851	2	D014605	Uveitis
+10021877	C0851410	"Ocular infections, irritations and inflammations"	10056667	2	D055952	Cogan Syndrome
+10021879	C0851439	Infections - pathogen unspecified	10014013	1	D010031	Otitis
+10021879	C0851439	Infections - pathogen unspecified	10046309	1	D012141	Respiratory Tract Infections
+10021879	C0851439	Infections - pathogen unspecified	10046577	1	D014552	Urinary Tract Infections
+10022396	C0851558	Inner ear and VIIIth cranial nerve disorders	10047408	1	D000160	Vestibulocochlear Nerve Diseases
+10024967	C0851573	Lower respiratory tract disorders (excl obstruction and infection)	10037424	1	D011654	Pulmonary Edema
+10025231	C0920348	Lymphatic Vessel Diseases	10025221	1	D008206	Lymphatic Diseases
+10025231	C0920348	Lymphatic Vessel Diseases	10052790	1	D008209	Lymphedema
+10025477	C0851559	Malabsorption conditions	10025480	1	D008286	Malabsorption Syndromes
+10025518	C0851527	Male reproductive tract infections and inflammations	10061234	2	D014389	"Tuberculosis, Male Genital"
+10025518	C0851527	Male reproductive tract infections and inflammations	10036978	2	D011472	Prostatitis
+10025518	C0851527	Male reproductive tract infections and inflammations	10015000	2	D004823	Epididymitis
+10025518	C0851527	Male reproductive tract infections and inflammations	10031064	2	D009920	Orchitis
+10026906	C0851394	Maternal complications of labour and delivery	10036595	2	D047928	Premature Birth
+10026906	C0851394	Maternal complications of labour and delivery	10036600	2	D007752	"Obstetric Labor, Premature"
+10026906	C0851394	Maternal complications of labour and delivery	10036603	2	D005322	"Fetal Membranes, Premature Rupture"
+10026906	C0851394	Maternal complications of labour and delivery	10036877	2	D011273	"Pregnancy, Prolonged"
+10026906	C0851394	Maternal complications of labour and delivery	10000153	2	D004420	Dystocia
+10026906	C0851394	Maternal complications of labour and delivery	10008020	2	D052178	Cephalopelvic Disproportion
+10026906	C0851394	Maternal complications of labour and delivery	10061050	2	D007744	Obstetric Labor Complications
+10026908	C0851401	Maternal complications of pregnancy	10036608	2	D000037	Abruptio Placentae
+10026908	C0851401	Maternal complications of pregnancy	10014129	2	D004461	Eclampsia
+10026908	C0851401	Maternal complications of pregnancy	10036485	2	D011225	Pre-Eclampsia
+10026908	C0851401	Maternal complications of pregnancy	10049058	2	D017359	HELLP Syndrome
+10026908	C0851401	Maternal complications of pregnancy	10070538	2	D046110	"Hypertension, Pregnancy-Induced"
+10026908	C0851401	Maternal complications of pregnancy	10000746	2	C537957	Acute fatty liver of pregnancy
+10026908	C0851401	Maternal complications of pregnancy	10008267	2	D002581	Uterine Cervical Incompetence
+10026908	C0851401	Maternal complications of pregnancy	10014166	2	D011271	"Pregnancy, Ectopic"
+10026908	C0851401	Maternal complications of pregnancy	10019939	2	D006559	Pemphigoid Gestationis
+10026908	C0851401	Maternal complications of pregnancy	10020614	2	D006939	Hyperemesis Gravidarum
+10026908	C0851401	Maternal complications of pregnancy	10027975	2	D048968	Morning Sickness
+10026908	C0851401	Maternal complications of pregnancy	10046820	2	D014597	Uterine Rupture
+10026908	C0851401	Maternal complications of pregnancy	10061452	2	D011248	Pregnancy Complications
+10026908	C0851401	Maternal complications of pregnancy	10064228	2	D063192	"Pregnancy, Heterotopic"
+10026908	C0851401	Maternal complications of pregnancy	10066100	2	C535817	Pruritic urticarial papules plaques of pregnancy
+10026908	C0851401	Maternal complications of pregnancy	10073024	2	C563032	Preterm Premature Rupture of the Membranes
+10026908	C0851401	Maternal complications of pregnancy	10002817	2	D016736	Antiphospholipid Syndrome
+10026908	C0851401	Maternal complications of pregnancy	10018209	2	D016640	"Diabetes, Gestational"
+10026908	C0851401	Maternal complications of pregnancy	10049055	2	C535932	Intrahepatic Cholestasis of Pregnancy
+10027584	C0851560	Middle ear disorders (excl congenital)	10045210	2	D018058	Tympanic Membrane Perforation
+10027584	C0851560	Middle ear disorders (excl congenital)	10045218	2	D063371	Myringosclerosis
+10027584	C0851560	Middle ear disorders (excl congenital)	10026900	2	D008417	Mastoiditis
+10027584	C0851560	Middle ear disorders (excl congenital)	10033078	2	D010033	Otitis Media
+10027584	C0851560	Middle ear disorders (excl congenital)	10034762	2	D059270	Petrositis
+10027584	C0851560	Middle ear disorders (excl congenital)	10033103	2	D010040	Otosclerosis
+10027584	C0851560	Middle ear disorders (excl congenital)	10062545	2	D010034	Otitis Media with Effusion
+10027584	C0851560	Middle ear disorders (excl congenital)	10069919	2	D043604	Glomus Tympanicum Tumor
+10027665	C0947760	Immune disorders NEC	10002023	1	D000686	Amyloidosis
+10027665	C0947760	Immune disorders NEC	10047112	1	D014657	Vasculitis
+10027665	C0947760	Immune disorders NEC	10052779	1	D006084	Graft Rejection
+10027667	C0947777	Aural disorders NEC	10008642	2	D002781	Cholesteatoma
+10027667	C0947777	Aural disorders NEC	10014004	2	D004427	Ear Diseases
+10027667	C0947777	Aural disorders NEC	10014011	2	D010031	Otitis
+10027667	C0947777	Aural disorders NEC	10014020	2	D004433	Earache
+10027667	C0947777	Aural disorders NEC	10054956	2	D012001	Hyperacusis
+10027667	C0947777	Aural disorders NEC	10055016	2	D004428	Ear Neoplasms
+10027946	C0851539	Mood disorders and disturbances NEC	10002368	2	D000786	Anger
+10027946	C0851539	Mood disorders and disturbances NEC	10011469	2	D003448	Crying
+10027946	C0851539	Mood disorders and disturbances NEC	10015535	2	D005059	Euphoria
+10027946	C0851539	Mood disorders and disturbances NEC	10022998	2	D007508	Irritable Mood
+10027946	C0851539	Mood disorders and disturbances NEC	10036618	2	D011293	Premenstrual Syndrome
+10027946	C0851539	Mood disorders and disturbances NEC	10051537	2	D065446	Premenstrual Dysphoric Disorder
+10027946	C0851539	Mood disorders and disturbances NEC	10077719	2	D000342	Affective Symptoms
+10027946	C0851539	Mood disorders and disturbances NEC	10001443	2	D019964	Mood Disorders
+10027946	C0851539	Mood disorders and disturbances NEC	10002942	2	D057565	Apathy
+10027946	C0851539	Mood disorders and disturbances NEC	10024264	2	D053609	Lethargy
+10027946	C0851539	Mood disorders and disturbances NEC	10039775	2	D016574	Seasonal Affective Disorder
+10027946	C0851539	Mood disorders and disturbances NEC	10048909	2	D001887	Boredom
+10028037	C0851457	Movement disorders (incl parkinsonism)	10008752	1	D002819	Chorea
+10028037	C0851457	Movement disorders (incl parkinsonism)	10013985	1	D004421	Dystonia
+10028302	C0026848	Myopathy	10028302	0	D009135	Muscular Diseases
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10001524	2	D000387	Ainhum
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10051452	2	D007715	Klippel-Trenaunay-Weber Syndrome
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10057689	2	D037801	Hammer Toe Syndrome
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10061159	2	D005530	Foot Deformities
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10061194	2	D006226	Hand Deformities
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10072255	2	C536237	Blount disease
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10075554	2	D013341	Sturge-Weber Syndrome
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10023509	2	D007738	Kyphosis
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10024842	2	D008141	Lordosis
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10039722	2	D012600	Scoliosis
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10052013	2	D013169	Spondylolysis
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10063550	2	D013168	Spondylolisthesis
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10022636	2	D007405	Intervertebral Disc Displacement
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10039674	2	D012585	Sciatica
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10061246	2	D055959	Intervertebral Disc Degeneration
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10061521	2	C535531	Intervertebral disc disease
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10050361	2	D054877	Wolf-Hirschhorn Syndrome
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10051481	2	D011378	Prognathism
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10051821	2	D063173	Retrognathia
+10028377	C0851529	Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)	10068737	2	D005146	Facial Asymmetry
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10014316	2	D004535	Ehlers-Danlos Syndrome
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10037150	2	D011561	Pseudoxanthoma Elasticum
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10057887	2	C536397	Neonatal Systemic lupus erythematosus
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10080250	2	C565942	Arterial Tortuosity Syndrome
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10081284	2	D055947	Loeys-Dietz Syndrome
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10006164	2	D001935	Branchioma
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10009259	2	D002971	Cleft Lip
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10020771	2	D006972	Hypertelorism
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10025395	2	D008265	Macrostomia
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10027543	2	D008844	Micrognathism
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10027553	2	D008865	Microstomia
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10035009	2	D010855	Pierre Robin Syndrome
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10039281	2	D012415	Rubinstein-Taybi Syndrome
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10051456	2	D008342	Mandibulofacial Dysostosis
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10057648	2	C562573	Cyclopia
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10058118	2	C562503	Otocephaly
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10066430	2	D004062	DiGeorge Syndrome
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10067857	2	D049932	Nijmegen Breakage Syndrome
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10070535	2	D002636	Cherubism
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10075843	2	C536036	"Maxillonasal dysplasia, Binder type"
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10075994	2	D002973	Cleidocranial Dysplasia
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10079435	2	C538387	Hypertelorism with esophageal abnormality and hypospadias
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10007700	2	C562398	Madelung Deformity
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10020967	2	C562937	Hypochondroplasia
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10024500	2	D017880	"Limb Deformities, Congenital"
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10025386	2	C562546	Megalodactyly
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10026829	2	D008382	Marfan Syndrome
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10027489	2	D050488	Hallux Varus
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10036007	2	D011045	Poland Syndrome
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10036063	2	D017689	Polydactyly
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10037798	2	C562408	Radioulnar Synostosis
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10042778	2	D013576	Syndactyly
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10043101	2	D000070558	Talipes
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10057620	2	D020512	"Myopathy, Central Core"
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10062332	2	D005532	"Foot Deformities, Congenital"
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10062335	2	D006228	"Hand Deformities, Congenital"
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10063847	2	D054119	Arachnodactyly
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10064100	2	D000652	Amniotic Band Syndrome
+10028396	C0851566	Musculoskeletal and connective tissue disorders congenital	10064568	2	D056587	Cryopyrin-Associated Periodic Syndromes
+10028440	C0947738	Mycobacterial infectious disorders	10003754	1	D009165	"Mycobacterium Infections, Nontuberculous"
+10028440	C0947738	Mycobacterial infectious disorders	10024230	1	D007918	Leprosy
+10028440	C0947738	Mycobacterial infectious disorders	10044756	1	D014376	Tuberculosis
+10028593	C3241958	Myocardial Disorder	10007635	1	D009202	Cardiomyopathies
+10028920	C0851403	Neonatal and perinatal conditions	10009926	2	D017490	"Ichthyosis, Lamellar"
+10028920	C0851403	Neonatal and perinatal conditions	10011912	2	D066087	Perinatal Death
+10028920	C0851403	Neonatal and perinatal conditions	10016165	2	D005183	Failure to Thrive
+10028920	C0851403	Neonatal and perinatal conditions	10021119	2	D009123	Muscle Hypotonia
+10028920	C0851403	Neonatal and perinatal conditions	10028934	2	D007232	"Infant, Newborn, Diseases"
+10028920	C0851403	Neonatal and perinatal conditions	10038933	2	D012178	Retinopathy of Prematurity
+10028920	C0851403	Neonatal and perinatal conditions	10042440	2	D013398	Sudden Infant Death
+10028920	C0851403	Neonatal and perinatal conditions	10048615	2	D009122	Muscle Hypertonia
+10028920	C0851403	Neonatal and perinatal conditions	10057887	2	C536397	Neonatal Systemic lupus erythematosus
+10028920	C0851403	Neonatal and perinatal conditions	10062909	2	D056770	Netherton Syndrome
+10028920	C0851403	Neonatal and perinatal conditions	10036392	2	D007233	"Infant, Postmature"
+10028920	C0851403	Neonatal and perinatal conditions	10041092	2	D007236	"Infant, Small for Gestational Age"
+10028920	C0851403	Neonatal and perinatal conditions	10034708	2	D010547	Persistent Fetal Circulation Syndrome
+10028971	C1285373	Neonatal respiratory system disorder	10006475	2	D001997	Bronchopulmonary Dysplasia
+10028971	C1285373	Neonatal respiratory system disorder	10044403	2	D059245	Transient Tachypnea of the Newborn
+10028971	C1285373	Neonatal respiratory system disorder	10076496	2	D008471	Meconium Aspiration Syndrome
+10028971	C1285373	Neonatal respiratory system disorder	10028923	2	D001238	Asphyxia Neonatorum
+10028971	C1285373	Neonatal respiratory system disorder	10028974	2	D012127	"Respiratory Distress Syndrome, Newborn"
+10029149	C0022658	Kidney Diseases	10029149	0	D007674	Kidney Diseases
+10029299	C0851567	Congenital neurological disorder	10012750	2	D009436	Neural Tube Defects
+10029299	C0851567	Congenital neurological disorder	10019819	2	D006527	Hepatolenticular Degeneration
+10029299	C0851567	Congenital neurological disorder	10027266	2	D008588	Meningocele
+10029299	C0851567	Congenital neurological disorder	10027287	2	D008591	Meningomyelocele
+10029299	C0851567	Congenital neurological disorder	10041524	2	D016135	Spinal Dysraphism
+10029299	C0851567	Congenital neurological disorder	10041525	2	D016136	Spina Bifida Occulta
+10029299	C0851567	Congenital neurological disorder	10042928	2	D013595	Syringomyelia
+10029299	C0851567	Congenital neurological disorder	10047716	2	D006623	von Hippel-Lindau Disease
+10029299	C0851567	Congenital neurological disorder	10057653	2	D013341	Sturge-Weber Syndrome
+10029299	C0851567	Congenital neurological disorder	10058969	2	D020863	Central Nervous System Cysts
+10029299	C0851567	Congenital neurological disorder	10063449	2	D002607	Charcot-Marie-Tooth Disease
+10029299	C0851567	Congenital neurological disorder	10066131	2	C536209	Congenital central hypoventilation syndrome
+10029299	C0851567	Congenital neurological disorder	10071011	2	D016137	Spina Bifida Cystica
+10029299	C0851567	Congenital neurological disorder	10009835	2	D003057	Cockayne Syndrome
+10029299	C0851567	Congenital neurological disorder	10010562	2	D020417	"Nystagmus, Congenital"
+10029299	C0851567	Congenital neurological disorder	10016208	2	D010245	"Paralyses, Familial Periodic"
+10029299	C0851567	Congenital neurological disorder	10019903	2	D015419	"Spastic Paraplegia, Hereditary"
+10029299	C0851567	Congenital neurological disorder	10027802	2	C531747	Congenital facial diplegia
+10029299	C0851567	Congenital neurological disorder	10029268	2	D017253	Neurofibromatoses
+10029299	C0851567	Congenital neurological disorder	10036476	2	D011218	Prader-Willi Syndrome
+10029299	C0851567	Congenital neurological disorder	10039179	2	D004402	"Dysautonomia, Familial"
+10029299	C0851567	Congenital neurological disorder	10041582	2	D009134	"Muscular Atrophy, Spinal"
+10029299	C0851567	Congenital neurological disorder	10044126	2	D005879	Tourette Syndrome
+10029299	C0851567	Congenital neurological disorder	10048676	2	D016111	Sjogren-Larsson Syndrome
+10029299	C0851567	Congenital neurological disorder	10054030	2	D020192	Lafora Disease
+10029299	C0851567	Congenital neurological disorder	10054895	2	D020194	Unverricht-Lundborg Syndrome
+10029299	C0851567	Congenital neurological disorder	10054935	2	D058540	Aicardi Syndrome
+10029299	C0851567	Congenital neurological disorder	10056715	2	D020788	Bardet-Biedl Syndrome
+10029299	C0851567	Congenital neurological disorder	10058271	2	D000071017	Hyperekplexia
+10029299	C0851567	Congenital neurological disorder	10067039	2	D020325	Migraine with Aura
+10029299	C0851567	Congenital neurological disorder	10067866	2	D020936	"Epilepsy, Benign Neonatal"
+10029299	C0851567	Congenital neurological disorder	10070668	2	D006816	Huntington Disease
+10029299	C0851567	Congenital neurological disorder	10071328	2	D016472	Motor Neuron Disease
+10029299	C0851567	Congenital neurological disorder	10073677	2	D004831	"Epilepsies, Myoclonic"
+10029299	C0851567	Congenital neurological disorder	10074554	2	C564178	"Horner Syndrome, Congenital"
+10029299	C0851567	Congenital neurological disorder	10076668	2	C538005	Dystonia musculorum deformans type 1
+10029299	C0851567	Congenital neurological disorder	10077024	2	C531617	Amyotrophic lateral sclerosis 1
+10029299	C0851567	Congenital neurological disorder	10077948	2	C536589	Alternating hemiplegia of childhood
+10029299	C0851567	Congenital neurological disorder	10079207	2	C566822	Perry Syndrome
+10029299	C0851567	Congenital neurological disorder	10079876	2	C535983	Congenital anosmia
+10029299	C0851567	Congenital neurological disorder	10080034	2	C538007	"Dystonia, Dopa-responsive"
+10029299	C0851567	Congenital neurological disorder	10081505	2	D054546	Neuroacanthocytosis
+10029299	C0851567	Congenital neurological disorder	10040037	2	D009477	Hereditary Sensory and Autonomic Neuropathies
+10029299	C0851567	Congenital neurological disorder	10069382	2	C536965	Tomaculous neuropathy
+10029299	C0851567	Congenital neurological disorder	10077306	2	D015417	Hereditary Sensory and Motor Neuropathy
+10029299	C0851567	Congenital neurological disorder	10077946	2	C564878	"Polyglucosan Body Disease, Adult Form"
+10029299	C0851567	Congenital neurological disorder	10003101	2	D001139	Arnold-Chiari Malformation
+10029299	C0851567	Congenital neurological disorder	10008033	2	C562568	Cerebellar Hypoplasia
+10029299	C0851567	Congenital neurological disorder	10017374	2	D005621	Friedreich Ataxia
+10029299	C0851567	Congenital neurological disorder	10036686	2	D013132	Spinocerebellar Degenerations
+10029299	C0851567	Congenital neurological disorder	10057660	2	D020754	Spinocerebellar Ataxias
+10029299	C0851567	Congenital neurological disorder	10075298	2	D020191	"Myoclonic Epilepsies, Progressive"
+10029299	C0851567	Congenital neurological disorder	10078574	2	C536293	Joubert syndrome 1
+10029299	C0851567	Congenital neurological disorder	10002320	2	D000757	Anencephaly
+10029299	C0851567	Congenital neurological disorder	10008129	2	D002547	Cerebral Palsy
+10029299	C0851567	Congenital neurological disorder	10010506	2	D006849	Hydrocephalus
+10029299	C0851567	Congenital neurological disorder	10036172	2	D065708	Porencephaly
+10029299	C0851567	Congenital neurological disorder	10048411	2	D003616	Dandy-Walker Syndrome
+10029299	C0851567	Congenital neurological disorder	10048910	2	D054082	Lissencephaly
+10029305	C1112108	Neurological disorders NEC	10000171	1	D012021	"Reflex, Abnormal"
+10029317	C0027868	Neuromuscular Diseases	10029317	0	D009468	Neuromuscular Diseases
+10030061	C0851416	Ocular neuromuscular disorders	10037514	1	D011681	Pupil Disorders
+10030064	C0851399	Ocular sensory symptoms NEC	10003552	2	D001248	Asthenopia
+10030064	C0851399	Ocular sensory symptoms NEC	10034960	2	D020795	Photophobia
+10033283	C0947765	Ovarian and fallopian tube disorders	10033139	2	D010049	Ovarian Diseases
+10033283	C0947765	Ovarian and fallopian tube disorders	10033266	2	D016471	Ovarian Hyperstimulation Syndrome
+10033283	C0947765	Ovarian and fallopian tube disorders	10042573	2	D013480	Superovulation
+10033283	C0947765	Ovarian and fallopian tube disorders	10052094	2	D005184	Fallopian Tube Diseases
+10033283	C0947765	Ovarian and fallopian tube disorders	10061893	2	C562841	Ovarian Germ Cell Cancer
+10033283	C0947765	Ovarian and fallopian tube disorders	10016180	2	D005185	Fallopian Tube Neoplasms
+10033283	C0947765	Ovarian and fallopian tube disorders	10027139	2	D008539	Meigs Syndrome
+10033283	C0947765	Ovarian and fallopian tube disorders	10033128	2	D010051	Ovarian Neoplasms
+10033283	C0947765	Ovarian and fallopian tube disorders	10033132	2	D010048	Ovarian Cysts
+10033949	C0030517	Parathyroid Diseases	10033949	0	D010279	Parathyroid Diseases
+10034468	C0265122	Disorder of pericardium	10007610	2	D002305	Cardiac Tamponade
+10034468	C0265122	Disorder of pericardium	10034474	2	D010490	Pericardial Effusion
+10034468	C0265122	Disorder of pericardium	10048731	2	D011026	Pneumopericardium
+10034468	C0265122	Disorder of pericardium	10055069	2	D010495	"Pericarditis, Tuberculous"
+10034468	C0265122	Disorder of pericardium	10034484	2	D010493	Pericarditis
+10034468	C0265122	Disorder of pericardium	10034487	2	D010494	"Pericarditis, Constrictive"
+10034468	C0265122	Disorder of pericardium	10059483	2	D011185	Postpericardiotomy Syndrome
+10034606	C4721453	Peripheral Nervous System Diseases	10034606	0	D010523	Peripheral Nervous System Diseases
+10034652	C0851466	Peritoneal and retroperitoneal conditions	10003445	2	D001201	Ascites
+10034652	C0851466	Peritoneal and retroperitoneal conditions	10027139	2	D008539	Meigs Syndrome
+10034652	C0851466	Peritoneal and retroperitoneal conditions	10037138	2	D011553	Pseudomyxoma Peritonei
+10034652	C0851466	Peritoneal and retroperitoneal conditions	10048299	2	D011027	Pneumoperitoneum
+10034652	C0851466	Peritoneal and retroperitoneal conditions	10061343	2	D010532	Peritoneal Diseases
+10034652	C0851466	Peritoneal and retroperitoneal conditions	10063840	2	D014782	Visceral Prolapse
+10034652	C0851466	Peritoneal and retroperitoneal conditions	10068676	2	D012188	Retropneumoperitoneum
+10034652	C0851466	Peritoneal and retroperitoneal conditions	10079196	2	D008639	Mesenteric Cyst
+10034652	C0851466	Peritoneal and retroperitoneal conditions	10034665	2	D056627	Peritoneal Fibrosis
+10034652	C0851466	Peritoneal and retroperitoneal conditions	10038979	2	D012185	Retroperitoneal Fibrosis
+10034652	C0851466	Peritoneal and retroperitoneal conditions	10034666	2	D006465	Hemoperitoneum
+10034726	C0851574	Personality disorders and disturbances in behaviour	10001488	2	D000374	Aggression
+10034726	C0851574	Personality disorders and disturbances in behaviour	10020400	2	D006791	Hostility
+10034726	C0851574	Personality disorders and disturbances in behaviour	10021703	2	D057565	Apathy
+10034726	C0851574	Personality disorders and disturbances in behaviour	10028899	2	D009341	Negativism
+10034726	C0851574	Personality disorders and disturbances in behaviour	10033864	2	D010259	Paranoid Disorders
+10034726	C0851574	Personality disorders and disturbances in behaviour	10072269	2	D000078663	Egocentrism
+10034726	C0851574	Personality disorders and disturbances in behaviour	10081371	2	C563156	Brunner Syndrome
+10034726	C0851574	Personality disorders and disturbances in behaviour	10034721	2	D010554	Personality Disorders
+10034726	C0851574	Personality disorders and disturbances in behaviour	10012355	2	D003859	Dependent Personality Disorder
+10034726	C0851574	Personality disorders and disturbances in behaviour	10029901	2	D003193	Compulsive Personality Disorder
+10034726	C0851574	Personality disorders and disturbances in behaviour	10002822	2	D000987	Antisocial Personality Disorder
+10034726	C0851574	Personality disorders and disturbances in behaviour	10006034	2	D001883	Borderline Personality Disorder
+10034726	C0851574	Personality disorders and disturbances in behaviour	10020155	2	D006677	Histrionic Personality Disorder
+10034726	C0851574	Personality disorders and disturbances in behaviour	10033869	2	D010260	Paranoid Personality Disorder
+10034726	C0851574	Personality disorders and disturbances in behaviour	10039624	2	D012557	Schizoid Personality Disorder
+10034726	C0851574	Personality disorders and disturbances in behaviour	10039651	2	D012569	Schizotypal Personality Disorder
+10035023	C0549567	Pigmentation Disorders	10035023	0	D010859	Pigmentation Disorders
+10035129	C0947754	"Placental, amniotic and cavity disorders (excl haemorrhages)"	10035141	1	D033301	Deciduoma
+10037008	C0949004	Protein and amino acid metabolism disorders NEC	10001938	2	D000592	"Amino Acid Metabolism, Inborn Errors"
+10037008	C0949004	Protein and amino acid metabolism disorders NEC	10051286	2	D020138	Hyperhomocysteinemia
+10037008	C0949004	Protein and amino acid metabolism disorders NEC	10020575	2	D022124	Hyperammonemia
+10037008	C0949004	Protein and amino acid metabolism disorders NEC	10020942	2	D034141	Hypoalbuminemia
+10037008	C0949004	Protein and amino acid metabolism disorders NEC	10021083	2	D007019	Hypoproteinemia
+10037072	C0033740	Protozoan Infections	10037072	0	D011528	Protozoan Infections
+10037173	C0851575	Psychiatric and behavioural symptoms NEC	10006322	2	D062485	Breath Holding
+10037173	C0851575	Psychiatric and behavioural symptoms NEC	10054720	2	D012043	Regression (Psychology)
+10037173	C0851575	Psychiatric and behavioural symptoms NEC	10061422	2	D000066553	Problem Behavior
+10037173	C0851575	Psychiatric and behavioural symptoms NEC	10073746	2	D005386	Fingersucking
+10037173	C0851575	Psychiatric and behavioural symptoms NEC	10020910	2	D006985	Hyperventilation
+10037173	C0851575	Psychiatric and behavioural symptoms NEC	10048533	2	D001007	Anxiety
+10037173	C0851575	Psychiatric and behavioural symptoms NEC	10056557	2	D018923	Persian Gulf Syndrome
+10037173	C0851575	Psychiatric and behavioural symptoms NEC	10057230	2	D038223	Post-Concussion Syndrome
+10037173	C0851575	Psychiatric and behavioural symptoms NEC	10071368	2	D000067073	Psychological Trauma
+10037173	C0851575	Psychiatric and behavioural symptoms NEC	10081263	2	D000075682	Procrastination
+10037176	C0851576	Psychiatric disorders NEC	10011652	2	D003480	Cushing Syndrome
+10037176	C0851576	Psychiatric disorders NEC	10036182	2	D017118	"Porphyria, Acute Intermittent"
+10037176	C0851576	Psychiatric disorders NEC	10043786	2	D013958	Thyroid Crisis
+10037176	C0851576	Psychiatric disorders NEC	10047837	2	D014869	Water Intoxication
+10037176	C0851576	Psychiatric disorders NEC	10063663	2	D020945	"Lupus Vasculitis, Central Nervous System"
+10037176	C0851576	Psychiatric disorders NEC	10067967	2	D001930	Brain Injuries
+10037176	C0851576	Psychiatric disorders NEC	10061284	2	D001523	Mental Disorders
+10037176	C0851576	Psychiatric disorders NEC	10081148	2	D004620	"Embolism, Fat"
+10037176	C0851576	Psychiatric disorders NEC	10016165	2	D005183	Failure to Thrive
+10037176	C0851576	Psychiatric disorders NEC	10078320	2	D000067404	Social Communication Disorder
+10037176	C0851576	Psychiatric disorders NEC	10014928	2	D004775	Enuresis
+10037176	C0851576	Psychiatric disorders NEC	10001584	2	D000437	Alcoholism
+10037176	C0851576	Psychiatric disorders NEC	10013654	2	D019966	Substance-Related Disorders
+10037176	C0851576	Psychiatric disorders NEC	10013756	2	D009357	Neonatal Abstinence Syndrome
+10037176	C0851576	Psychiatric disorders NEC	10043903	2	D014029	Tobacco Use Disorder
+10037176	C0851576	Psychiatric disorders NEC	10048010	2	D013375	Substance Withdrawal Syndrome
+10037176	C0851576	Psychiatric disorders NEC	10071238	2	D063425	Binge Drinking
+10037176	C0851576	Psychiatric disorders NEC	10078070	2	D005715	Gambling
+10037454	C0854416	Pulmonary vascular disorder	10037401	1	D006976	"Hypertension, Pulmonary"
+10038158	C0221016	Red blood cell disorder	10035004	2	D010845	Obesity Hypoventilation Syndrome
+10038158	C0221016	Red blood cell disorder	10036051	2	D011086	Polycythemia
+10038158	C0221016	Red blood cell disorder	10019372	2	D006366	Heinz Bodies
+10038158	C0221016	Red blood cell disorder	10029825	2	D004900	Erythroblasts
+10038158	C0221016	Red blood cell disorder	10038796	2	D045262	Reticulocytosis
+10038360	C0851568	Renal and urinary tract disorders congenital	10010453	2	D001746	Bladder Exstrophy
+10038360	C0851568	Renal and urinary tract disorders congenital	10073660	2	C536139	Megaduodenum
+10038360	C0851568	Renal and urinary tract disorders congenital	10050839	2	D001477	Bartter Syndrome
+10038360	C0851568	Renal and urinary tract disorders congenital	10062334	2	D014564	Urogenital Abnormalities
+10038360	C0851568	Renal and urinary tract disorders congenital	10062906	2	D053579	Gitelman Syndrome
+10038360	C0851568	Renal and urinary tract disorders congenital	10067944	2	C535516	Hereditary leiomyomatosis and renal cell cancer
+10038360	C0851568	Renal and urinary tract disorders congenital	10069199	2	D057973	Dent Disease
+10038360	C0851568	Renal and urinary tract disorders congenital	10070179	2	D030321	Denys-Drash Syndrome
+10038360	C0851568	Renal and urinary tract disorders congenital	10001843	2	D009394	"Nephritis, Hereditary"
+10038360	C0851568	Renal and urinary tract disorders congenital	10016219	2	D005198	Fanconi Syndrome
+10038360	C0851568	Renal and urinary tract disorders congenital	10051707	2	D009800	Oculocerebrorenal Syndrome
+10038360	C0851568	Renal and urinary tract disorders congenital	10052313	2	D056929	Liddle Syndrome
+10038360	C0851568	Renal and urinary tract disorders congenital	10060737	2	C535761	"Nephrosis, congenital"
+10038360	C0851568	Renal and urinary tract disorders congenital	10060876	2	C562476	"Hematuria, Benign Familial"
+10038360	C0851568	Renal and urinary tract disorders congenital	10064655	2	C563261	Renal Adysplasia
+10038360	C0851568	Renal and urinary tract disorders congenital	10068304	2	D018500	"Diabetes Insipidus, Nephrogenic"
+10038360	C0851568	Renal and urinary tract disorders congenital	10070665	2	D018201	"Nephroma, Mesoblastic"
+10038430	C0851462	Renal disorders (excl nephropathies)	10038486	1	D007680	Kidney Neoplasms
+10038612	C0851534	Reproductive tract disorders NEC	10019906	2	D012734	Disorders of Sex Development
+10038612	C0851534	Reproductive tract disorders NEC	10037123	2	D058489	"46, XX Disorders of Sex Development"
+10038612	C0851534	Reproductive tract disorders NEC	10037124	2	D058490	"Disorder of Sex Development, 46,XY"
+10038612	C0851534	Reproductive tract disorders NEC	10047486	2	D014770	Virilism
+10038612	C0851534	Reproductive tract disorders NEC	10056292	2	D013734	Androgen-Insensitivity Syndrome
+10038612	C0851534	Reproductive tract disorders NEC	10070179	2	D030321	Denys-Drash Syndrome
+10038612	C0851534	Reproductive tract disorders NEC	10080313	2	D052159	Frasier Syndrome
+10038612	C0851534	Reproductive tract disorders NEC	10081352	2	C536665	Persistent Mullerian duct syndrome
+10038612	C0851534	Reproductive tract disorders NEC	10017068	2	D018934	Fournier Gangrene
+10038612	C0851534	Reproductive tract disorders NEC	10061176	2	D005831	"Genital Diseases, Female"
+10038612	C0851534	Reproductive tract disorders NEC	10061177	2	D005832	"Genital Diseases, Male"
+10038612	C0851534	Reproductive tract disorders NEC	10079892	2	C562509	Popliteal Pterygium Syndrome
+10038612	C0851534	Reproductive tract disorders NEC	10043276	2	D013724	Teratoma
+10038612	C0851534	Reproductive tract disorders NEC	10048251	2	D018240	Endodermal Sinus Tumor
+10038612	C0851534	Reproductive tract disorders NEC	10059427	2	D062688	Buschke-Lowenstein Tumor
+10038612	C0851534	Reproductive tract disorders NEC	10061153	2	D005833	"Genital Neoplasms, Female"
+10038612	C0851534	Reproductive tract disorders NEC	10061183	2	D014565	Urogenital Neoplasms
+10038612	C0851534	Reproductive tract disorders NEC	10061184	2	D009373	"Neoplasms, Germ Cell and Embryonal"
+10038612	C0851534	Reproductive tract disorders NEC	10061236	2	D005834	"Genital Neoplasms, Male"
+10038686	C0702198	Respiratory disorders congenital	10010439	2	D065630	"Hernias, Diaphragmatic, Congenital"
+10038686	C0702198	Respiratory disorders congenital	10010654	2	C557675	Congenital tracheomalacia
+10038686	C0702198	Respiratory disorders congenital	10023885	2	D059608	Laryngocele
+10038686	C0702198	Respiratory disorders congenital	10044310	2	D014138	Tracheoesophageal Fistula
+10038686	C0702198	Respiratory disorders congenital	10060786	2	D055092	Laryngomalacia
+10038686	C0702198	Respiratory disorders congenital	10062987	2	C537032	Laryngo onycho cutaneous syndrome
+10038686	C0702198	Respiratory disorders congenital	10069115	2	C537875	Laryngeal cleft
+10038686	C0702198	Respiratory disorders congenital	10010456	2	C535735	Congenital lobar emphysema
+10038686	C0702198	Respiratory disorders congenital	10011762	2	D003550	Cystic Fibrosis
+10038686	C0702198	Respiratory disorders congenital	10037322	2	C562992	Lung agenesis
+10038686	C0702198	Respiratory disorders congenital	10059160	2	D001998	Bronchopulmonary Sequestration
+10038686	C0702198	Respiratory disorders congenital	10064585	2	D001994	Bronchogenic Cyst
+10038686	C0702198	Respiratory disorders congenital	10008587	2	D002754	Choanal Atresia
+10038686	C0702198	Respiratory disorders congenital	10038733	2	D015619	Respiratory System Abnormalities
+10038686	C0702198	Respiratory disorders congenital	10069713	2	D002925	Ciliary Motility Disorders
+10039404	C0851532	Salivary gland conditions	10003068	2	D014987	Xerostomia
+10039404	C0851532	Salivary gland conditions	10039424	2	D012798	Sialorrhea
+10039404	C0851532	Salivary gland conditions	10040767	2	D012859	Sjogren's Syndrome
+10039404	C0851532	Salivary gland conditions	10039394	2	D015494	Salivary Gland Calculi
+10039404	C0851532	Salivary gland conditions	10059237	2	D013547	"Sweating, Gustatory"
+10039404	C0851532	Salivary gland conditions	10061935	2	D012466	Salivary Gland Diseases
+10039404	C0851532	Salivary gland conditions	10037838	2	D011900	Ranula
+10039404	C0851532	Salivary gland conditions	10051457	2	D008882	Mikulicz' Disease
+10039404	C0851532	Salivary gland conditions	10019370	2	D014608	Uveoparotid Fever
+10039404	C0851532	Salivary gland conditions	10028257	2	D009107	Mumps
+10039404	C0851532	Salivary gland conditions	10034038	2	D010309	Parotitis
+10039404	C0851532	Salivary gland conditions	10040628	2	D012793	Sialadenitis
+10040790	C0851461	Skin and subcutaneous tissue disorders NEC	10024606	1	D008060	Lipodystrophy
+10040790	C0851461	Skin and subcutaneous tissue disorders NEC	10033674	1	D015434	Panniculitis
+10040798	C0851479	Skin appendage conditions	10000497	1	D000152	Acne Vulgaris
+10040798	C0851479	Skin appendage conditions	10001769	1	D000505	Alopecia
+10040798	C0851479	Skin appendage conditions	10020863	1	D006983	Hypertrichosis
+10040798	C0851479	Skin appendage conditions	10039219	1	D012393	Rosacea
+10040798	C0851479	Skin appendage conditions	10039782	1	D012625	Sebaceous Gland Diseases
+10040899	C0004998	Benign neoplasm of skin	10023256	2	D018332	"Nevus, Epithelioid and Spindle Cell"
+10040899	C0004998	Benign neoplasm of skin	10027145	2	D009508	"Nevus, Pigmented"
+10040899	C0004998	Benign neoplasm of skin	10037649	2	D017789	"Granuloma, Pyogenic"
+10040899	C0004998	Benign neoplasm of skin	10039796	2	D017492	"Keratosis, Seborrheic"
+10040899	C0004998	Benign neoplasm of skin	10042658	2	D013544	Sweat Gland Neoplasms
+10040899	C0004998	Benign neoplasm of skin	10048902	2	C562735	"Osseous Heteroplasia, Progressive"
+10040899	C0004998	Benign neoplasm of skin	10048905	2	D062685	Steatocystoma Multiplex
+10040899	C0004998	Benign neoplasm of skin	10053717	2	D018219	"Histiocytoma, Benign Fibrous"
+10040899	C0004998	Benign neoplasm of skin	10059313	2	D003218	Condylomata Acuminata
+10040899	C0004998	Benign neoplasm of skin	10059394	2	D049309	Acanthoma
+10040899	C0004998	Benign neoplasm of skin	10062805	2	D004416	Dysplastic Nevus Syndrome
+10040899	C0004998	Benign neoplasm of skin	10067736	2	D058249	Birt-Hogg-Dube Syndrome
+10040899	C0004998	Benign neoplasm of skin	10077859	2	C535516	Hereditary leiomyomatosis and renal cell cancer
+10040899	C0004998	Benign neoplasm of skin	10081235	2	D000071070	Familial Multiple Lipomatosis
+10040991	C0851578	Sleep Disorders	10040991	0	D012893	Sleep Wake Disorders
+10040998	C0037317	Sleep disturbances	10040978	1	D012891	Sleep Apnea Syndromes
+10041543	C0851475	Spinal cord and nerve root disorders	10002703	2	D020759	Anterior Spinal Artery Syndrome
+10041543	C0851475	Spinal cord and nerve root disorders	10006491	2	D018437	Brown-Sequard Syndrome
+10041543	C0851475	Spinal cord and nerve root disorders	10007821	2	D000077684	Cauda Equina Syndrome
+10041543	C0851475	Spinal cord and nerve root disorders	10020853	2	D053201	"Urinary Bladder, Overactive"
+10041543	C0851475	Spinal cord and nerve root disorders	10028570	2	D013118	Spinal Cord Diseases
+10041543	C0851475	Spinal cord and nerve root disorders	10029279	2	D001750	"Urinary Bladder, Neurogenic"
+10041543	C0851475	Spinal cord and nerve root disorders	10037779	2	D011843	Radiculopathy
+10041543	C0851475	Spinal cord and nerve root disorders	10041549	2	D013117	Spinal Cord Compression
+10041543	C0851475	Spinal cord and nerve root disorders	10042928	2	D013595	Syringomyelia
+10041543	C0851475	Spinal cord and nerve root disorders	10050209	2	D020760	Spinal Cord Ischemia
+10041543	C0851475	Spinal cord and nerve root disorders	10066334	2	D009436	Neural Tube Defects
+10041543	C0851475	Spinal cord and nerve root disorders	10071695	2	D063205	Pneumorrhachis
+10041543	C0851475	Spinal cord and nerve root disorders	10041552	2	D013119	Spinal Cord Injuries
+10041543	C0851475	Spinal cord and nerve root disorders	10054839	2	D020210	Central Cord Syndrome
+10041543	C0851475	Spinal cord and nerve root disorders	10039674	2	D012585	Sciatica
+10042258	C0851391	Structural brain disorders	10010254	2	D001924	Brain Concussion
+10042258	C0851391	Structural brain disorders	10048626	2	D013353	Subdural Effusion
+10042258	C0851391	Structural brain disorders	10051818	2	D004678	Encephalomalacia
+10042258	C0851391	Structural brain disorders	10052346	2	D000070624	Brain Contusion
+10042258	C0851391	Structural brain disorders	10066213	2	D020833	Diffuse Axonal Injury
+10042258	C0851391	Structural brain disorders	10066431	2	D020232	Kluver-Bucy Syndrome
+10042258	C0851391	Structural brain disorders	10067159	2	D025962	Septo-Optic Dysplasia
+10042258	C0851391	Structural brain disorders	10067967	2	D001930	Brain Injuries
+10042258	C0851391	Structural brain disorders	10070976	2	D006259	Craniocerebral Trauma
+10042258	C0851391	Structural brain disorders	10077174	2	D058225	"Plaque, Amyloid"
+10042258	C0851391	Structural brain disorders	10078217	2	C537158	Hypothalamic hamartomas
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10038933	2	D012178	Retinopathy of Prematurity
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10047650	2	D020255	Vitreous Detachment
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10030910	2	D009896	Optic Atrophy
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10030917	2	D015594	Optic Disk Drusen
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10030923	2	D010211	Papilledema
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10037141	2	C562401	Pseudopapilledema
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10061321	2	D009901	Optic Nerve Diseases
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10020771	2	D006972	Hypertelorism
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10079435	2	C538387	Hypertelorism with esophageal abnormality and hypospadias
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10038845	2	D012162	Retinal Degeneration
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10038848	2	D012163	Retinal Detachment
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10038857	2	D058499	Retinal Dystrophies
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10038897	2	D012167	Retinal Perforations
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10038914	2	D012174	Retinitis Pigmentosa
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10043147	2	D013661	Tay-Sachs Disease
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10052452	2	C536063	Osteoporosis-pseudoglioma syndrome
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10056715	2	D020788	Bardet-Biedl Syndrome
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10061492	2	D041441	Retinoschisis
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10062776	2	D015593	Retinal Drusen
+10042261	C0851441	"Ocular structural change, deposit and degeneration NEC"	10064930	2	D008268	Macular Degeneration
+10042460	C0947781	Suicidal and self-injurious behaviours NEC	10042458	2	D059020	Suicidal Ideation
+10042460	C0947781	Suicidal and self-injurious behaviours NEC	10042464	2	D013406	"Suicide, Attempted"
+10042460	C0947781	Suicidal and self-injurious behaviours NEC	10079105	2	D017236	"Suicide, Assisted"
+10043739	C0040128	Thyroid Diseases	10043739	0	D013959	Thyroid Diseases
+10043946	C0851542	Tongue conditions	10043131	1	D013651	Taste Disorders
+10043946	C0851542	Tongue conditions	10043954	1	D014060	Tongue Diseases
+10044018	C0947773	Dental and gingival conditions	10044050	1	D003788	Dental Pulp Diseases
+10044018	C0947773	Dental and gingival conditions	10055797	1	D005884	Gingival Hemorrhage
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10033830	2	D014826	Vocal Cord Paralysis
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10047671	2	D064706	Vocal Cord Dysfunction
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10061263	2	D007818	Laryngeal Diseases
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10062987	2	C537032	Laryngo onycho cutaneous syndrome
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10065735	2	D007827	Laryngitis
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10066217	2	D006102	"Granuloma, Laryngeal"
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10002424	2	D000799	Angioedema
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10023845	2	D007819	Laryngeal Edema
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10023862	2	D007829	Laryngostenosis
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10023891	2	D007826	Laryngismus
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10042241	2	D012135	Respiratory Sounds
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10060786	2	D055092	Laryngomalacia
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10002653	2	D000857	Olfaction Disorders
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10015090	2	D004844	Epistaxis
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10028756	2	D009298	Nasal Polyps
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10028765	2	D061270	Nasal Septal Perforation
+10046304	C0947736	Upper respiratory tract disorders (excl infections)	10062209	2	D009668	Nose Diseases
+10046708	C0451641	Urolithiasis	10046708	0	D052878	Urolithiasis
+10046828	C0947774	"Uterine, pelvic and broad ligament disorders"	10046805	1	D014594	Uterine Neoplasms
+10046973	C0018824	Heart valve disease	10046973	0	D006349	Heart Valve Diseases
+10047075	C0851563	Vascular hemorrhagic disorders	10052742	1	D006471	Gastrointestinal Hemorrhage
+10047116	C0947751	Vascular inflammations	10003231	1	D001167	Arteritis
+10047518	C0042790	Vision Disorders	10047518	0	D014786	Vision Disorders
+10047635	C0268657	Vitamin related disorders	10019008	2	D006475	Vitamin K Deficiency Bleeding
+10047635	C0268657	Vitamin related disorders	10023361	2	C536156	Keratomalacia
+10047635	C0268657	Vitamin related disorders	10029404	2	D009755	Night Blindness
+10047635	C0268657	Vitamin related disorders	10047586	2	D014802	Vitamin A Deficiency
+10047635	C0268657	Vitamin related disorders	10047626	2	D014808	Vitamin D Deficiency
+10047635	C0268657	Vitamin related disorders	10047631	2	D014811	Vitamin E Deficiency
+10047635	C0268657	Vitamin related disorders	10047634	2	D014813	Vitamin K Deficiency
+10047635	C0268657	Vitamin related disorders	10048221	2	D014985	Xerophthalmia
+10047635	C0268657	Vitamin related disorders	10020916	2	D006986	Hypervitaminosis A
+10047635	C0268657	Vitamin related disorders	10002064	2	D000748	"Anemia, Macrocytic"
+10047635	C0268657	Vitamin related disorders	10002065	2	D000749	"Anemia, Megaloblastic"
+10047635	C0268657	Vitamin related disorders	10021135	2	D001361	Avitaminosis
+10047635	C0268657	Vitamin related disorders	10044697	2	D013182	"Sprue, Tropical"
+10047635	C0268657	Vitamin related disorders	10004906	2	C531633	Biotin deficiency
+10047635	C0268657	Vitamin related disorders	10016880	2	D005494	Folic Acid Deficiency
+10047635	C0268657	Vitamin related disorders	10047601	2	D013832	Thiamine Deficiency
+10047635	C0268657	Vitamin related disorders	10047609	2	D014806	Vitamin B 12 Deficiency
+10047635	C0268657	Vitamin related disorders	10047612	2	D012257	Riboflavin Deficiency
+10047635	C0268657	Vitamin related disorders	10047617	2	D026681	Vitamin B 6 Deficiency
+10047635	C0268657	Vitamin related disorders	10047623	2	D001206	Ascorbic Acid Deficiency
+10047635	C0268657	Vitamin related disorders	10047911	2	D014899	Wernicke Encephalopathy
+10047635	C0268657	Vitamin related disorders	10047913	2	D020915	Korsakoff Syndrome
+10047635	C0268657	Vitamin related disorders	10061580	2	D014804	Vitamin B Deficiency
+10047635	C0268657	Vitamin related disorders	10079953	2	D052879	Subacute Combined Degeneration
+10047789	C0851546	Vulvovaginal disorders (excl infections and inflammations)	10046885	2	D014625	Vaginal Neoplasms
+10047789	C0851546	Vulvovaginal disorders (excl infections and inflammations)	10047741	2	D014846	Vulvar Neoplasms
+10047789	C0851546	Vulvovaginal disorders (excl infections and inflammations)	10021529	2	C562397	"Hymen, Imperforate"
+10047789	C0851546	Vulvovaginal disorders (excl infections and inflammations)	10046910	2	D014592	Uterine Hemorrhage
+10047789	C0851546	Vulvovaginal disorders (excl infections and inflammations)	10047754	2	D014845	Vulvar Diseases
+10047789	C0851546	Vulvovaginal disorders (excl infections and inflammations)	10047760	2	D007724	Vulvar Lichen Sclerosus
+10047789	C0851546	Vulvovaginal disorders (excl infections and inflammations)	10061402	2	D014623	Vaginal Diseases
+10047789	C0851546	Vulvovaginal disorders (excl infections and inflammations)	10065813	2	D014624	Vaginal Fistula
+10047789	C0851546	Vulvovaginal disorders (excl infections and inflammations)	10046901	2	D019522	Vaginal Discharge
+10047789	C0851546	Vulvovaginal disorders (excl infections and inflammations)	10055161	2	D006399	Hematocolpos
+10057165	C0042345	Varicosity	10057165	0	D014648	Varicose Veins
+10057167	C1112722	Mental impairment disorders	10077548	1	D008607	Intellectual Disability
+10064477	C1536063	Coagulopathies and bleeding diatheses (excl thrombocytopenic)	10053567	1	D001778	Blood Coagulation Disorders
