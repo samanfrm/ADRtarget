@@ -4,10 +4,10 @@ library(dplyr)
 library(tidyr)
 require(biomaRt)
 
-positive=read.csv(file = "~/Desktop/pubmed_novartis/predicted_ADR_target_final.txt",header = T,sep = '\t')
-ADR2mesh=read.csv(file = "~/Desktop/pubmed_novartis/predicted_meddra2mesh.txt",header = T,sep = '\t')
-gene2mesh=read.csv(file = "~/Desktop/pubmed_novartis/predicted_gene2mesh.txt",header = T, sep = '\t')
-nkey="485af51aa11dbfc71be592e6da677c416b09"
+positive=read.csv(file = "~/Desktop/pubmed_novartis/predicted_ADR_target_final.txt",header = T,sep = '\t')#replace with local paths
+ADR2mesh=read.csv(file = "~/Desktop/pubmed_novartis/predicted_meddra2mesh.txt",header = T,sep = '\t')#replace with local paths
+gene2mesh=read.csv(file = "~/Desktop/pubmed_novartis/predicted_gene2mesh.txt",header = T, sep = '\t')#replace with local paths
+nkey="XXXXXXX" #replace with ncbi key
 
 
 positive=positive %>% mutate(meddra_name=MedDRA.term.name,meddra_id=MedDRA.ID,gene_symbol=Entrez.Gene.Symbol.for.target,target_mesh=MeSH.term.for.target)
@@ -134,4 +134,4 @@ full_ADR_target_summ=left_join(full_ADR_target_summ,control,by=c("HLGT"="meddra_
 full_ADR_target_summ$flag[is.na(full_ADR_target_summ$flag)]=FALSE
 
 
-write.table(x = full_ADR_target_summ,file = "~/Desktop/Full_result_ADRmesh_Genemesh_pubmed_NEW.csv",sep = '\t',row.names = F)
+write.table(x = full_ADR_target_summ,file = "~/Desktop/Full_result_ADRmesh_Genemesh_pubmed_NEW.csv",sep = '\t',row.names = F)#replace with local paths

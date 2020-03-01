@@ -5,10 +5,10 @@ library(dplyr)
 library(tidyr)
 require(biomaRt)
 
-nkey="485af51aa11dbfc71be592e6da677c416b09"
-ADR2mesh=read.csv(file = "~/Desktop/pubmed_novartis/ADR_mesh_list_all.txt",header = T,sep = '\t')
+nkey="XXXXXXXX" #replace with ncbi api key
+ADR2mesh=read.csv(file = "~/Desktop/pubmed_novartis/ADR_mesh_list_all.txt",header = T,sep = '\t')#replace with local paths
 ADR2mesh=ADR2mesh %>% distinct()
-ADR_dic=read.csv(file="~/Desktop/pubmed_novartis/ meddr1a_full_12092006.csv",header = T,sep=',')
+ADR_dic=read.csv(file="~/Desktop/pubmed_novartis/ meddr1a_full_12092006.csv",header = T,sep=',')#replace with local paths
 ADR2mesh=left_join(ADR2mesh,ADR_dic,by=c("meddra_code"="HLGT_Code")) %>% 
   dplyr::select(c('meddra_code',"mesh_term",'HLGT_TXT')) %>% distinct()
 
@@ -130,6 +130,6 @@ full_ADR_target_summ=left_join(full_ADR_target_summ,positive,by=c("HLGT"="meddra
 full_ADR_target_summ$flag[is.na(full_ADR_target_summ$flag)]=FALSE
 
 
-write.table(x = full_ADR_target_summ,file = "~/Desktop/Full_result_ADRmesh_Genemesh_pubmed_NEW_106.csv",sep = '\t',row.names = F)
+write.table(x = full_ADR_target_summ,file = "~/Desktop/Full_result_ADRmesh_Genemesh_pubmed_NEW_106.csv",sep = '\t',row.names = F)#replace with local paths
 
 
