@@ -1,7 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Robert Ietswaart / Saman Farahmand
+# Saman Farahmand / Robert Ietswaart
 # MIT license
+
+### Citation:
+#Robert Ietswaart<sup>\*,#</sup>, Seda Arat<sup>\*,#</sup>, Amanda X. Chen<sup>\*</sup>, 
+#Saman Farahmand<sup>\*</sup>, Bumjun Kim, William DuMouchel, 
+#Duncan Armstrong, Alexander Fekete, Jeffrey J. Sutherland<sup>#</sup>, Laszlo Urban<sup>#</sup>  
+#*Machine learning guided association of adverse drug reactions with in vitro target-based 
+#pharmacology* (2019), [BioRxiv; 750950](https://www.biorxiv.org/content/10.1101/750950v2).
+
+
 
 import pandas as pd
 import os
