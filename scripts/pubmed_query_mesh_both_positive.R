@@ -1,3 +1,4 @@
+#Saman Farahmand - MIT license
 library(rentrez)
 library(org.Hs.eg.db)
 library(dplyr)
