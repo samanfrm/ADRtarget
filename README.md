@@ -159,7 +159,8 @@ pubmed_query_mesh_both_positive.R
 ```
 Stastistics on the results are described in:
 ```shell
-Pubmed_search_validation_statistics_rev.ipynb
+Pubmed_search_validation_statistics_rev.ipynb  
+Pubmed_search_validation_statistics_negpairs_from_pos_rev.ipynb
 ```
 
 
