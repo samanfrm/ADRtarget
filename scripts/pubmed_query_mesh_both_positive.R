@@ -39,23 +39,16 @@ for (i in c(1:nrow(positive_ADR))) {
                                      "mesh_N"=as.factor(length(dbs$ids)),
                                      "mesh_pmids"=paste(dbs$ids,collapse = ";")))
     
-    # results[i,"gene_N"]=length(dbs$ids)
-    # results[i,"gene_pmids"]=paste(dbs$ids,collapse = ";")
   }
   else{
     results_ADR=rbind(results_ADR,data.frame("HLGT"=ADR,"mesh_term"=ADR_mesh,
                                      "mesh_N"=as.factor(0),
                                      "mesh_pmids"=''))
-    # results[i,"gene_N"]=0
-    # results[i,"gene_pmids"]=''
   }
   print(paste0("Writing the results for ADR ",i,"_",length(dbs$ids)))
 }
 print("Writing the final results...")
 results_ADR=results_ADR[-1,]
-
-#results=results %>% mutate(HLGT_N=NO_PMIDs,HLGT_pmids=PMIDs) %>% dplyr::select(-c(NO_PMIDs,PMIDs))
-
 ################ Summarise mesh terms for each unique ADR/HLGT
 
 unique_HLGT=unique(results_ADR$HLGT)
@@ -105,13 +98,6 @@ results_gene=results_gene[-1,]
 #### Do random crossing ADRs and genes
 full_ADR_target=tidyr::crossing(results_ADR_uniq,results_gene) 
 colnames(full_ADR_target)
-
-
-# positive_results=positive %>% dplyr::select(c("meddra_name","meddra_id","gene_symbol"))
-# positive_results=left_join(positive_results,results_ADR_uniq,by=c("meddra_name"="HLGT"))
-# colnames(positive_results)
-# positive_results=left_join(positive_results,results_gene,by=c("gene_symbol"="gene"))
-# colnames(positive_results)
 
 ############## Do intersection
 
