@@ -34,23 +34,17 @@ for (i in c(1:nrow(ADR2mesh))) {
     results_ADR=rbind(results_ADR,data.frame("HLGT"=ADR,"mesh_term"=ADR_mesh,
                                              "mesh_N"=as.factor(length(dbs$ids)),
                                              "mesh_pmids"=paste(dbs$ids,collapse = ";")))
-    
-    # results[i,"gene_N"]=length(dbs$ids)
-    # results[i,"gene_pmids"]=paste(dbs$ids,collapse = ";")
+  
   }
   else{
     results_ADR=rbind(results_ADR,data.frame("HLGT"=ADR,"mesh_term"=ADR_mesh,
                                              "mesh_N"=as.factor(0),
                                              "mesh_pmids"=''))
-    # results[i,"gene_N"]=0
-    # results[i,"gene_pmids"]=''
   }
   print(paste0("Writing the results for ADR ",i,"_",length(dbs$ids)))
 }
 print("Writing the final results...")
 results_ADR=results_ADR[-1,]
-
-#results=results %>% mutate(HLGT_N=NO_PMIDs,HLGT_pmids=PMIDs) %>% dplyr::select(-c(NO_PMIDs,PMIDs))
 
 ################ Summarise mesh terms for each unique ADR/HLGT
 
@@ -120,7 +114,6 @@ get_intrs_num=function(x,y){
   return (length(intr))
 }
 
-#positive_results$intersect_N=''
 full_ADR_target$intersect_N=''
 
 for (i in c(1:nrow(full_ADR_target))){
