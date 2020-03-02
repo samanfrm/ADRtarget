@@ -145,8 +145,7 @@ version as well, please use the custom code to use the standard accuracy formula
 (defined in our methods) starting on line 303.
 
 Expected output:
-
-`Importance_Gini/`  
+ 
 `Features_ADRs_predictions.csv`. 
 `summ_metrics.csv`  
 `summ_metrics_V2.csv` (if the code starting at line 296 is run)  
