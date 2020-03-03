@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 # Robert Ietswaart 
-# MIT license
+# GNU General Public License v3.0
 
 ### Citation:
 #Robert Ietswaart<sup>\*,#</sup>, Seda Arat<sup>\*,#</sup>, Amanda X. Chen<sup>\*</sup>, 

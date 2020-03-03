@@ -3,7 +3,7 @@
 ### Manuscript/Modeling Code ####################
 ### Feb 29, 2020 ################################
 #################################################
-
+# GNU General Public License v3.0
 ### Citation:
 #Robert Ietswaart<sup>\*,#</sup>, Seda Arat<sup>\*,#</sup>, Amanda X. Chen<sup>\*</sup>, 
 #Saman Farahmand<sup>\*</sup>, Bumjun Kim, William DuMouchel, 

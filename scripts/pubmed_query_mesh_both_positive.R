@@ -1,4 +1,4 @@
-#Saman Farahmand - MIT license
+#Saman Farahmand - GNU General Public License v3.0
 
 ### Citation:
 #Robert Ietswaart<sup>\*,#</sup>, Seda Arat<sup>\*,#</sup>, Amanda X. Chen<sup>\*</sup>, 
