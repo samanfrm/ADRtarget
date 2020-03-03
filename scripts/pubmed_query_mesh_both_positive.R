@@ -13,10 +13,13 @@ library(dplyr)
 library(tidyr)
 require(biomaRt)
 
-positive=read.csv(file = "~/Desktop/pubmed_novartis/predicted_ADR_target_final.txt",header = T,sep = '\t')#replace with local paths
-ADR2mesh=read.csv(file = "~/Desktop/pubmed_novartis/predicted_meddra2mesh.txt",header = T,sep = '\t')#replace with local paths
-gene2mesh=read.csv(file = "~/Desktop/pubmed_novartis/predicted_gene2mesh.txt",header = T, sep = '\t')#replace with local paths
-nkey="XXXXXXX" #replace with ncbi key
+nkey="XXXXXXXX" #replace with ncbi api key
+dir_path="path_to_ADRtarget_directory" #set the working directory path point to 'PATH_to/ADRtarget/' main directory
+setwd(dir_path)
+positive=read.csv(file = "data/predicted_ADR_target_final.txt",header = T,sep = '\t')#replace with local paths
+ADR2mesh=read.csv(file = "data/predicted_meddra2mesh.txt",header = T,sep = '\t')#replace with local paths
+gene2mesh=read.csv(file = "data/predicted_gene2mesh.txt",header = T, sep = '\t')#replace with local paths
+
 
 
 positive=positive %>% mutate(meddra_name=MedDRA.term.name,meddra_id=MedDRA.ID,gene_symbol=Entrez.Gene.Symbol.for.target,target_mesh=MeSH.term.for.target)
@@ -36,23 +39,16 @@ for (i in c(1:nrow(positive_ADR))) {
                                      "mesh_N"=as.factor(length(dbs$ids)),
                                      "mesh_pmids"=paste(dbs$ids,collapse = ";")))
     
-    # results[i,"gene_N"]=length(dbs$ids)
-    # results[i,"gene_pmids"]=paste(dbs$ids,collapse = ";")
   }
   else{
     results_ADR=rbind(results_ADR,data.frame("HLGT"=ADR,"mesh_term"=ADR_mesh,
                                      "mesh_N"=as.factor(0),
                                      "mesh_pmids"=''))
-    # results[i,"gene_N"]=0
-    # results[i,"gene_pmids"]=''
   }
   print(paste0("Writing the results for ADR ",i,"_",length(dbs$ids)))
 }
 print("Writing the final results...")
 results_ADR=results_ADR[-1,]
-
-#results=results %>% mutate(HLGT_N=NO_PMIDs,HLGT_pmids=PMIDs) %>% dplyr::select(-c(NO_PMIDs,PMIDs))
-
 ################ Summarise mesh terms for each unique ADR/HLGT
 
 unique_HLGT=unique(results_ADR$HLGT)
@@ -103,13 +99,6 @@ results_gene=results_gene[-1,]
 full_ADR_target=tidyr::crossing(results_ADR_uniq,results_gene) 
 colnames(full_ADR_target)
 
-
-# positive_results=positive %>% dplyr::select(c("meddra_name","meddra_id","gene_symbol"))
-# positive_results=left_join(positive_results,results_ADR_uniq,by=c("meddra_name"="HLGT"))
-# colnames(positive_results)
-# positive_results=left_join(positive_results,results_gene,by=c("gene_symbol"="gene"))
-# colnames(positive_results)
-
 ############## Do intersection
 
 
@@ -143,4 +132,4 @@ full_ADR_target_summ=left_join(full_ADR_target_summ,control,by=c("HLGT"="meddra_
 full_ADR_target_summ$flag[is.na(full_ADR_target_summ$flag)]=FALSE
 
 
-write.table(x = full_ADR_target_summ,file = "~/Desktop/Full_result_ADRmesh_Genemesh_pubmed_NEW.csv",sep = '\t',row.names = F)#replace with local paths
+write.table(x = full_ADR_target_summ,file = "data/Full_result_ADRmesh_Genemesh_pubmed_NEW.csv",sep = '\t',row.names = F)#replace with local paths

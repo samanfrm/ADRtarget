@@ -145,12 +145,11 @@ version as well, please use the custom code to use the standard accuracy formula
 (defined in our methods) starting on line 303.
 
 Expected output:
-
-`Importance_Gini/`  
-`Features_ADRs_predictions.csv`. 
-`summ_metrics.csv`  
-`summ_metrics_V2.csv` (if the code starting at line 296 is run)  
-`summ_metrics_ADRs.csv` (for all models except in SOC)
+ 
+`data/Features_ADRs_predictions.csv`  
+`data/summ_metrics.csv`  
+`data/summ_metrics_V2.csv` (if the code starting at line 296 is run)  
+`data/summ_metrics_ADRs.csv` (for all models except in SOC)
 
 ### Target-ADR associations
 The ADR target association code is provided:

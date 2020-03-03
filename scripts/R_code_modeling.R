@@ -304,7 +304,7 @@ get.rf.model (path4res = "/Users/arats/Documents/PCS_sa/HLGT/DiffSeed_49/") #  p
 #################################################
 
 ##### Re-calculating the summary metrics for random forest models #####
-# in case there is dicrepancey in results due to different versions of utiml package
+# in case there is discrepancey in results due to different versions of utiml package
 
 get.summ.metrics = function (path4res) {
   
@@ -368,5 +368,219 @@ get.summ.metrics (path4res = "/Users/arats/Documents/PCS_sa/HLGT/") #  please se
 get.summ.metrics (path4res = "/Users/arats/Documents/PCS_sa/HLGT/BSEP_limits_30-300/") #  please set your working directory for HLGT/BSEP_limits_30-300 here
 
 get.summ.metrics (path4res = "/Users/arats/Documents/PCS_sa/HLGT/DiffSeed_49/") #  please set your working directory for HLGT/DiffSeed_49 here
+
+#################################################
+
+##### Chronological Validation #####
+
+library (utiml)
+setwd ("/Users/arats/Documents/PCS_sa/3classes/")
+
+actual.2014 = readRDS ("./2014_v1_HLGT/adr_tr.rds")
+pred.2014 = as.data.frame (as.bipartition (readRDS ("./2014_v1_HLGT/the_model_pred_prob.rds")))
+actual.2019 = readRDS ("./2019_v1_HLGT/adr_tr.rds")
+
+all (colnames (actual.2014) == colnames (pred.2014))
+all (colnames (actual.2014) == colnames (actual.2019))
+
+all (rownames (actual.2014) == rownames (pred.2014))
+all (rownames (actual.2014) == rownames (actual.2019))
+
+actual.2019 = actual.2019[rownames (actual.2014), colnames (actual.2014)]
+
+get.indeces = function (row.index, col.index) {
+  if (actual.2014[row.index, col.index] == 1 && pred.2014[row.index, col.index] == 0 && actual.2019[row.index, col.index] == 0) {
+    return (c (row.index, col.index))
+  }
+  else {
+    return (NA)
+  }
+}
+
+cnt = 0
+for (i in 1:1351) {
+  #i = 1
+  for (j in 1:321) {
+    #j = 1
+    indeces = get.indeces (i, j)
+    if (!is.na (indeces)) {
+      print (indeces)
+      cnt = cnt + 1
+    }
+  }
+}
+
+# There are 13 FPs becoming TPs in 2019
+#[1] 203  57
+#[1] 203 291
+#[1] 269 291
+#[1] 314  57
+#[1] 430 138
+#[1] 808  57
+#[1] 912 167
+#[1] 944  73
+#[1] 1140  272
+#[1] 1140  291
+#[1] 1153  303
+#[1] 1209   57
+#[1] 1280  193
+
+drugs.2019 = rownames (actual.2019)[c (203, 269, 314, 430, 808, 912, 944, 1140, 1153, 1209, 1280)]
+
+###
+
+get.indeces.v2 = function (row.index, col.index) {
+  if (actual.2014[row.index, col.index] == 1 && actual.2019[row.index, col.index] == 0) {
+    return (c (row.index, col.index))
+  }
+  else {
+    return (NA)
+  }
+}
+
+count = 0
+for (i in 1:1351) {
+  #i = 1
+  for (j in 1:321) {
+    #j = 1
+    indeces = get.indeces.v2 (i, j)
+    if (!is.na (indeces)) {
+      print (indeces)
+      count = count + 1
+    }
+  }
+}
+
+
+actual.2018 = readRDS ("./v1_HLGT/adr_tr.Rdata")
+common.drugs = intersect (rownames (actual.2014), rownames (actual.2018))
+actual.2014 = actual.2014[common.drugs, ]
+pred.2014 = pred.2014[common.drugs, ]
+actual.2018 = actual.2018[common.drugs, colnames (actual.2014)]
+
+all (colnames (actual.2014) == colnames (pred.2014))
+all (colnames (actual.2014) == colnames (actual.2018))
+
+all (rownames (actual.2014) == rownames (pred.2014))
+all (rownames (actual.2014) == rownames (actual.2018))
+
+get.indeces.2018 = function (row.index, col.index) {
+  if (actual.2014[row.index, col.index] == 0 & pred.2014[row.index, col.index] == 1 & actual.2018[row.index, col.index] == 1) {
+    return (c (row.index, col.index))
+  }
+  else {
+    return (NA)
+  }
+}
+
+for (i in 1:1319) {
+  #i = 1
+  for (j in 1:321) {
+    #j = 1
+    indeces = get.indeces.2018 (i, j)
+    if (!is.na (indeces)) {
+      print (indeces)
+    }
+  }
+}
+
+# There are 14 FPs becoming TPs in 2018
+#[1] 195  57
+#[1] 195 291
+#[1] 235 261
+#[1] 258 291
+#[1] 303  57
+#[1] 418 138
+#[1] 640 291
+#[1] 797  57
+#[1] 1115  272
+#[1] 1115  291
+#[1] 1127  303
+#[1] 1132  272
+#[1] 1132  291
+#[1] 1182   57
+
+drugs.2018 = rownames (actual.2018)[c (195, 235, 258, 303, 418, 640, 797, 1115, 1127, 1132, 1182)]
+
+intersect (drugs.2018, drugs.2019)
+
+#################################################
+
+##### Models with different Seeds for HLGT Q4_2018, different BSEP limits, SOC and HLGT Q4_2014 and HLGT Q2_2019  #####
+
+main = function (path4res) {
+  
+  setwd (path4res)
+  
+  output = c ()
+  
+  all.cv.files = list.files ("./CrossVal_models", pattern = "_confMatrix.rds")
+  n.files = length (all.cv.files)
+  
+  for (i in 1:n.files) {
+    cm = readRDS (paste0 ("./CrossVal_models/", all.cv.files[i]))
+    tp = length (which (cm$TP == TRUE))
+    fp = length (which (cm$FP == TRUE))
+    tn = length (which (cm$TN == TRUE))
+    fn = length (which (cm$FN == TRUE))
+    
+    metrics = data.frame (file = all.cv.files[i], 
+                          TN = tn, 
+                          FP = fp, 
+                          FN = fn, 
+                          TP = tp, 
+                          accuracy = round ((tp + tn) / (tp + fp + tn + fn), 3), 
+                          mcc = round (mcc (TN = tn, FN = fn, FP = fp, TP = tp), 3), 
+                          precision = round (tp / (tp + fp), 3), 
+                          recall = round (tp / (tp + fn), 3),
+                          hamming_loss = round ((fp + fn) / (tp + fp + tn + fn), 3), 
+                          f1 = round (2 * tp / (2 * tp + fp + fn), 3), 
+                          specificity = round (tn / (tn + fp), 3), 
+                          sensitivity = round (tp / (tp + fn), 3)
+    )
+    
+    output = rbind (output, metrics)
+  }
+  
+  cm = readRDS ("./the_confMatrix.rds")
+  tp = length (which (cm$TP == TRUE))
+  fp = length (which (cm$FP == TRUE))
+  tn = length (which (cm$TN == TRUE))
+  fn = length (which (cm$FN == TRUE))
+  
+  metrics = data.frame (file = "the_confMatrix.rds", 
+                        TN = tn, 
+                        FP = fp, 
+                        FN = fn, 
+                        TP = tp, 
+                        accuracy = round ((tp + tn) / (tp + fp + tn + fn), 3), 
+                        mcc = round (mcc (TN = tn, FN = fn, FP = fp, TP = tp), 3), 
+                        precision = round (tp / (tp + fp), 3), 
+                        recall = round (tp / (tp + fn), 3),
+                        hamming_loss = round ((fp + fn) / (tp + fp + tn + fn), 3), 
+                        f1 = round (2 * tp / (2 * tp + fp + fn), 3), 
+                        specificity = round (tn / (tn + fp), 3), 
+                        sensitivity = round (tp / (tp + fn), 3)
+  )
+  
+  output = rbind (output, metrics)
+  write.csv (output, "./summ_metrics.csv", row.names = F, quote = F)
+  
+  return (output)
+}
+
+# please remember setting your working directory here, for all code below
+main (path4res = "/Users/arats/Documents/PCS_sa/3classes/v1_HLGT_diffSeed_112358/") # please set your working directory here
+main (path4res = "/Users/arats/Documents/PCS_sa/3classes/v1_HLGT_diffSeed_2662851/")
+main (path4res = "/Users/arats/Documents/PCS_sa/3classes/v1_HLGT_diffSeed_49/")
+main (path4res = "/Users/arats/Documents/PCS_sa/3classes/v1_HLGT_diffSeed_5332728/")
+
+main (path4res = "/Users/arats/Documents/PCS_sa/3classes/3classes_v1HLGT_BSEPlimits_100-300/")
+main (path4res = "/Users/arats/Documents/PCS_sa/3classes/3classes_v1HLGT_BSEPlimits_30-100/")
+main (path4res = "/Users/arats/Documents/PCS_sa/3classes/3classes_v1HLGT_BSEPlimits_30-300/")
+
+soc2014 = main (path4res = "/Users/arats/Documents/PCS_sa/3classes/2014_v1_SOC/")
+hlgt2014 = main (path4res = "/Users/arats/Documents/PCS_sa/3classes/2014_v1_HLGT/")
+hlgt2019 = main (path4res = "/Users/arats/Documents/PCS_sa/3classes/2019_v1_HLGT/")
 
 #################################################
