@@ -129,15 +129,19 @@ where * is either SOC or HLGT, are the inputs for the R script.
 Please note that the R code contains references to baseMatrix.Rdata.  This is a 
 matrix containing compound identifiers on rows (cid1, cid2, cid3, ...) and assay 
 labels on columns.  In the work reported in the paper, this was obtained from 
-Novartis in vitro assay data.  As we are not able to release this data, the column 
-headers in these data matrices contain non-informative assay labels (A1, A2, A3, 
+Novartis in vitro assay data (Supplementary Table 2).  The column 
+headers in these data matrices contain assay IDs (A1, A2, A3, 
 for assays 1, 2, 3, etc. discretized into ranges as described in methods (“A1_CL1”, 
-“A1_CL2”, “A1_CL3”, “A2_CL1”, “A2_CL2”, “A2_CL3”, etc).  For this reason, while the 
+“A1_CL2”, “A1_CL3”, “A2_CL1”, “A2_CL2”, “A2_CL3”, etc). The mapping of assays number 
+to targets can be found in `mergedassaynumber-to-onewordname.csv` and Supplemental 
+Table 2. For brevity, while the 
 code shows analyses on the redefined BSEP ranges, we excluded these sample input and 
-output files from the example data as they are for illustration purposes only.
-Likewise, since the sample data is provided to help interested researchers apply our 
-algorithms to their data, we excluded sample input and output for the analysis using 
-a different random number generator seed.
+output files from the example data. The redefined BSEP data still can be found in 
+Supplemental table 2.
+Likewise, for brevity, we excluded the sample input and output for the analysis using 
+a different random number generator seed. But the different seed results can be generated 
+by copying the available input files in their respective seed folders and running the 
+R code accordingly. Please see the R code for further instructions.
 
 With the latest version of utiml package, their accuracy formula was changed and 
 so the summary metrics results were not consistent. If you use the latest utiml 
