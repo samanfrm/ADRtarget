@@ -156,7 +156,7 @@ The ADR target association code is provided:
 ```shell
 ADR_target.ipynb
 ```
-Our code discloses the procedure we have taken and can be used on user-provided data. 
+ 
 
 ### Systematic Pubmed api query for validation of associations
 Obtain an NBCI api key (follow instructions on NCBI website:
