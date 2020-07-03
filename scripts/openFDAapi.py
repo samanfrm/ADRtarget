@@ -8,7 +8,7 @@
 #Saman Farahmand<sup>\*</sup>, Bumjun Kim, William DuMouchel, 
 #Duncan Armstrong, Alexander Fekete, Jeffrey J. Sutherland<sup>#</sup>, Laszlo Urban<sup>#</sup>  
 #*Machine learning guided association of adverse drug reactions with in vitro target-based 
-#pharmacology* (2019), [BioRxiv; 750950](https://www.biorxiv.org/content/10.1101/750950v2).
+#pharmacology*, Ebiomedicine (2020) <https://doi.org/10.1016/j.ebiom.2020.102837>.
 
 
 import requests
@@ -19,51 +19,52 @@ import sys
 import os
 
 def fda_process(url,gname,HLGT_dict,SOC_dict,all_reports):
-            resp = requests.get(url=url)
-            data = resp.json()
-            for result in data['results']:
-                    try:
-                        if('primarysource' in result.keys()):
-                            if('qualification' in result['primarysource'].keys()):
-                                if(result['primarysource']['qualification']=='1'):
-                                    for drug in result['patient']['drug']:
-                                            if('drugcharacterization' in drug.keys()):
-                                                 if(drug['drugcharacterization']=='1'):
-                                                    exclude = set(string.punctuation)
-                                                    gname = ''.join(ch for ch in gname if ch not in exclude)
-                                                    gname=gname.strip().upper()
-                                                    flag=0
-                                                    if('activesubstance' in drug.keys()):
-                                                        drugname=drug['activesubstance']['activesubstancename'].upper()
-                                                        score=jellyfish.jaro_distance(gname,drugname)
-                                                        if(score>= 0.8):
-                                                            flag=1
-                                                    if('medicinalproduct' in drug.keys() and flag==0):
-                                                        drugname=drug['medicinalproduct'].upper()
-                                                        score=jellyfish.jaro_distance(gname,drugname)
-                                                        if(score>= 0.8):
-                                                            flag=1
-                                                    else:
-                                                        continue
-
-                                    if(flag==1):
-                                        reportid=result['safetyreportid']
-                                        PTs=[]
-                                        HGLTs=[]
-                                        SOCs=[]
-                                        for reaction in result['patient']['reaction']:
-                                           if('reactionmeddrapt' in reaction.keys()):
-                                               PT=reaction['reactionmeddrapt'].lower()
-                                               PTs.append(PT)
-                                               mapped_hglt=map_adr_to_meddra(PT, HLGT_dict)
-                                               HGLTs.append(mapped_hglt)
-                                               mapped_soc=map_adr_to_meddra(PT, SOC_dict)
-                                               SOCs.append(mapped_soc)
-                                        all_reports[reportid]={'PTs':PTs,'HGLTs':HGLTs,'SOCs':SOCs}
-
-                    except KeyError:
-                        continue
-            return all_reports
+    resp = requests.get(url=url)
+    data = resp.json()
+    try:
+        for result in data['results']:
+            try:
+                if('primarysource' in result.keys()):
+                    if('qualification' in result['primarysource'].keys()):
+                        if(result['primarysource']['qualification']=='1'):
+                            for drug in result['patient']['drug']:
+                                if('drugcharacterization' in drug.keys()):
+                                     if(drug['drugcharacterization']=='1'):
+                                        exclude = set(string.punctuation)
+                                        gname = ''.join(ch for ch in gname if ch not in exclude)
+                                        gname=gname.strip().upper()
+                                        flag=0
+                                        if('activesubstance' in drug.keys()):
+                                            drugname=drug['activesubstance']['activesubstancename'].upper()
+                                            score=jellyfish.jaro_distance(gname,drugname)
+                                            if(score>= 0.8):
+                                                flag=1
+                                        if('medicinalproduct' in drug.keys() and flag==0):
+                                            drugname=drug['medicinalproduct'].upper()
+                                            score=jellyfish.jaro_distance(gname,drugname)
+                                            if(score>= 0.8):
+                                                flag=1
+                                        else:
+                                            continue
+                            if(flag==1):
+                                reportid=result['safetyreportid']
+                                PTs=[]
+                                HGLTs=[]
+                                SOCs=[]
+                                for reaction in result['patient']['reaction']:
+                                    if('reactionmeddrapt' in reaction.keys()):
+                                        PT=reaction['reactionmeddrapt'].lower()
+                                        PTs.append(PT)
+                                        mapped_hglt=map_adr_to_meddra(PT, HLGT_dict)
+                                        HGLTs.append(mapped_hglt)
+                                        mapped_soc=map_adr_to_meddra(PT, SOC_dict)
+                                        SOCs.append(mapped_soc)
+                                all_reports[reportid]={'PTs':PTs,'HGLTs':HGLTs,'SOCs':SOCs}
+            except KeyError:
+                continue
+    except KeyError:
+        pass
+    return all_reports
 
 def create_output(reports):
     len_report=str(len(reports))
