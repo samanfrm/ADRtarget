@@ -81,7 +81,9 @@ less than 1h
 Argument 1: start number of queried compounds from `data/compounds.csv`.  
 Argument 2: end number of queried compounds from `data/compounds.csv`.  
 Argument 3: open FDA api key (to ensure fast run time speed): can be requested 
-at https://open.fda.gov/apis/authentication/ .    
+at https://open.fda.gov/apis/authentication/ .
+
+`https://api.fda.gov:443/contact/`
 Argument 4: path to this local git ADRtarget repository.  
 Run in shell:
 ```shell
@@ -97,6 +99,19 @@ python merge_fda.py [local path]
 
 Expected output:
 `data/v1_compounds_FDA.csv`
+Please note that the query retrieves current results from openFDA and that these likely 
+do not exactly match the query as done in 2018 for our publication since openFDA is regularly 
+updated. Even though the code continues to query all compounds, it is possible that the 
+openFDA query returns the message: ``You have exceeded your rate 
+limit. Try again later or contact us at https://api.fda.gov:443/contact/ for assistance``.  
+This can happen for compounds with a large number of adverse event reports. Please contact
+openFDA with the request for unlimited access. Alternatively, query smaller chunks of 
+compounds as described above.
+
+For comparison we provide our 2018 query results as a zip file:
+`data/v1_compounds_FDA_2018.csv.gz`  
+This can be used for downstream modelling analyses.
+ 
 
 ### Determine ADR occurrences and associations for all compounds 
 Run in shell
