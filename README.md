@@ -81,9 +81,7 @@ less than 1h
 Argument 1: start number of queried compounds from `data/compounds.csv`.  
 Argument 2: end number of queried compounds from `data/compounds.csv`.  
 Argument 3: open FDA api key (to ensure fast run time speed): can be requested 
-at https://open.fda.gov/apis/authentication/ .
-
-`https://api.fda.gov:443/contact/`
+at https://open.fda.gov/apis/authentication/ .  
 Argument 4: path to this local git ADRtarget repository.  
 Run in shell:
 ```shell
@@ -109,7 +107,7 @@ openFDA with the request for unlimited access. Alternatively, query smaller chun
 compounds as described above.
 
 For comparison we provide our 2018 query results as a zip file:
-`data/v1_compounds_FDA_2018.csv.gz`  
+`data/v1_compounds_FDA_2018.csv.gz` 
 This can be used for downstream modelling analyses.
  
 

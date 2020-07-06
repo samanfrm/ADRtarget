@@ -5,7 +5,7 @@
 #Saman Farahmand<sup>\*</sup>, Bumjun Kim, William DuMouchel, 
 #Duncan Armstrong, Alexander Fekete, Jeffrey J. Sutherland<sup>#</sup>, Laszlo Urban<sup>#</sup>  
 #*Machine learning guided association of adverse drug reactions with in vitro target-based 
-#pharmacology* (2019), [BioRxiv; 750950](https://www.biorxiv.org/content/10.1101/750950v2).
+#pharmacology*, Ebiomedicine (2020) <https://doi.org/10.1016/j.ebiom.2020.102837>.
 
 library(rentrez)
 library(org.Hs.eg.db)
